@@ -1,21 +1,22 @@
 ---
-description: Guide to creating achievements
+description: Руководство по созданию достижений
+icon: trophy
 ---
 
-# 🏆 Create achievements
+# Создание достижений
 
-To create an achievement, you need to execute the command /manager-achievements
+Для создания достижения выполняем команду [/manager-achievements create <название достижения>](../commands/admins.md)
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-20_162813699.png" alt=""><figcaption></figcaption></figure>
 
-After clicking the create achievement button, a window with settings will appear where you can configure the achievement and select the type of achievement.\
+После нажатия кнопки создать достижение появиться окно с настройкой, где можно настроить достижение и выбрать тип достижения.\
 \
-Types of achievements with which questions arise:
+Типы достижений с которыми возникают вопросы:
 
-* Custom goal - you specify yourself what needs to be done to complete this achievement (Note that the participant will not automatically receive this achievement, only administrators can give this achievement)
-* Spend XX hours in a voice chat - The member will have to spend a total of XX hours in a voice chat (There must be more than one member with the microphone turned on. ! Bots do not count as participants in the voice channel ! )
-* Get XX likes - command /like
-* Bump the server XX times - it all depends on the bot you use for monitoring (Standard commands /bump, /up, /like)
-* Find all items - Extraordinary rarity items are not counted
+* <mark style="color:purple;">Кастомная цель</mark> - вы сами указываете, что нужно сделать для выполнения этого достижения (Учтите, что автоматически участник не получит это достижение, только администраторы могут выдать это достижение)
+* <mark style="color:purple;">Провести</mark> `XX` часов в голосовом чате - участник должен будет провести в общем `XX` часов в голосовом чате (Должно быть больше одного участника с включенным микрофоном. **! Боты не считаются за участников в голосовом канале !** )
+* Получить `XX` лайков - команда [/like](../commands/general.md)
+* <mark style="color:purple;">Бампнуть</mark> сервер `XX` раз - все зависит от бота которого используете для мониторинга (Стандартные команды /bump, /up, /like)
+* <mark style="color:purple;">Найти все предметы</mark> - предметы редкости **Экстраординарный** не учитываются
 
-In the "Edit Achievement" panel, you can change the name/ add items related to the goal/ change the achievement emoji and so on
+В панели "Редактировать достижение" вы можете изменять название / добавлять предметы связанные с целью / изменять эмодзи достижения и так далее&#x20;

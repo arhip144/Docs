@@ -1,17 +1,18 @@
 ---
-description: Job Creation Guide
+description: Руководство по созданию работы
+icon: briefcase-blank
 ---
 
-# 🏢 Create jobs
+# Создание работы
 
-The main command for creating a job /manager-jobs
+Основная команда для создания работы [/manager-jobs](../commands/admins.md)
 
-### Arguments of the /manager-jobs command:
+## Аргументы команды [/manager-jobs](../commands/admins.md):
 
-| Argument |           Description           |
-| :------: | :-----------------------------: |
-|  create  |         Create a new job        |
-|   edit   | <p>Edit an existing job<br></p> |
-|   copy   |       Copy an existing job      |
-|  delete  |      Delete an existing job     |
-|   view   |     View all work in a list     |
+|   Аргумент  |                 Описание                |
+| :---------: | :-------------------------------------: |
+|   создать   |           Создать новую работу          |
+|   изменить  | <p>Изменить существующую работу<br></p> |
+| скопировать |     Скопировать существующую работу     |
+|   удалить   |       Удалить существующую работу       |
+|   просмотр  |       Просмотр всей работы списком      |

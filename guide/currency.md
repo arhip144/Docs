@@ -1,14 +1,18 @@
-# 🪙 Setting server currency
+---
+icon: circle-euro
+---
 
-In order to set up the server currency, you need:
+# Настройка валюты сервера
 
-* Execute command [/manager-settings](../commands/admins.md)
-* Select **Server currency** from the drop-down menu
+Для того чтобы настроить валюту сервера нужно:
 
-Here you can use the buttons to customize the currency emoji, currency name and currency description
+* Прописать команду [/manager-settings](../commands/admins.md)
+* Выбрать в выпадающем меню пункт **Валюта сервера**
+
+Здесь с помощью кнопок вы можете настроить эмодзи валюты, название валюты и описание валюты
 
 <figure><img src="../.gitbook/assets/изображение_2022-09-15_120907408.png" alt=""><figcaption><p>Предварительный просмотр и кнопки настроек</p></figcaption></figure>
 
 {% hint style="info" %}
-Setting a server emoji for currency is available in [premium](../premium.md)
+Установка серверного эмодзи для валюты доступно в [премиуме](../premium.md)
 {% endhint %}

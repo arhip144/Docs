@@ -1,5 +1,5 @@
-# Variables: autovoice channels
+# Переменные: автоголосовые каналы
 
-* `{creator}` - username of the user who created the channel
-* `#` - the serial number of the channel in the format 1 2
-* `{emoji}` - random emoji
+* `{creator}` - имя пользователя создавший канал
+* `#` - порядковый номер канала в формате 1 2
+* `{emoji}` - случайный эмодзи

@@ -1,25 +1,29 @@
-# 🛒 Shop commands
+---
+icon: cart-shopping
+---
+
+# Команды магазина
 
 {% hint style="success" %}
-The commands are available to all server users.
+Команды доступны всем пользователям серверов.
 {% endhint %}
 
-| Command name |    Command description    |     Arguments     |
-| :----------: | :-----------------------: | :---------------: |
-|     /buy     | Buy an item from the shop | \<item> \[amount] |
-|     /shop    |       View the shop       |         No        |
+| Название команды |        Описание команды        |        Аргументы        |
+| :--------------: | :----------------------------: | :---------------------: |
+|       /buy       | **Купить предмет из магазина** | <предмет> \[количество] |
+|       /shop      |     **Посмотреть магазин**     |           Нет           |
 
 {% hint style="warning" %}
-The following commands are only available to server administrators.
+Следующие команды доступны только администраторам сервера.
 {% endhint %}
 
-|      Command name     |            Command description           |                       Arguments                       |
-| :-------------------: | :--------------------------------------: | :---------------------------------------------------: |
-|     /shop-add-edit    |     Add or change an item in the shop    | \<item> \<price> \[price\_type] \[amount] \[discount] |
-| /shop-decrease-amount |  Reduce the number of items in the shop  |                   \<item> \<amount>                   |
-|       /shop-del       |       Remove an item from the shop       |                        \<item>                        |
-| /shop-increase-amount | Increase the number of items in the shop |                   \<item> \<amount>                   |
+|    Название команды   |                Описание команды               |                       Аргументы                       |
+| :-------------------: | :-------------------------------------------: | :---------------------------------------------------: |
+|     /shop-add-edit    |  **Добавить или изменить предмет в магазине** | <предмет> <цена> \[тип\_цены] \[количество] \[скидка] |
+| /shop-decrease-amount | **Уменьшить количество предметов в магазине** |                 <предмет> <количество>                |
+|       /shop-del       |        **Удалить предмет из магазина**        |                       <предмет>                       |
+| /shop-increase-amount | **Увеличить количество предметов в магазине** |                 <предмет> <количество>                |
 
 {% hint style="info" %}
-< > - required argument \[ ] - optional argument | - OR
+< > - обязательный аргумент \[ ] - необязательный аргумент | - ИЛИ Если не видны команды - обновите ваш Discord клиент до последней версии.
 {% endhint %}

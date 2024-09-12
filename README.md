@@ -2,6 +2,7 @@
 description: >-
   Экономический бот с возможностью создавать предметы, достижения, квесты,
   доходные роли, select menu роли
+icon: book-open
 ---
 
 # WETBOT - Введение
@@ -40,72 +41,72 @@ description: >-
 
 ## Команды
 
-{% content-ref url="komandy/general.md" %}
-[general.md](komandy/general.md)
+{% content-ref url="commands/general.md" %}
+[general.md](commands/general.md)
 {% endcontent-ref %}
 
-{% content-ref url="komandy/shop.md" %}
-[shop.md](komandy/shop.md)
+{% content-ref url="commands/shop.md" %}
+[shop.md](commands/shop.md)
 {% endcontent-ref %}
 
-{% content-ref url="komandy/inventory.md" %}
-[inventory.md](komandy/inventory.md)
+{% content-ref url="commands/inventory.md" %}
+[inventory.md](commands/inventory.md)
 {% endcontent-ref %}
 
-{% content-ref url="komandy/profile.md" %}
-[profile.md](komandy/profile.md)
+{% content-ref url="commands/profile.md" %}
+[profile.md](commands/profile.md)
 {% endcontent-ref %}
 
-{% content-ref url="komandy/context.md" %}
-[context.md](komandy/context.md)
+{% content-ref url="commands/context.md" %}
+[context.md](commands/context.md)
 {% endcontent-ref %}
 
-{% content-ref url="komandy/admins.md" %}
-[admins.md](komandy/admins.md)
+{% content-ref url="commands/admins.md" %}
+[admins.md](commands/admins.md)
 {% endcontent-ref %}
 
 ## Менеджеры
 
-{% content-ref url="rukovodstvo/items/" %}
-[items](rukovodstvo/items/)
+{% content-ref url="guide/items/" %}
+[items](guide/items/)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/achievements.md" %}
-[achievements.md](rukovodstvo/achievements.md)
+{% content-ref url="guide/achievements.md" %}
+[achievements.md](guide/achievements.md)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/bonuses.md" %}
-[bonuses.md](rukovodstvo/bonuses.md)
+{% content-ref url="guide/bonuses.md" %}
+[bonuses.md](guide/bonuses.md)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/quests.md" %}
-[quests.md](rukovodstvo/quests.md)
+{% content-ref url="guide/quests.md" %}
+[quests.md](guide/quests.md)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/wormholes.md" %}
-[wormholes.md](rukovodstvo/wormholes.md)
+{% content-ref url="guide/wormholes.md" %}
+[wormholes.md](guide/wormholes.md)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/styles.md" %}
-[styles.md](rukovodstvo/styles.md)
+{% content-ref url="guide/styles.md" %}
+[styles.md](guide/styles.md)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/categories.md" %}
-[categories.md](rukovodstvo/categories.md)
+{% content-ref url="guide/categories.md" %}
+[categories.md](guide/categories.md)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/roles.md" %}
-[roles.md](rukovodstvo/roles.md)
+{% content-ref url="guide/roles.md" %}
+[roles.md](guide/roles.md)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/gifts.md" %}
-[gifts.md](rukovodstvo/gifts.md)
+{% content-ref url="guide/gifts.md" %}
+[gifts.md](guide/gifts.md)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/select-menu-roles.md" %}
-[select-menu-roles.md](rukovodstvo/select-menu-roles.md)
+{% content-ref url="guide/select-menu-roles.md" %}
+[select-menu-roles.md](guide/select-menu-roles.md)
 {% endcontent-ref %}
 
-{% content-ref url="rukovodstvo/jobs.md" %}
-[jobs.md](rukovodstvo/jobs.md)
+{% content-ref url="guide/jobs.md" %}
+[jobs.md](guide/jobs.md)
 {% endcontent-ref %}

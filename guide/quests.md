@@ -1,64 +1,67 @@
 ---
-description: Guide to creating a quest
+description: Руководство по созданию квеста
+icon: scroll
 ---
 
-# 📑 Create quests
+# Создание квестов
 
-Execute the quest control panel with the command /manager-quests
+Вызываем панель управления квестами командой [/manager-quests](../commands/admins.md) create <название>
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_111857094.png" alt=""><figcaption><p>Управление квестами</p></figcaption></figure>
 
 {% hint style="info" %}
-If you are creating a quest for the first time, it will be the same as in the screenshot above
+Если вы создаете квест впервые, то будет так же как на скрине выше/
 {% endhint %}
 
-Click the create button, after which the bot will display the following window, it is primitively simple
+Нажимаем кнопку создать, после чего бот выдаст следующее окно, оно примитивно простое
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_112025539.png" alt=""><figcaption><p>Панель создание квеста</p></figcaption></figure>
 
-* Name - the name of the quest itself
-* Quest emoji - server emoji id or standart emoji, in order to get the emoji id of the server, it is enough to write \ in the chat and then insert the emoji, the discord will give the id
-* Description - description of the quest itself
-* Image - copy the direct image link (How to do it? Google to help)
-* Color - we take it from [here ](https://colorpicker.me/)or from another convenient site
+* Название - название самого квеста
+* Эмодзи квеста - id эмодзи или эмодзи, для того чтобы получить id эмодзи сервера достаточно в чате написать `\` и после этого вставить эмодзи, дискорд выдаст id
+* Описание - описание самого квеста
+* Изображение - копируем адрес изображения или url (Как это сделать? Гугл в помощь)
+* Цвет - берем от [сюда](https://colorscheme.ru/color-converter.html) или с другого удобного сайта
 
-After completion, we proceed to setting up the quest
+После завершения переходим к настройке квеста
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_113331689.png" alt=""><figcaption><p>Редактор квеста</p></figcaption></figure>
 
-### Choose the type of quest:
+### Выбрать тип квеста...
 
-* Daily Quest - added to the pool of daily quests.
-* Weekly - added to the pool of weekly quests.
-* Community - quest with server-general progress.
-* Repeated - can be reset after execution.
+* Ежедневный квест - добавляется в пул ежедневных квестов.
+* Еженедельный - добавляется в пул еженедельных квестов.
+* Сообщество - квест с общим прогрессом.
+* Повторный - можно обнулить после выполнения.
 
-### Edit:
+### Редактировать...
 
-* Changing the name/emoji/description/picture/color
-* Add a goal - a goal in order to complete the quest
-* Edit a goal
-* Add/Remove Reward
-* Set Active
-* Enable - enabling the quest
+* Изменение названия/эмодзи/описания/картинки/цвета
+* Добавить цель - цель для того, чтобы выполнить квест
+* Редактировать цель
+* Добавить / удалить награду
+* Сделать активным
+* Включить - включение квеста
 
-### Action:
+### Действие...
 
-* Add this quest to all users
-* Delete this quest from all users
-* Reset the progress of this quest for all users
+* Добавить этот квест всем пользователям
+* Удалить этот квест у всех пользователей
+* Обнулить прогресс этого квеста у всех пользователей
 
-After all the settings, the quest will look something like this:
+После всех настроек квест будет выглядеть примерно так
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_114946238.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-You can add objects to goals: \
-Let's say there is a goal "To fish 10 times", but if you add an object to this goal as an object, for example, a perch, then the goal will already be "Catch a Perch 10 times" \
-For example, for the goal "To write 5 messages", you can add the channel ID as an object, then the goal will already be "Write 5 messages in a general chat" This gives a huge number of variations of goals.
+К целям можно добавлять объекты:\
+Допустим есть цель «Порыбачить 10 раз», но если к этой цели добавить объект в качестве предмета, например окуня, то цель уже будет «Выловить Окунь 10 раз» Например для цели «Написать 5 сообщений» можно в качестве объекта добавить ID канала, то цель уже будет «Написать 5 сообщений в общем чате»
+
+Это дает огромное количество вариаций целей.
 {% endhint %}
 
 {% hint style="info" %}
-— Daily/weekly quest with the "Repeated" type can be performed an unlimited number of times a day/ week — Daily/weekly inactive quests cannot be obtained randomly, but they can be obtained through the "Take a quest" button
+— Ежедневный/еженедельный квест с типом "Повторный" можно будет выполнять неограниченное кол-во раз в день/неделю \
+— Ежедневные/еженедельные не активные квесты, нельзя будет получить случайным образом, но при этом их можно будет получить через кнопку ["Взять квест"](buttons.md#vzyat-kvest)
 {% endhint %}
 

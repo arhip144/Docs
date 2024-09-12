@@ -1,21 +1,20 @@
 ---
-description: Guide to creating bonus channels
+description: Руководство по созданию бонусных каналов
+icon: hashtag
 ---
 
-# 🆙 Create bonuses channels
+# Создание бонусных каналов
 
-To add a bonus channel, we execute the command /manager-channels \[channel]
+Чтобы добавить бонусный канал прописываем команду [/manager-channels](../commands/admins.md) create <канал>
 
-<figure><img src="../.gitbook/assets/изображение_2022-10-20_162523064.png" alt=""><figcaption></figcaption></figure>
+Далее в "Редактировать канал" можно указать бонусы к опыту/валюте/репутации и удаче в процентах, а так же удалить бонусный канал.
 
-Next, in the "Edit Channel", you can specify bonuses to experience / currency / reputation and luck as a percentage, as well as delete the bonus channel.
+## На какие типы активностей выдаются бонусы:
 
-### What types of activities are bonuses given for:
-
-1. Sending messages in the channel (Currency, experience, reputation, luck)
-2. Voice channel communication (Currency, Experience, Reputation, Luck)
-3. Using the command /fishing in the channel, fishing (only experience and luck)
-4. Using the /mining command in the channel, mining (only experience and luck)
-5. Reward for server bump (Currency, Experience, Reputation, luck)
-6. Using the /open command in the channel, opening cases (only luck)
+1. Отправка сообщений в канале (Валюта, опыт, репутация, удача)
+2. Общение в голосовом канале (Валюта, опыт, репутация, удача)
+3. Использование команды [/fishing](../commands/general.md) в канале, рыбалка (только опыт и удача)
+4. Использование команды [/mining](../commands/general.md) в канале, майнинг (только опыт и удача)
+5. Награда за бамп сервера (Валюта, опыт, репутация, удача)
+6. Использование команды [/open](../commands/inventory.md) в канале, открытие кейсов (только удача)
 

@@ -1,43 +1,46 @@
-# 👤 Profile commands
+---
+icon: square-user
+---
+
+# Команды профиля
 
 {% hint style="warning" %}
-⭐ - [Premium command](../premium.md) ([premium.md](../premium.md "mention"))
+⭐ - [Премиальная команда](../premium.md) ([premium.md](../premium.md "mention"))
 {% endhint %}
 
 {% hint style="success" %}
-The commands are available to all server users.
+Команды доступны всем пользователям серверов.
 {% endhint %}
 
-|           Command name           |             Comman description            |        Arguments        |
-| :------------------------------: | :---------------------------------------: | :---------------------: |
-|           /achievements          |            Viewing achievements           |         \[user]         |
-|           /cookies buy           |                Buy cookies                |        \<amount>        |
-|           /cookies give          |         Give cookies to the server        |        \<amount>        |
-|             /invites             |            Viewing Invitations            |         \[user]         |
-|          /marry-divorce          |             Annul the marriage            |         \<user>         |
-|              /marry              |                Get married                |         \<user>         |
-|   /profile-edit description set  |          Set Profile Description          |         \<text>         |
-| /profile-edit description delete |         Delete Profile Description        |            -            |
-|     /profile-edit banner set     |            Set a profile banner           |         \<link>         |
-|    /profile-edit banner delete   |           Delete Profile banner           |            -            |
-|    /profile-edit birthdate set   |           Set the date of birth           | \<day> \<month> \[year] |
-|  /profile-edit birthdate delete  |            Delete date of birth           |            -            |
-|             /profile             |                View profile               |         \[user]         |
-|              /quests             |               Viewing quests              |         \[user]         |
-|            ⭐/rank-set            | Set your own properties for the rank card |            -            |
-|               /rank              |             View profile card             |         \[user]         |
+| Название команды |                 Описание команды                |   Аргументы  |
+| :--------------: | :---------------------------------------------: | :----------: |
+|   /achievements  |             **Просмотр достижений**             |    \[юзер]   |
+|   /cookies buy   |               **Купить печеньки**               | <количество> |
+|   /cookies give  |           **Выдать печеньки серверу**           | <количество> |
+|     /invites     |             **Просмотр приглашений**            |    \[юзер]   |
+|  /marry-divorce  |               **Расторгнуть брак**              |    <юзер>    |
+|      /marry      |               **Вступить в брак**               |    <юзер>    |
+|     /profile     |              **Посмотреть профиль**             |    \[юзер]   |
+| /quests overview |               **Просмотр квестов**              |    \[юзер]   |
+|   /quests info   |               **Просмотр квеста**               |   \[квест]   |
+|    ⭐/rank-set    | **Установить свои свойства для карточки ранга** |      Нет     |
+|       /rank      |         **Посмотреть карточку профиля**         |    \[юзер]   |
 
 
 
 {% hint style="warning" %}
-The following commands are available only to server administrators.
+Следующие команды доступны только администраторам сервера.
 {% endhint %}
 
-| Command name |      Command description      |     Arguments     |
-| :----------: | :---------------------------: | :---------------: |
-| /trophy give |   Give a trophy to the user   | \[user] \[trophy] |
-| /trophy take | Take the trophy from the user | \[user] \[trophy] |
+| Название команды |          Описание команды         |      Аргумент     |
+| :--------------: | :-------------------------------: | :---------------: |
+|   /trophy give   |   **Выдать трофей пользователю**  | \[юзер] \[трофей] |
+|   /trophy take   | **Забрать трофей у пользователя** | \[юзер] \[трофей] |
 
 {% hint style="info" %}
-< > - required argument \[ ] - optional argument | - OR
+< > - обязательный аргумент \[ ] - необязательный аргумент | - ИЛИ Если не видны команды - обновите ваш Discord клиент до последней версии.
+{% endhint %}
+
+{% hint style="warning" %}
+Команда ⭐ - [Премиальные функции](../premium.md)
 {% endhint %}

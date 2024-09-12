@@ -1,36 +1,38 @@
 ---
-description: Guide to creating categories in the store
+description: Руководство по созданию категорий в магазине
+icon: cart-plus
 ---
 
-# 🛍️ Create category for shop
+# Создание категории в магазине
 
-{% content-ref url="items.md" %}
-[items.md](items.md)
+{% content-ref url="items/" %}
+[items](items/)
 {% endcontent-ref %}
 
-{% content-ref url="shop.md" %}
-[shop.md](shop.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-Execute the panel for editing categories with the command /manager-categories
+Вызываем панель для редактирования категорий командой [/manager-categories](../commands/admins.md)
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_214752302.png" alt=""><figcaption></figcaption></figure>
 
-After that, the bot will ask you to name the category and specify the category emoji
+После чего бот попросит назвать категорию и указать эмодзи категории
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_214914625.png" alt=""><figcaption></figcaption></figure>
 
-After that, the category is created, it remains to add items for purchase there. Click Edit... and choose our category
+После этого категория готова, осталось добавить туда предметы для покупки. Нажимаем `Изменить...` и выбираем нашу категорию
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_215033398.png" alt=""><figcaption></figcaption></figure>
 
-Here you can change:
+Здесь можно изменить:
 
-1. Category name
-2. Emoji
-3. Add an item
-4. Setting category as Standard category
+1. Название категории
+2. Эмодзи
+3. Добавить сам предмет (Он добавлении предмета далее)
+4. Указать права на покупку (Роль с которой участник сможет покупать от туда предметы)
+5. Стандартная категория
 
-To add an item to a category, you need to specify its ID
+Чтобы добавить предмет в категорию, нужно указать его ID
 
-<figure><img src="../.gitbook/assets/pngwing.com (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pngwing.com (8).png" alt=""><figcaption><p>Можете употреблять переменные:<strong>Можете употреблять переменные:</strong></p></figcaption></figure>

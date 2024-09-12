@@ -1,68 +1,72 @@
-# 📟 Cron patterns
+---
+icon: square-terminal
+---
 
-## Syntax of cron pattern&#x20;
+# Cron паттерны
+
+## Синтаксис cron паттерна
 
 ```
-// ┌──────────────── (optional) second (0 - 59)
-// │ ┌────────────── minute (0 - 59)
-// │ │ ┌──────────── hour (0 - 23)
-// │ │ │ ┌────────── day of month (1 - 31)
-// │ │ │ │ ┌──────── month (1 - 12, JAN-DEC)
-// │ │ │ │ │ ┌────── day of week (0 - 6, SUN-Mon) 
-// │ │ │ │ │ │       (0 to 6 are Sunday to Saturday; 7 is Sunday, the same as 0)
+// ┌──────────────── (опционально) секунды (0 - 59)
+// │ ┌────────────── минуты (0 - 59)
+// │ │ ┌──────────── час (0 - 23)
+// │ │ │ ┌────────── день месяца (1 - 31)
+// │ │ │ │ ┌──────── месяц (1 - 12, JAN-DEC)
+// │ │ │ │ │ ┌────── день  недели (0 - 6, SUN-Mon) 
+// │ │ │ │ │ │       (от 0 до 6 это от Воскресенья до Субботы; 7 это Воскресенье, тоже самое что и 0)
 // │ │ │ │ │ │
 // * * * * * *
 ```
 
-## Quick examples
+## Быстрые примеры
 
-#### This will runs every minute
+#### Это будет выполняться каждую минуту
 
 \* \* \* \* \*
 
-This will runs every Sunday
+#### Это будет выполняться каждое воскресенье
 
 0 0 0 \* \* 7
 
-#### Every 30 minutes from 9 a.m. to 5 p.m.
+#### Каждые 30 минут с 9 до 17 часов
 
 0 \*/30 9-17 \* \* \*
 
-#### From Monday to Friday at 11:30
+#### С понедельника по пятницу в 11:30
 
 00 30 11 \* \* 1-5
 
-#### Every 10 minutes
+#### Каждые 10 минут
 
 0 \*/10 \* \* \* \*
 
-#### At midnight
+#### В полночь
 
 00 00 00 \* \* \*
 
-## It is also possible to use the following "nicknames" as pattern.
+#### Также можно использовать следующие "ники" в качестве паттерна.
 
-| Nickname  | Description                            |
-| --------- | -------------------------------------- |
-| @yearly   | Run once a year, ie. "0 0 1 1 \*".     |
-| @annually | Run once a year, ie. "0 0 1 1 \*".     |
-| @monthly  | Run once a month, ie. "0 0 1 \* \*".   |
-| @weekly   | Run once a week, ie. "0 0 \* \* 0".    |
-| @daily    | Run once a day, ie. "0 0 \* \* \*".    |
-| @hourly   | Run once an hour, ie. "0 \* \* \* \*". |
+| Ник       | Описание                                           |
+| --------- | -------------------------------------------------- |
+| @yearly   | Выполнятся единожды в год, т.е. "0 0 1 1 \*".      |
+| @annually | Выполнятся единожды в год, т.е. "0 0 1 1 \*".      |
+| @monthly  | Выполняется единожды в месяц, т.е. "0 0 1 \* \*".  |
+| @weekly   | Выполняется единожды в неделю, т.е. "0 0 \* \* 0". |
+| @daily    | Выполняется единожды в день, т.е. "0 0 \* \* \*".  |
+| @hourly   | Выполняется единожды в част, т.е. "0 \* \* \* \*". |
 
-### [A convenient website for generating cron patterns](https://www.freeformatter.com/cron-expression-generator-quartz.html)[ #1](https://www.freeformatter.com/cron-expression-generator-quartz.html)
+### [Удобный сайт для генерации cron паттернов #1](https://www.freeformatter.com/cron-expression-generator-quartz.html)
 
-### [A convenient website for generating cron patterns #2](https://crontab.cronhub.io/)
+### [Удобный сайт для генерации cron паттернов #2](https://crontab.cronhub.io/)
 
-### [A convenient website for generating cron patterns #3](https://crontab.guru/)
+### [Удобный сайт для генерации cron паттернов #3](https://crontab.guru/)
 
-### [A convenient website for generating cron patterns #4](https://hexagon.github.io/cron-builder/)
+### [Удобный сайт для генерации cron паттернов #4](https://hexagon.github.io/cron-builder/)
 
 {% hint style="info" %}
-A cron pattern with an interval of less than 60 seconds cannot be created!
+Cron паттерн с интервалом меньше 60 секунд - нельзя создать!
 {% endhint %}
 
 {% hint style="info" %}
-All patterns are executed in the UTC time zone
+Все паттерны выполняются по часовому поясу UTC
 {% endhint %}

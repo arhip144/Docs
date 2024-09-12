@@ -1,286 +1,282 @@
 ---
-description: A guide to creating buttons with the functionality of some commands
+description: Руководство по созданию кнопок с функционалом некоторых команд
+icon: square-check
 ---
 
-# 🆒 Create custom buttons
+# Создание кастомных кнопок
 
-The main command for creating buttons /components
+Основная команда для создания кнопок [/components](../commands/admins.md)
 
-### Arguments of the /components buttons add command:
+## Аргументы команды [/components buttons add](../commands/admins.md):
 
-|   Argument   |                               Description                              | Required |
-| :----------: | :--------------------------------------------------------------------: | :------: |
-| message\_url |         Link to the message for which the button will be added         |    Yes   |
-|     style    |                              Button style                              |    Yes   |
-|   id-or-url  | The ID of the button or a link to the resource (If the style is a Link |    Yes   |
-|      row     |         The row of the component where the button will be added        |    Yes   |
-|    column    |         Column of the component where the button will be added         |    Yes   |
-|     label    |                              Button label                              |    No    |
-|     emoji    |                              Button emoji                              |    No    |
-|   disabled   |                      Will the button be turned off                     |    No    |
+|              Аргумент              |                          Описание                          | Обязательный |
+| :--------------------------------: | :--------------------------------------------------------: | :----------: |
+| ссылка-на-сообщение / message\_url |  Ссылка на сообщение, для которого будет добавлена кнопка  |      Да      |
+|            стиль / style           |  <p>Стиль кнопки:<br>Ссылка(Link) - кнопка ссылка<br></p>  |      Да      |
+|      id-или-ссылка / id-or-url     | ID кнопки или сссылка на ресурс (Если стиль - Ссылка(Link) |      Да      |
+|            строка / row            |       Строка компонента, куда будет добавлена кнопка       |      Да      |
+|          колонка / column          |       Колонка компонента, куда будет добавлена кнопка      |      Да      |
+|          название / label          |                       Название кнопки                      |      Нет     |
+|           эмодзи / emoji           |                        Эмодзи кнопки                       |      Нет     |
+|        выключена / disabled        |                  Будет ли выключена кнопка                 |      Нет     |
 
 {% hint style="danger" %}
-The arguments "label" or "emoji" are required
+Аргументы "название" или "эмодзи" обязательны к заполнению
 {% endhint %}
 
-### Arguments of the /components buttons remove command:
+## Аргументы команды [/components buttons remove](../commands/admins.md):
 
-|   Argument   |                          Description                         | Required |
-| :----------: | :----------------------------------------------------------: | :------: |
-| message\_url |    Link to the message in which the button will be removed   |    Yes   |
-|      row     |   The row of the component where the button will be removed  |    Yes   |
-|    column    | The column of the component where the button will be removed |    Yes   |
+|              Аргумент              |                       Описание                      | Обязательный |
+| :--------------------------------: | :-------------------------------------------------: | :----------: |
+| ссылка-на-сообщение / message\_url | Ссылка на сообщение, в котором будет удалена кнопка |      Да      |
+|            строка / row            |     Строка компонента, где будет удалена кнопка     |      Да      |
+|          колонка / column          |     Колонка компонента, где будет удалена кнопка    |      Да      |
 
-## Доступные команды для кнопок:
+## Доступные команды для кнопок: <a href="#available-buttons" id="available-buttons"></a>
 
 {% tabs %}
-{% tab title="Get gift" %}
+{% tab title="Получить подарок" %}
 ID: cmd{get-gift}gift{giftId}
 
-Arguments:
+Аргументы:
 
-| Name | Description | Required |
-| :--: | :---------: | :------: |
-| gift |   Gift ID   |    Yes   |
+| Название |  Описание  | Обязательный |
+| :------: | :--------: | :----------: |
+|   gift   | ID подарка |      Да      |
 
-[A guide to creating gifts](gifts.md)
+[Руководство по созданию подарков](gifts.md)
 {% endtab %}
 
-{% tab title="Buy" %}
+{% tab title="Купить" %}
 ID: cmd{buy}item{itemId}amount{10}price\_type{currency}price{10} prms-off dscnt-off limits-off
 
-Arguments:
+Аргументы:
 
-|     Name    |                        Description                        | Required |
-| :---------: | :-------------------------------------------------------: | :------: |
-|     item    |                          Item ID                          |    Yes   |
-|    amount   |                    Amount for purchase                    |    No    |
-| price\_type |   Price: Item ID; currency - the currency of the server   |    No    |
-|    price    |                       Price: Amount                       |    No    |
-|   prms-off  |           Disables purchase permissions, if any           |    No    |
-|  dscnt-off  |         Disables discount depending on reputation         |    No    |
-|  limits-off |                  Disables purchase limits                 |    No    |
-|  ignr-shop  | Ignores the presence and quantity of the item in the shop |    No    |
+|   Название  |                        Описание                        | Обязательный |
+| :---------: | :----------------------------------------------------: | :----------: |
+|     item    |                       ID предмета                      |      Да      |
+|    amount   |                 Количество для покупки                 |      Нет     |
+| price\_type | <p>Цена: ID предмета;<br>currency - валюта сервера</p> |      Нет     |
+|    price    |                    Цена: количество                    |      Нет     |
+|   prms-off  |    Отключает права на покупку, если таковые имеются    |      Нет     |
+|  dscnt-off  |       Отключает скидку в зависимости от репутации      |      Нет     |
+|  limits-off |               Отключает лимиты на покупку              |      Нет     |
+|  ignr-shop  |   Игнорирует наличие и количество предмета в магазине  |      Нет     |
 
-[A guide to creating items](items.md)
+[Руководство по созданию предметов](items/)
 {% endtab %}
 
-{% tab title="Sell" %}
+{% tab title="Продать" %}
 ID: cmd{sell}item{itemId}amount{10}
 
-Arguments:
+Аргументы:
 
-|  Name  |    Description    | Required |
-| :----: | :---------------: | :------: |
-|  item  |      Item ID      |    Yes   |
-| amount | Quantity for sale |    No    |
+| Название |        Описание        | Обязательный |
+| :------: | :--------------------: | :----------: |
+|   item   |       ID предмета      |      Да      |
+|  amount  | Количество для продажи |      Нет     |
 
-[A guide to creating items](items.md)
+[Руководство по созданию предметов](items/)
 {% endtab %}
 
-{% tab title="Take quest" %}
+{% tab title="Взять квест" %}
 ID: cmd{quest-give-to-user}quest{questId}
 
-Arguments:
+Аргументы:
 
-|  Name |                                                                                      Description                                                                                      | Required |
-| :---: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: |
-| quest | <p>Possible values:</p><ol><li>Quest ID</li></ol><ol><li>active - get all active quests</li><li>daily - get a random daily quest</li><li>weekly - get a random weekly quest</li></ol> |    Yes   |
+| Название |                                                                                            Описание                                                                                           | Обязательный |
+| :------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: |
+|   quest  | <p>Возможные значения:<br>1. ID квеста<br>2. active - получить все активные квесты<br>3. daily - получить случайный ежедневный квест<br>4. weekly - получить случайный еженедельный квест</p> |      Да      |
 
-[A guide to creating quests](quests.md)
+[Руководство по созданию квестов](quests.md)
 {% endtab %}
 
-{% tab title="Quest: get reward" %}
+{% tab title="Квест: получить награду" %}
 ID: cmd{getQuestReward}quest{questId}
 
-Arguments:
+Аргументы:
 
-|  Name | Description | Required |
-| :---: | :---------: | :------: |
-| quest |   Quest ID  |    No    |
+| Название |  Описание | Обязательный |
+| :------: | :-------: | :----------: |
+|   quest  | ID квеста |      Нет     |
 
-In the absence of the quest argument, the user will receive rewards from all quests.
+При отсутствии аргумента **quest**, пользователь получит награды со всех квестов.
 
-[A guide to creating quests](quests.md)
+[Руководство по созданию квестов](quests.md)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Cancel quest" %}
+{% tab title="Отменить квест" %}
 ID: cmd{quest-take-from-user}quest{questId}
 
-Arguments:
+Аргументы:
 
-|  Name | Description | Required |
-| :---: | :---------: | :------: |
-| quest |   Quest ID  |    Yes   |
+| Название |  Описание | Обязательный |
+| :------: | :-------: | :----------: |
+|   quest  | ID квеста |      Да      |
 
-[A guide to creating quests](quests.md)
+[Руководство по созданию квестов](quests.md)
 {% endtab %}
 
-{% tab title="Give item" %}
+{% tab title="Выдать предмет" %}
 ID: cmd{give-item}item{itemId}amount{10}usr{userId}
 
-Arguments:
+Аргументы:
 
-|  Name  |                                                   Description                                                  | Required |
-| :----: | :------------------------------------------------------------------------------------------------------------: | :------: |
-|  item  |                                                     Item ID                                                    |    Yes   |
-| amount |                                                 Amount for sale                                                |    No    |
-|   usr  | The user for whom the item will be issued, if it is missing, it will be issued to the user who used the button |    No    |
+| Название |                                                      Описание                                                      | Обязательный |
+| :------: | :----------------------------------------------------------------------------------------------------------------: | :----------: |
+|   item   |                                                     ID предмета                                                    |      Да      |
+|  amount  |                                               Количество для продажи                                               |      Нет     |
+|    usr   | Пользователь для которого будет выдан предмет, если отсутствует - будет выдано пользователю использовавшему кнопку |      Нет     |
 
-[A guide to creating items](items.md)
+[Руководство по созданию предметов](items/)
 {% endtab %}
 
-{% tab title="Take item" %}
+{% tab title="Забрать предмет" %}
 ID: cmd{take-item}item{itemId}amount{10}usr{userId}
 
-Arguments:
+Аргументы:
 
-|  Name  |                                                Description                                                | Required |
-| :----: | :-------------------------------------------------------------------------------------------------------: | :------: |
-|  item  |                                                ID предмета                                                |    Yes   |
-| amount |                                              Amount for sale                                              |    No    |
-|   usr  | The user from whom the item will be removed, if absent, will be removed from the user who used the button |    No    |
+| Название |                                                      Описание                                                     | Обязательный |
+| :------: | :---------------------------------------------------------------------------------------------------------------: | :----------: |
+|   item   |                                                    ID предмета                                                    |      Да      |
+|  amount  |                                               Количество для продажи                                              |      Нет     |
+|    usr   | Пользователь у которого будет убран предмет, если отсутствует - будет убран у пользователя использовавшего кнопку |      Нет     |
 
-[A guide to creating items](items.md)
+[Руководство по созданию предметов](items/)
 {% endtab %}
 
-{% tab title="Bot commands" %}
+{% tab title="Команды бота" %}
 ID: cmd{help}commands eph reply
 
-Arguments:
+Аргументы:
 
-|  Name |                                       Description                                       | Required |
-| :---: | :-------------------------------------------------------------------------------------: | :------: |
-|  eph  | If there is, then the message will be visible only to the person who pressed the button |    No    |
-| reply |                If there is, the message will be sent as a reply message.                |    No    |
-|       |                                                                                         |          |
+| Название |                            Описание                           | Обязательный |
+| :------: | :-----------------------------------------------------------: | :----------: |
+|    eph   |  Если есть, то сообщение будет видно только нажавшему кнопку  |      Нет     |
+|   reply  | Если есть, то сообщение  будет отправлено ответным сообщением |      Нет     |
+|          |                                                               |              |
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Profile" %}
-ID: cmd{profile}eph reply
+{% tab title="Профиль" %}
+ID: cmd{profile} eph reply
 
-Arguments:
+Аргументы:
 
-|  Name |                                                        Description                                                       | Required |
-| :---: | :----------------------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |                  If there is, then the message will be visible only to the person who pressed the button                 |    No    |
-| reply |                                 If there is, the message will be sent as a reply message.                                |    No    |
-|  usr  |                          The ID of the user who can use the button, if not, everyone can use it                          |    No    |
-|  mbr  | The ID of the user whose profile will be displayed, if absent, the profile of the user who used the button is displayed. |    No    |
+| Название |                                                  Описание                                                 | Обязательный |
+| :------: | :-------------------------------------------------------------------------------------------------------: | :----------: |
+|    eph   |                        Если есть, то сообщение будет видно только нажавшему кнопку                        |      Нет     |
+|   reply  |                       Если есть, то сообщение  будет отправлено ответным сообщением                       |      Нет     |
+|    usr   |       ID пользователя, который сможет использовать кнопку, если отсутствует - использовать могут все      |      Нет     |
+|    mbr   | ID пользователя, чей профиль будет выводится, если отсутствует - выводится профиль использовавшего кнопку |      Нет     |
 {% endtab %}
 
-{% tab title="Inventory" %}
-ID: cmd{inventory}eph reply
+{% tab title="Инвентарь" %}
+ID: cmd{inventory} eph reply
 
-Arguments:
+Аргументы:
 
-|  Name |                                                          Description                                                          | Required |
-| :---: | :---------------------------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |                    If there is, then the message will be visible only to the person who pressed the button                    |    No    |
-| reply |                                   If there is, the message will be sent as a reply message.                                   |    No    |
-|  usr  |                             The ID of the user who can use the button, if not, everyone can use it                            |    No    |
-|  mbr  | The ID of the user whose inventory will be displayed, if missing, the inventory of the user who used the button is displayed. |    No    |
+<table><thead><tr><th width="216" align="center">Название</th><th width="299.66666666666663" align="center">Описание</th><th align="center">Обязательный</th></tr></thead><tbody><tr><td align="center">eph</td><td align="center">Если есть, то сообщение будет видно только нажавшему кнопку</td><td align="center">Нет</td></tr><tr><td align="center">reply</td><td align="center">Если есть, то сообщение  будет отправлено ответным сообщением</td><td align="center">Нет</td></tr><tr><td align="center">usr</td><td align="center">ID пользователя, который сможет использовать кнопку, если отсутствует - использовать могут все</td><td align="center">Нет</td></tr><tr><td align="center">mbr</td><td align="center">ID пользователя, чей инвентарь будет выводится, если отсутствует - выводится инвентарь использовавшего кнопку</td><td align="center">Нет</td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Achievements" %}
-ID: cmd{achievements}eph reply
+{% tab title="Достижения" %}
+ID: cmd{achievements} eph reply
 
-Arguments:
+Аргументы:
 
-|  Name |                                                         Description                                                         | Required |
-| :---: | :-------------------------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |                   If there is, then the message will be visible only to the person who pressed the button                   |    No    |
-| reply |                                  If there is, the message will be sent as a reply message.                                  |    No    |
-|  usr  |                            The ID of the user who can use the button, if not, everyone can use it                           |    No    |
-|  mbr  | The ID of the user whose achievements will be shown, if absent, the achievements of the user who used the button are shown. |    No    |
+| Название |                                                        Описание                                                       | Обязательный |
+| :------: | :-------------------------------------------------------------------------------------------------------------------: | :----------: |
+|    eph   |                              Если есть, то сообщение будет видно только нажавшему кнопку                              |      Нет     |
+|   reply  |                             Если есть, то сообщение  будет отправлено ответным сообщением                             |      Нет     |
+|    usr   |             ID пользователя, который сможет использовать кнопку, если отсутствует - использовать могут все            |      Нет     |
+|    mbr   | ID пользователя, чьи достижения будет показываться, если отсутствует - показываются достижения использовавшего кнопку |      Нет     |
 {% endtab %}
 
-{% tab title="Rank" %}
-ID: cmd{rank}eph reply
+{% tab title="Ранг" %}
+ID: cmd{rank} eph reply
 
-Arguments:
+Аргументы:
 
-|  Name |                                                  Description                                                 | Required |
-| :---: | :----------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |            If there is, then the message will be visible only to the person who pressed the button           |    No    |
-| reply |                           If there is, the message will be sent as a reply message.                          |    No    |
-|  mbr  | ID of the user whose card will be shown, if it is missing, the card of the user who used the button is shown |    No    |
+| Название |                                                      Описание                                                     | Обязательный |
+| :------: | :---------------------------------------------------------------------------------------------------------------: | :----------: |
+|    eph   |                            Если есть, то сообщение будет видно только нажавшему кнопку                            |      Нет     |
+|   reply  |                           Если есть, то сообщение  будет отправлено ответным сообщением                           |      Нет     |
+|    mbr   | ID пользователя, чья карточка будет показываться, если отсутствует - показывается карточка использовавшего кнопку |      Нет     |
 {% endtab %}
 
-{% tab title="Rank-set" %}
-ID: cmd{rank-set}eph reply
+{% tab title="Ранг-установить" %}
+ID: cmd{rank-set} eph reply
 
-Arguments:
+Аргументы:
 
-|  Name |                                       Description                                       | Required |
-| :---: | :-------------------------------------------------------------------------------------: | :------: |
-|  eph  | If there is, then the message will be visible only to the person who pressed the button |    No    |
-| reply |                If there is, the message will be sent as a reply message.                |    No    |
+| Название |                            Описание                           | Обязательный |
+| :------: | :-----------------------------------------------------------: | :----------: |
+|    eph   |  Если есть, то сообщение будет видно только нажавшему кнопку  |      Нет     |
+|   reply  | Если есть, то сообщение  будет отправлено ответным сообщением |      Нет     |
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Say" %}
-ID: cmd{say}channelId{ID}messageId{ID}permission{ID}eph reply
+{% tab title="Сказать" %}
+ID: cmd{say}channelId{ID}messageId{ID}permission{ID} eph reply
 
-Arguments:
+Аргументы:
 
-|    Name    |                                       Description                                       | Requried |
-| :--------: | :-------------------------------------------------------------------------------------: | :------: |
-|     eph    | If there is, then the message will be visible only to the person who pressed the button |    No    |
-|    reply   |                If there is, the message will be sent as a reply message.                |    No    |
-|   update   |                         If there is, the message will be edited                         |    No    |
-|  channelId |                       ID of the channel to search for the message                       |    No    |
-|  messageId |                                        Message ID                                       |    No    |
-| permission |                                      Permission ID                                      |    No    |
+|  Название  |                            Описание                           | Обязательный |
+| :--------: | :-----------------------------------------------------------: | :----------: |
+|     eph    |  Если есть, то сообщение будет видно только нажавшему кнопку  |      Нет     |
+|    reply   | Если есть, то сообщение  будет отправлено ответным сообщением |      Нет     |
+|   update   |         Если есть, то сообщение будет отредактировано         |      Нет     |
+|  channelId |                 ID канала для поиска сообщения                |      Нет     |
+|  messageId |                          ID сообщения                         |      Нет     |
+| permission |                            ID права                           |      Нет     |
 
 {% hint style="info" %}
-The channelId and messageId arguments are used together, you can't use one
+Аргументы channelId и messageId используются вместе, нельзя использовать что-то одно
 {% endhint %}
 
 {% hint style="info" %}
-The channelId and messageId arguments are used to output a message from a specific channel. In this way, you can create a button that will output any message from any channel.
+Аргументы channelId и messageId используются для вывода сообщения из определенного канала. Таким образом можно создать кнопку, которое будет выводить любое сообщение из любого канала.
 {% endhint %}
 
 {% file src="../.gitbook/assets/Видео 17-06-2023 11_26_02.mp4" %}
 
 {% hint style="info" %}
-The message is output via the channelId and messageId arguments together with the buttons and files attached to this message.
+Вывод сообщения через аргументы channelId и messageId производится вместе с кнопками и файлами прикрепленными к данному сообщению.
 {% endhint %}
 
 {% hint style="info" %}
-If you insert a link to a message into the say command form, the bot will output a completely copied message.
+Если в форму команды say вставить ссылку на сообщение, то бот выведет полностью скопированное сообщение.
 {% endhint %}
 
 {% file src="../.gitbook/assets/Видео 17-06-2023 11_36_45.mp4" %}
 {% endtab %}
 
-{% tab title="Statistics" %}
-ID: cmd{stats}eph reply
+{% tab title="Статистика" %}
+ID: cmd{stats} eph reply
 
-Arguments:
+Аргументы:
 
-|  Name |                                                           Description                                                          | Required |
-| :---: | :----------------------------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |                     If there is, then the message will be visible only to the person who pressed the button                    |    No    |
-| reply |                                    If there is, the message will be sent as a reply message.                                   |    No    |
-|  usr  |                             The ID of the user who can use the button, if not, everyone can use it                             |    No    |
-|  mbr  | The ID of the user whose statistics will be displayed, if absent, the statistics of the user who used the button are displayed |    No    |
+| Название |                                                     Описание                                                    | Обязательный |
+| :------: | :-------------------------------------------------------------------------------------------------------------: | :----------: |
+|    eph   |                           Если есть, то сообщение будет видно только нажавшему кнопку                           |      Нет     |
+|   reply  |                          Если есть, то сообщение  будет отправлено ответным сообщением                          |      Нет     |
+|    usr   |          ID пользователя, который сможет использовать кнопку, если отсутствует - использовать могут все         |      Нет     |
+|    mbr   | ID пользователя, чья статистика будет выводится, если отсутствует - выводится статистика использовавшего кнопку |      Нет     |
 {% endtab %}
 
-{% tab title="Inventory roles" %}
+{% tab title="Инвентарь ролей" %}
 ID: cmd{inventory-roles} eph reply
 
-Arguments:
+Аргументы:
 
-<table><thead><tr><th width="216" align="center">Name</th><th width="299.66666666666663" align="center">Description</th><th align="center">Required</th></tr></thead><tbody><tr><td align="center">eph</td><td align="center">If there is, then the message will be visible only to the person who pressed the button</td><td align="center">No</td></tr><tr><td align="center">reply</td><td align="center">If there is, the message will be sent as a reply message.</td><td align="center">No</td></tr><tr><td align="center">usr</td><td align="center">The ID of the user who can use the button, if not, everyone can use it</td><td align="center">No</td></tr><tr><td align="center">mbr</td><td align="center">The ID of the user whose inventory roles will be displayed, if missing, the inventory roles of the user who used the button is displayed.</td><td align="center">No</td></tr></tbody></table>
+<table><thead><tr><th width="216" align="center">Название</th><th width="299.66666666666663" align="center">Описание</th><th align="center">Обязательный</th></tr></thead><tbody><tr><td align="center">eph</td><td align="center">Если есть, то сообщение будет видно только нажавшему кнопку</td><td align="center">Нет</td></tr><tr><td align="center">reply</td><td align="center">Если есть, то сообщение  будет отправлено ответным сообщением</td><td align="center">Нет</td></tr><tr><td align="center">usr</td><td align="center">ID пользователя, который сможет использовать кнопку, если отсутствует - использовать могут все</td><td align="center">Нет</td></tr><tr><td align="center">mbr</td><td align="center">ID пользователя, чей инвентарь ролей будет выводится, если отсутствует - выводится инвентарь ролей использовавшего кнопку</td><td align="center">Нет</td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Create custom role" %}
+{% tab title="Создание кастомной роли" %}
 ID: cmd{custom-role}
 {% endtab %}
 {% endtabs %}

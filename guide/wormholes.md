@@ -1,83 +1,84 @@
 ---
-description: What's it? What are they for? How do I create it?
+description: Что это? Для чего они? Как создать?
+icon: hurricane
 ---
 
-# 🌀 Wormholes
+# Червоточины
 
-## What are wormholes?
+## Что такое червоточины?
 
-These are events that appear in a certain channel at a certain moment
+Это события, которые в определенный момент появляются в определенном канале
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>An example of a wormhole with <a href="styles.md">style</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Пример червоточины со <a href="styles.md">стилем</a></p></figcaption></figure>
 
-## What are wormholes for?
+## Для чего нужны червоточины?
 
-This is one of the many ways to get items, currency, experience, reputation
+Это один из многих способов получения предметов, валюты, опыта, репутации
 
-## How wormholes are works?
+## Как работают червоточины?
 
-As soon as the wormhole appears, you have a chance to take all the items from it. By chance, it means that after a while it may disappear or another user may take it.
+Как только червоточина появляется, у вас есть шанс забрать с нее все предметы. Под шансом подразумевается то, что она через некоторое время она может исчезнуть или же ее может взять другой пользователь.
 
-## Creating a Wormhole
+## Создание червоточины
 
-To create a wormhole, run the command [/manager-wormholes create \<name>](../commands/admins.md)
+Для создания червоточины выполняем команду [/manager-wormholes create <название червоточины>](../commands/admins.md)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-In this panel, we configure:
+В данном менеджере настраиваем:&#x20;
 
-* Style (not required) - a [guide to creating a style](styles.md)
-* Item - the item that will drop out (Item/currency/experience/Reputation)
-* Chance - chance of spawn from 1% to 100%
-* Webhook - a webhook that will send a message
-* Amount - the minimum and maximum amount of dropped item/currency/experience/reputation
-* Lifetime - the lifetime of the wormhole in the channel
-* Cron-pattern - [examples of patterns and an explanation of what they are](cron-patterns.md)
-* The number of spawns - after the expiration, the wormhole will turn off
+* Стиль (необязательно) - [руководство по созданию стиля](styles.md)
+* Предмет - предмет который будет выпадать (Предмет/валюта/опыт/репутация)
+* Шанс - шанс спавна червоточины до 100%
+* Вебхук - вебхук, который будет отправлять сообщение
+* Количество - минимальное и максимальное количество предмета/валюты/опыта/репутации
+* Время жизни - время существования червоточины в канале
+* Cron-паттерн - [примеры паттернов и объяснение что это такое](cron-patterns.md)
+* Количество спавнов - по истечению, червоточина выключится
 
-After all the settings, you need to turn on the wormhole
+После всех настроек включите червоточину
 
 {% hint style="info" %}
-To see what a wormhole will look like, you can execute the command [/wormhole-spawn \<name>](../commands/admins.md)
+Чтобы посмотреть, как будет выглядеть червоточина можно командой [/wormhole-spawn <название червоточины>](../commands/admins.md)
 {% endhint %}
 
 {% content-ref url="styles.md" %}
 [styles.md](styles.md)
 {% endcontent-ref %}
 
-## Editing the wormhole
+## Редактирование червоточины
 
-To edit the wormhole, run the command [/manager-wormholes edit \<name>](../commands/admins.md)
+Для редактирования червоточины выполняем команду [/manager-wormholes edit <название червоточины>](../commands/admins.md)
 
-## Copying a Wormhole
+## Копирование червоточины
 
-To copy a wormhole, run the command [/manager-wormholes copy \<wormhole> \<name for new wormhole>](../commands/admins.md)
+Для копирования червоточины выполняем команду [/manager-wormholes copy <червоточина> <название новой червоточины>](../commands/admins.md)
 
-## Deleting the wormhole
+## Удаление червоточины
 
-To delete a wormhole, run the command [/manager-wormholes delete](../commands/admins.md)
+Для удаления червоточины выполняем команду [/manager-wormholes delete <название червоточины>](../commands/admins.md)
 
-## View all wormholes
+## Просмотр всех червоточин
 
-To view all wormholes, run the command [/manager-wormholes view](../commands/admins.md)
+Для просмотра всех червоточин выполняем команду [/manager-wormholes view](../commands/admins.md)
 
-## Viewing wormhole information (public command)
+## Просмотр информации об червоточине (общедоступная команда)
 
-To view information about a specific wormhole, run the command [/wormhole \<name>](../commands/general.md)
+Для просмотра информации о конкретной червоточины выполняем команду[ /wormhole <название червоточины>](../commands/general.md)
 
-## Thematic achievements
+## Тематические достижения
 
-1. Touch the wormhole N times
-2. Spawn the wormhole N times
+1. Дотронуться до червоточины N раз
+2. Заспавнить червоточину N раз
 
 {% content-ref url="achievements.md" %}
 [achievements.md](achievements.md)
 {% endcontent-ref %}
 
-## Thematic tasks for quests
+## Тематические задачи для квестов
 
-1. Touch the wormhole N times
-2. Spawn the wormhole N times
+1. Использовать червоточину N раз
+2. Заспавнить червоточину N раз
 
 {% content-ref url="quests.md" %}
 [quests.md](quests.md)

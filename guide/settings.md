@@ -1,26 +1,30 @@
 ---
-description: Bot Setup Guide
+description: Руководство по настройке бота
+icon: gear
 ---
 
-# ⚙️ Setting the bot
+# Настройка бота
 
-Execute the bot settings editing panel with the command [/manager-settings](../commands/admins.md)
+Вызываем панель редактирования настроек бота командой [/manager-settings](../commands/admins.md)
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_220318653.png" alt=""><figcaption><p>Просмотр общей информации</p></figcaption></figure>
 
-Here you can configure:
+Здесь можно настроить:
 
-* Fishing
-* Mining
-* Autovoice channels
-* Shop
-* Channels
-* Roles
-* [Server currency](currency.md)
-* Daily rewards
-* Roles for levels
-* Top leaders reports
-* Getting currency/experience/reputation
-* Roles Counter-Strike 2
-* Logs
-* Starter Kit
+* Рыбалку
+* Майнинг
+* Автоголосовые каналы
+* Магазин
+* Каналы
+* Роли
+* [Валюта сервера](currency.md)
+* Ежедневные награды
+* Роли за уровни
+* Отчеты о топ лидерах
+* Получение валюты/опыта/репутации
+* Роли CS2
+* Логи
+* Стартовый набор
+* [API](../api/docs.md)
+* [Кастомные роли](custom-role.md)
+* Настройки маркета

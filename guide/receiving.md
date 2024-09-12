@@ -1,27 +1,31 @@
-# ♦️ Receiving currency, experience, reputations
+---
+icon: plus-large
+---
 
-To set up receiving currency/experience/reputation, you need to execute the /manager-settings command and select Receiving currency, experience, reputation in the drop-down menu
+# Получение валюты, опыта, репутации
+
+Чтобы настроить получение валюты/опыта/репутации нужно прописать команду [/manager-settings](../commands/admins.md) и в выпадающем меню выбрать **Получение валюты, опыта, репутации**
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-20_182438085.png" alt=""><figcaption></figcaption></figure>
 
-Level factor: 10 (Each new level, the amount of experience to the next level increases by 10)
+Левел фактор: 10 (Каждый новый уровень, количество опыта до следующего уровня повышается на 10)
 
-* ️For the message: \
-  Awarded for a message in non-excluded text channels. Excluded channels can be configured in "Channels".
-* For activity in voice channels: \
-  Awarded for one minute of communication in non-excluded voice channels, with the microphone turned on and with at least one person.\
-  :warning:Activity in voice channels is considered if there is more than one PERSON in the channel with the microphone turned on.\
-  :warning:Activity with the microphone turned off does not count
-* &#x20;For the invitation: \
-  Awarded with one invitation to the server.\
-  :warning:To correctly track the invitation, the bot must have the permission to "Manage the server". This permission is required to view the invitations and their changes.
-* For bump: \
-  Awarded for one server bump with the help of commands from other bots. For example: /bump, /up, /like
-* For like: \
-  Awarded for another user's like (/like). Awarded to both users (the one who sent the like, the one who received the like)
-* For an item found for the first time: \
-  Awarded for the item that the user found for the first time.
+* ️<mark style="color:purple;">За сообщение:</mark>\
+  **Присуждается за сообщение в не исключённых текстовых каналах. Исключенные каналы можно настроить в "Настройки каналов".**
+* <mark style="color:purple;">За активность в голосовых каналах:</mark>\
+  **Присуждается за одну минуту общения в не исключённых голосовых каналах, с включенных микрофоном и как минимум с одним человеком.**\
+  :warning:Активность в голосовых каналах считается, если в канале более одного ЧЕЛОВЕКА с включенным микрофоном.\
+  :warning:Активность с выключенным микрофоном не считается
+* &#x20;<mark style="color:purple;">За приглашение:</mark>\
+  **Присуждается с одно приглашение на сервер.**\
+  :warning:Для корректного отслеживания приглашения, у бота должно быть право "Управлять сервером". Это право необходимо для просмотра приглашений и их изменений.
+* <mark style="color:purple;">За бамп:</mark>\
+  **Присуждается за один бамп сервера с помощью команд других ботов. Например: /bump, /up, /like**
+* <mark style="color:purple;">За лайк:</mark>\
+  **Присуждается за лайк другого пользователя (/like). Присуждается обоим пользователям (отправивший лайк, получивший лайк)**
+* <mark style="color:purple;">За предмет найденный впервые:</mark>\
+  **Присуждается за предмет, который пользователь нашел впервые.**
 
 {% hint style="success" %}
-When you change the "level factor" parameter, the bot will automatically change the user levels in accordance with the new level factor.
+При изменении параметра "левел фактор" бот автоматически изменит уровни пользователей в соответствии с новым левел фактором.
 {% endhint %}

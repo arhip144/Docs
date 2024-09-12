@@ -1,18 +1,18 @@
 ---
-description: A Guide to creating income roles
+description: Руководство по созданию доходных ролей
+icon: coins
 ---
 
-# 🎭 Create income roles
+# Создание доходных ролей
 
-Execute the command to edit income roles with the command /manager-roles
+Вызываем команду редактирования доходных ролей командой [/manager-roles](../commands/admins.md) create <роль>
 
-<figure><img src="../.gitbook/assets/изображение_2022-10-19_215727643 (1).png" alt=""><figcaption></figcaption></figure>
+После чего указываем:
 
-After that we specify:
+1. Кол-во опыта
+2. Кол-во валюты
+3. Кол-во репутации
+4. Предметы
+5. Кулдаун получения дохода
 
-1. Role ID
-2. Experience amount
-3. Currency amount
-4. Reputation amount
-
-The command for getting income from a role: [/role-income](../commands/inventory.md)
+Команда получения дохода с роли: [/role-income](../commands/inventory.md)

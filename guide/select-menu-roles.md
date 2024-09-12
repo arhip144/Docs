@@ -1,23 +1,24 @@
 ---
-description: Guide to creating drop-down roles
+description: Руководство по созданию выпадающих ролей
+icon: square-chevron-down
 ---
 
-# 📜 Select menu roles
+# Выпадающие роли (Select menu роли)
 
-Execute the /dropdown-roles command and select the roles (Up to 25 roles)
+Прописываем команду [/dropdown-roles](../commands/admins.md) и выбираем по очереди роли (До 25 ролей)
 
 <figure><img src="../.gitbook/assets/Скриншот 02-05-2023 233618.png" alt=""><figcaption></figcaption></figure>
 
-After that we can set:
+После чего мы можем установить:
 
-* Multi-choice (Will it be possible to take multiple roles at once)
-* Set prices for roles
-* Change the menu display
-* Set cooldown
-* Set placeholder
+* Мульти-выбор (Можно ли будет брать несколько ролей разом)
+* Установить цены для ролей
+* Изменить отображение меню
+* Установить кулдаун
+* Установить плейсхолдер
 
-In the end, you may get this result:
+В итоге может получится вот такой результат:
 
 <figure><img src="../.gitbook/assets/Скриншот 02-05-2023 233728.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Скриншот 02-05-2023 233750.png" alt=""><figcaption><p>When selected, the user role will be added or removed</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Скриншот 02-05-2023 233750.png" alt=""><figcaption><p>При выборе, будет добавляться или удалять роль пользователя</p></figcaption></figure>

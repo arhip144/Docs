@@ -1,5 +1,6 @@
 ---
 description: Руководство по команде /wipe
+icon: arrows-retweet
 ---
 
 # Вайп

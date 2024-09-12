@@ -1,7 +1,7 @@
-# Variables: jobs
+# Переменные: работа
 
-* {guildName} - server name
-* {userID} - ID of the user who worked
-* {channelID} - ID of the channel where the user worked
-* {cooldown} - issued cooldown for this job
-* {cooldownJobs} - issued cooldown for all work on this server
+* {guildName} - название сервера
+* {userID} - ID пользователя, который поработал
+* {channelID} - ID канала, где пользователь поработал
+* {cooldown} - выданный кулдаун на эту работу
+* {cooldownJobs} - выданный кулдаун на всю работа на этом сервере

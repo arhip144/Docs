@@ -1,34 +1,37 @@
-# ⭕ General commands
+---
+icon: circle
+---
+
+# Общие команды
 
 {% hint style="warning" %}
-⭐ - Premium command ([premium.md](../premium.md "mention"))
+⭐ - [Премиальная команда](../premium.md) ([premium.md](../premium.md "mention"))
 {% endhint %}
 
 {% hint style="success" %}
-The commands are available to all server users.
+Команды доступны всем пользователям серверов.
 {% endhint %}
 
-|  Command name |                                    Command description                                   |            Arguments           |
-| :-----------: | :--------------------------------------------------------------------------------------: | :----------------------------: |
-|   /channels   |                             Information about channel bonuses                            |               No               |
-|   ⭐/csgorank  |                        Get a role, depending on your rank in CS:GO                       |          \[steam\_id]          |
-|     /daily    |                                   Receive a daily award                                  |               No               |
-|    /emojis    |                               Get the emoji ID and its name                              | \<animated> <1-125 \| 126-250> |
-|    /fishing   |                                       Start fishing                                      |               No               |
-|  ⭐/giveaways  |                                     Giveaway manager                                     |               No               |
-|     /help     |                                 View all WETBOT commands                                 |               No               |
-|     /items    |                                      View itempedia                                      |             \[item]            |
-|     /like     |                                        Like a user                                       |             \<user>            |
-|    ⭐/market   |                                     User Item Market                                     |               No               |
-|  /monitorings |                           Vote for WETBOT and get free cookies                           |               No               |
-|     /ping     |                            Technical information about the bot                           |               No               |
-|  /top-upvotes |                          View user leaderboard by votes/cookies                          |               No               |
-|      /top     |                                View the server leaderboard                               |               No               |
-| /voice-active | List of users who are currently gaining experience, currency, items in the voice channel |               No               |
-|   /wormholes  |                                 View all server wormholes                                |               No               |
-|     /work     |                                        Go to work                                        |           \[job name]          |
-|  /custom-role |                                   Create a custom-role                                   |               No               |
+|   Название команды  |                                           Описание команды                                           |             Аргументы            |
+| :-----------------: | :--------------------------------------------------------------------------------------------------: | :------------------------------: |
+|      /channels      |                                   **Информация о бонусах каналов**                                   |                Нет               |
+|      ⭐/cs2rank      |                        **Получить роль, в зависимости от вашего звания в CS2**                       |           \[steam\_id]           |
+|        /daily       |                                    **Получить ежедневную награду**                                   |                Нет               |
+|       /emojis       |                                   **Получить ID эмодзи и его имя**                                   | <анимировано> <1-125 \| 126-250> |
+|       /fishing      |                                          **Начать рыбачить**                                         |                Нет               |
+| ⭐/manager-giveaways |                                          **Менеджер раздач**                                         |                Нет               |
+|        /help        |                                    **Просмотр всех команд WETBOT**                                   |                Нет               |
+|        /items       |                                      **Просмотр предметопедии**                                      |            \[предмет]            |
+|        /like        |                                       **Лайкнуть пользователя**                                      |              <юзер>              |
+|       ⭐/market      |                                   **Маркет предметов пользовтелей**                                  |                Нет               |
+|     /monitorings    |                          **Голосуй за WETBOT и получай бесплатные печеньки**                         |                Нет               |
+|        /ping        |                                   **Техническая информация о боте**                                  |                Нет               |
+|         /top        |                                **Посмотреть таблицу лидеров сервера**                                |                Нет               |
+|    /voice-active    | **Список пользователей, которые в данный момент получают опыт, валюту, предметы в голосовом канале** |                Нет               |
+|      /wormhole      |                                **Посмотреть информацию о червоточине**                               |            <название>            |
+|        /work        |                                          **Пойти работать**                                          |        \[название работы]        |
+|     /custom-role    |                                      **Создать кастомную роль**                                      |                Нет               |
 
 {% hint style="info" %}
-< > - required argument \[ ] - optional argument | - OR
+< > - обязательный аргумент \[ ] - необязательный аргумент | - ИЛИ Если не видны команды - обновите ваш Discord клиент до последней версии.
 {% endhint %}

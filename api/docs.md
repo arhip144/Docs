@@ -6,7 +6,7 @@
 
 ## Получение API ключа
 
-Ключ API можно получить в: [/manager-settings](../komandy/admins.md) -> API.
+Ключ API можно получить в: [/manager-settings](../commands/admins.md) -> API.
 
 ## Передача API ключа в запросе
 

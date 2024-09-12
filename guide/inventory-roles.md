@@ -1,21 +1,31 @@
-# 🎭 Inventory roles
+---
+icon: masks-theater
+---
 
-To view the inventory of roles, enter the command [/inventory-roles](../commands/inventory.md)
+# Инвентарь ролей
 
-## Ways to get roles in the inventory:
+Для просмотра инвентаря ролей, необходимо ввести команду [/inventory-roles](../commands/inventory.md)
 
-1. Remove a role from a profile
-2. Open from an Item [\[ITEM CREATION GUIDE\]](items.md)
-3. Buy on the market ([/market](../commands/general.md))
-4. Get in the giveaway ([/manager-giveaways](../commands/admins.md))
-5. Get rewarded for a quest[ \[QUEST CREATION GUIDE\]](quests.md)
-6. Receive when transferring from another user ([/transfer-role](../commands/inventory.md))
-7. After creating a custom role ([/custom-role](create-custom-role.md))
-8. With the admin command [/give role](../commands/admins.md)
-9. Get rewarded for an achievement [\[ACHIEVEMENT CREATION GUIDE\]](achievements.md)
+## Способы получения ролей в инвентарь:
 
-## Conditions for removing a role from a profile
+1. Снять роль из профиля
+2. Открыть из предмета [\[РУКОВОДСТВО ПО СОЗДАНИЮ ПРЕДМЕТОВ\]](items/)
+3. Купить на маркете ([/market](../commands/general.md))
+4. Получить в раздаче ([/manager-giveaways](../commands/general.md))
+5. Получить в награду за квест [\[РУКОВОДСТВО ПО СОЗДАНИЮ КВЕСТОВ\]](quests.md)
+6. Получить при передаче от другого пользователя ([/transfer-role](../commands/admins.md))
+7. После создания кастомной роли ([/custom-role](custom-role.md))
+8. При помощи администраторской команды [/give role](../commands/admins.md)
+9. Получить в награду за достижение [\[РУКОВОДСТВО ПО СОЗДАНИЮ ДОСТИЖЕНИЙ\]](achievements.md)
 
-In order for the role to be removed from the profile to the inventory, you must use the [/role-properties](../commands/admins.md) command
+## Условия снятия роли из профиля
 
-In the role properties settings menu, set the "Can be removed" property to the "Yes" position
+Для того чтобы роль можно было снимать из профиля в инвентарь, необходимо использовать команду [/role-properties](../commands/admins.md)
+
+В меню настройки свойств роли, поставить свойство "Можно снять" в положение "Да"
+
+<figure><img src="../.gitbook/assets/Скриншот 21-01-2024 163445.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Все действия по снятию и одеванию роли требуют права "Управление ролями" и снимаемая/одеваемая роль должна быть ниже основной роли бота.
+{% endhint %}

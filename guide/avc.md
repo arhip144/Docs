@@ -1,25 +1,26 @@
 ---
-description: A guide to creating autovoice channels
+description: Руководство по созданию автоголосовых каналов
+icon: microphone-lines
 ---
 
-# 🔊 Autovoice channels
+# Автоголосовые каналы
 
-Select Auto-voice channels in the settings panel /manager-settings in the drop-down menu
+Выбираем в панели настроек [/manager-settings](../commands/admins.md) в выпадающем меню **Автоголосовые каналы**
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-20_004728806.png" alt=""><figcaption></figcaption></figure>
 
-In the menu, select the desired one, select the category in which our voice channels will be, select the channel that you will need to go to to create an author's channel and the name of the channel.
+В меню **Выберите нужное** выбираем категорию в которой будут наши голосовые каналы, выбираем канал, в который нужно будет зайти, чтобы создать авторский канал и название канала.
 
 {% hint style="warning" %}
-Create a separate category for your auto-voice channels, because the bot deletes channels if there are no members in them except for the channel-creator.
+Создайте отдельную категорию для ваших авторский голосовых каналов, потому что бот удаляет каналы, если в них нет участников за исключением канала - кнопки.
 {% endhint %}
 
 {% hint style="success" %}
-You can use [variables ](../variables/avc.md)for the channel name:
+Можете употреблять [переменные](../variables/avc.md) для названия канала:
 
-> **{creator}** - channel user name
+> **{creator}** - имя пользователя канала
 >
-> **#** - channel number in the format 1 2
+> **#** - номер канала в формате 1 2
 >
-> **{emoji}** - random emoji
+> **{emoji}** - случайный эмодзи
 {% endhint %}

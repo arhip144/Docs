@@ -1,3 +1,7 @@
+---
+icon: clover
+---
+
 # Что такое репутация и удача?
 
 ![:RP:](https://cdn.discordapp.com/emojis/1006200288933335081.webp?size=44\&quality=lossless)RP (Репутация)\

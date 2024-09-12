@@ -1,66 +1,70 @@
 ---
-description: Guide to creating gifts on the server
+description: Руководство по созданию подарков на сервере
+icon: gift
 ---
 
-# 🎁 Create gifts (manager-gifts)
+# Создание подарков (manager-gifts)
 
-The main command for managing gifts - /manager-gifts
+Основная команда для управления подарками  - [/manager-gifts](../commands/admins.md)
 
-## ✔️Menu: Edit             <img src="../.gitbook/assets/Скриншот 07-02-2023 230810.png" alt="" data-size="original">
+## ✔️Меню: Изменить <img src="../.gitbook/assets/Скриншот 07-02-2023 230810.png" alt="" data-size="original">
 
-* Comment - after receiving the gift, the user will see this comment.![](<../.gitbook/assets/Скриншот 07-02-2023 233016.png>)
-* Thumbnail - displayed in the upper right corner after receiving the gift\
+* Комментарий - после получения подарка, пользователь увидит этот комментарий. ![](<../.gitbook/assets/Скриншот 07-02-2023 233016.png>)
+* Миниатюру - отображается в правом верхнем углу после получения подарка\
   ![](<../.gitbook/assets/fsdfs (3).png>)
-* Image - displayed at the bottom after receiving the gift\
+* Изображение - отображается снизу после получения подарка\
   ![](<../.gitbook/assets/159Z\_2107.w026.n002.628B.p1.628 \[преобразованныfsdй]-01.png>)
-* Frame color - the color is displayed from the left edge of the embed after receiving the gift
-* The maximum number of unique users is the number of people who will be able to receive a gift
-* Number of gift receipts - how many times one person will be able to receive a gift
-* Cooldown - the time in seconds after which it will be possible to receive a gift again
-* Start and end dates - the dates during which it will be possible to receive a gift
-* Turn Off / On - allows you to turn on and off the gift, in the off state - it will not be able to receive
+* Цвет рамки - цвет отображается с левого края эмбеда после получения подарка
+* Максимум уникальных пользователей - количество человек, которые смогут получить подарок
+* Количество получений подарка - сколько раз, один человек сможет получить подарок
+* Кулдаун - время в секундах, после которого снова можно будет получить подарок
+* Дату начала и окончания - даты, в течении которых, можно будет получать подарок
+* Уровень - диапазон уровней, которые смогут получать подарок
+* Выключить/Включить - позволяет включить и отключать подарок, в выключенном состоянии - его не смогут получить
 
 
 
-## ✔️Button: Permissions
+## ✔️Кнопка: Права&#x20;
 
-Allows you to select an existing preset of permissions\
+Позволяет выбрать существующий пресет прав\
 
 
-## ✔️Button: Members![](<../.gitbook/assets/Скриншот 07-02-2023 231156.png>)
 
-Allows you to edit members for this gift: set/delete the date of the last receipt, the number of receipts for any user\
+
+## ✔️Кнопка:  Пользователи ![](<../.gitbook/assets/Скриншот 07-02-2023 231156.png>)
+
+Позволяет редактировать пользователей для этого подарка: устанавливать/удалять дату последнего получения, количество получений для любого пользователя\
 <img src="../.gitbook/assets/Скриншот 07-02-2023 233244.png" alt="" data-size="original">
 
 
 
-## ✔️Button: Items ![](<../.gitbook/assets/Скриншот 07-02-2023 231307.png>)
+## ✔️Кнопка: Предметы ![](<../.gitbook/assets/Скриншот 07-02-2023 231307.png>)
 
-Allows you to delete/edit/add items as a gift
+Позволяет удалять/редактировать/добавлять предметы в подарок
 
-The item ID can include the following parameters
+ID предмета может принимать в себя следующие параметры
 
-* xp - experience
-* currency - server currency
-* rp - reputation
-* ID of any item
+* xp - опыт
+* currency - валюта сервера
+* rp - репутация
+* ID любого предмета
 
 ![](<../.gitbook/assets/Скриншот 07-02-2023 233506.png>)
 
 
 
 {% hint style="info" %}
-## ✔️How do I create a button with a generated ID?
+## ✔️Как создать кнопку со сгенерированным ID?
 
-1. You need to execute the command /components buttons add
-2. The message\_url argument (link\_to\_message): Insert a link to a BOT message (can be generated using the /embed-generator or /say command) for which you want to attach a button
-3. The "style" argument: Choose any style except Link
-4. id\_or\_url argument (id\_or\_link): Insert previously generated ID
-5. Arguments row, column (row, column): Select the location of the button
-6. Label, emoji arguments (name, emoji): Choose emoji and text for the button
-7. Execute the command<img src="../.gitbook/assets/Скриншот 07-02-2023 231601.png" alt="" data-size="line">
+1. Необходимо прописать команду [/components buttons add](../commands/admins.md)
+2. Аргумент `message_url` (`ссылка_на_сообщение`): Вставить ссылку на сообщение БОТА (можно сгенерировать с помощью команды [`/embed-generator`](../commands/admins.md) или [`/say`](../commands/admins.md)) для которого хотите прикрепить кнопку
+3. Аргумент `style` (`стиль`): Выбрать любой стиль кроме Link
+4. Аргумент `id_or_url` (`id_или_ссылка`): Вставить сгенерированный ранее ID
+5. Аргументы `row`, `column` (`строка, колонка`): Выбрать расположение кнопки
+6. Аргументы `label`, `emoji` (`название`, `эмодзи`): Выбрать эмодзи и текст для кнопки
+7. Выполнить команду <img src="../.gitbook/assets/Скриншот 07-02-2023 231601.png" alt="" data-size="line">
 
-After the listed items, the bot will attach the button to the message. <img src="../.gitbook/assets/Скриншот 07-02-2023 232118.png" alt="" data-size="original">
+После перечисленных пунктов, бот прикрепит кнопку к сообщению. <img src="../.gitbook/assets/Скриншот 07-02-2023 232118.png" alt="" data-size="original">
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/fsdfs (2).png" alt=""><figcaption></figcaption></figure>

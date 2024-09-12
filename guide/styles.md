@@ -1,40 +1,41 @@
 ---
-description: A guide to creating wormhole styles.
+description: Руководство по созданию стилей червоточин.
+icon: palette
 ---
 
-# 🎨 Create wormholes styles
+# Создание стилей червоточин
 
 {% content-ref url="wormholes.md" %}
 [wormholes.md](wormholes.md)
 {% endcontent-ref %}
 
-Execute the style editing panel with the command /manager-styles
+Вызываем панель редактирование стилей командой [/manager-styles](../commands/admins.md)
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_115129304.png" alt=""><figcaption></figcaption></figure>
 
-And click the create button and specify the name of the style, after which a panel with editing styles will appear
+И нажимаем кнопку создать и указываем название стиля, после чего появиться панель с редактированием стилей
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_115343476.png" alt=""><figcaption></figcaption></figure>
 
-Click edit and select our newly created style.
+Нажимаем изменить и выбираем наш только что созданный стиль.
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_115517752.png" alt=""><figcaption></figcaption></figure>
 
-The panel is very convenient because it immediately shows how the wormhole itself will look and how it will look after pressing the button
+Панель очень удобна тем, что сразу показывает, как будет выглядеть сама червоточина и как будет выглядеть после нажатия кнопки
 
-### Change the appearance style:
+### Изменить стиль появления...
 
-* Change the description, thumbnail, image, color...
+* Изменить описание, миниатюру, изображение, цвет...
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_115905859.png" alt=""><figcaption></figcaption></figure>
 
-1. Description - where {item\_emoji} is the emoji of the item, and {item\_name} is the name of the item
-2. Thumbnail
-3. Image
-4. Embed color
+1. <mark style="color:purple;">Описание</mark> - где {item\_emoji} - эмодзи предмета, а {item\_name} - название предмета
+2. <mark style="color:purple;">Миниатюра</mark>
+3. <mark style="color:purple;">Изображение</mark>
+4. <mark style="color:purple;">Цвет рамки</mark>
 
 {% hint style="warning" %}
-Leave {item\_emoji} and {item\_name} unchanged if you are going to use the style for multiple wormholes with different items.
+Оставляйте неизменным {item\_emoji} и {item\_name} `если собираетесь использовать стиль для нескольких червоточин с разными предметами.`
 {% endhint %}
 
 {% content-ref url="../variables/styles.md" %}

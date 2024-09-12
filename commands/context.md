@@ -1,28 +1,29 @@
 ---
 description: >-
-  Contextual commands are executed by calling the context menu of the message or
-  the user by pressing the RBM or pinching with a finger (for mobile devices),
-  then selecting the "Applications" menu.
+  Контекстные команды выполняются вызовом контекстного меню сообщения или
+  пользователя нажатием ПКМ или зажатие пальцем (для мобильных устройств), далее
+  выбор меню "Приложения".
+icon: arrows-to-circle
 ---
 
-# ♾️ Context commands
+# Контекстные команды
 
 {% hint style="info" %}
-RBM - right button mouse
-
-For mobile device users - pinch with your finger
+ПКМ - правая кнопка мыши\
+Для пользователей мобильных устройств - зажать пальцем
 {% endhint %}
 
 {% hint style="info" %}
-:hammer: - the Administrator permission is required
+:hammer: - требуется право **Администратор**
 {% endhint %}
 
-|        Command name       |           Command description           |                    Usage                    |
-| :-----------------------: | :-------------------------------------: | :-----------------------------------------: |
-| :hammer:Delete components |     Remove components from a message    | Message -> RBM -> Apps -> Delete components |
-|    :hammer:Edit message   |        Change the message content       |   Message -> RBM -> Apps -> Edit message    |
-|       Embed to JSON       |   Convert embed object to JSON format   |   Message -> RBM -> Apps -> Embed to JSON   |
-|         Get avatar        |          Get the user's avatar          |      User -> RBM -> Apps -> Get avatar      |
-|       Like the user       |               Like a user               |     User -> RBM -> Apps -> Like the user    |
-|          Profile          |            View user profile            |        User -> RBM -> Apps -> Profile       |
-|       :hammer:Repeat      | Repeat the message on behalf of the bot |       Message -> RBM -> Apps -> Repeat      |
+|      Название команды     |            Описание команды           |                      Применение                     |
+| :-----------------------: | :-----------------------------------: | :-------------------------------------------------: |
+| :hammer:Delete components |    Удалить компоненты из сообщения    | Сообщение -> ПКМ -> Приложения -> Delete components |
+|    :hammer:Edit message   |     Изменить содержимое сообщения     |   Сообщение -> ПКМ -> Приложения -> Edit message    |
+|       Embed to JSON       |  Перевести embed объект в формат JSON |   Сообщение -> ПКМ -> Приложения -> Embed to JSON   |
+|         Get avatar        |      Получить аватар пользователя     |   Пользователь -> ПКМ -> Приложения -> Get avatar   |
+|         Get emojis        | Получить кастомные эмодзи в сообщении |     Сообщение -> ПКМ -> Приложения -> Get emojis    |
+|       Like the user       |         Лайкнуть пользователя         |  Пользователь -> ПКМ -> Приложения -> Like the user |
+|          Profile          |    Посмотреть профиль пользователя    |     Пользователь -> ПКМ -> Приложения -> Profile    |
+|       :hammer:Repeat      |   Повторить сообщение от имени бота   |       Сообщение -> ПКМ -> Приложения -> Repeat      |
