@@ -1,61 +1,61 @@
 # Table of contents
 
-* [WETBOT - Введение](README.md)
-* [Что такое репутация и удача?](rp-luck.md)
-* [Вайп](wipe.md)
-* [Премиум](premium.md)
-* [Выдача валюты и предметов за донат](vydacha-valyuty-i-predmetov-za-donat.md)
+* [WETBOT - Introduction](README.md)
+* [What is reputation and luck?](rp-luck.md)
+* [Wipe](wipe.md)
+* [Premium](premium.md)
+* [Issuance of currency and items for donate](vydacha-valyuty-i-predmetov-za-donat.md)
 
-## Команды
+## Commands
 
-* [Общие команды](komandy/general.md)
-* [Команды магазина](komandy/shop.md)
-* [Команды инвентаря](komandy/inventory.md)
-* [Команды профиля](komandy/profile.md)
-* [Контекстные команды](komandy/context.md)
-* [Команды администраторов](komandy/admins.md)
+* [General commands](commands/general.md)
+* [Shop commands](commands/shop.md)
+* [Inventory commands](commands/inventory.md)
+* [Profile commands](commands/profile.md)
+* [Context commands](commands/context.md)
+* [Administrators commands](commands/admins.md)
 
-## Руководство
+## Guide
 
-* [Настройка бота](rukovodstvo/settings.md)
-* [Настройка валюты сервера](rukovodstvo/currency.md)
-* [Получение валюты, опыта, репутации](rukovodstvo/receiving.md)
-* [Предметы](rukovodstvo/items/README.md)
-  * [Добавление предмета в магазин](rukovodstvo/items/shop.md)
-  * [Создание криптовалюты](rukovodstvo/items/cryptocurrency.md)
-  * [Авто-доставка предметов в магазин](rukovodstvo/items/auto-delivery.md)
-  * [Крафт предмета](rukovodstvo/items/craft.md)
-  * [Создание кейса](rukovodstvo/items/case.md)
-  * [Использование предмета](rukovodstvo/items/use.md)
-  * [Способы получения предмета](rukovodstvo/items/obtaining.md)
-* [Создание достижений](rukovodstvo/achievements.md)
-* [Создание бонусных каналов](rukovodstvo/bonuses.md)
-* [Создание квестов](rukovodstvo/quests.md)
-* [Червоточины](rukovodstvo/wormholes.md)
-* [Создание стилей червоточин](rukovodstvo/styles.md)
-* [Создание категории в магазине](rukovodstvo/categories.md)
-* [Создание доходных ролей](rukovodstvo/roles.md)
-* [Автоголосовые каналы](rukovodstvo/avc.md)
-* [Выпадающие роли (Select menu роли)](rukovodstvo/select-menu-roles.md)
-* [Создание подарков (manager-gifts)](rukovodstvo/gifts.md)
-* [Создание кастомных кнопок](rukovodstvo/buttons.md)
-* [Создание работы](rukovodstvo/jobs.md)
-* [Инвентарь ролей](rukovodstvo/inventory-roles.md)
-* [Создание кастомной роли](rukovodstvo/custom-role.md)
-* [Cron паттерны](rukovodstvo/cron-patterns.md)
+* [Setting up the bot](guide/settings.md)
+* [Setting up the server currency](guide/currency.md)
+* [Obtaining currency, experience, reputation](guide/receiving.md)
+* [Items](guide/items/README.md)
+  * [Adding an item to a shop](guide/items/shop.md)
+  * [Creating cryptocurrency](guide/items/cryptocurrency.md)
+  * [Auto-rental of items to shop](guide/items/auto-delivery.md)
+  * [Craft of the item](guide/items/craft.md)
+  * [Creating a case](guide/items/case.md)
+  * [Using the item](guide/items/use.md)
+  * [Ways to obtain an item](guide/items/obtaining.md)
+* [Creation of achievements](guide/achievements.md)
+* [Creation of bonus channels](guide/bonuses.md)
+* [Creation of quests](guide/quests.md)
+* [Wormholes](guide/wormholes.md)
+* [Creation of wormholes styles](guide/styles.md)
+* [Creating a category in the shop](guide/categories.md)
+* [Creating income roles](guide/roles.md)
+* [Autovoice channels](guide/avc.md)
+* [Select roles](guide/select-menu-roles.md)
+* [Creation of gifts (manager-gifts)](guide/gifts.md)
+* [Creating custom buttons](guide/buttons.md)
+* [Creating job](guide/jobs.md)
+* [Inventory of roles](guide/inventory-roles.md)
+* [Creating a custom role](guide/custom-role.md)
+* [Cron patterns](guide/cron-patterns.md)
 
-## Переменные
+## Variables
 
-* [Переменные: стили червоточин](peremennye/styles.md)
-* [Переменные: автоголосовые каналы](peremennye/avc.md)
-* [Переменные: работа](peremennye/jobs.md)
+* [Variables: wormholes styles](peremennye/styles.md)
+* [Variables: autovoice channels](peremennye/avc.md)
+* [Variables: Jobs](peremennye/jobs.md)
 
 ## API
 
-* [Документация по API](api/docs.md)
+* [API documentation](api/docs.md)
 
 ***
 
-* [Политика конфиденциальности](privacy-policy.md)
-* [Условия использования](terms-of-use.md)
-* [Авторы документации](authors.md)
+* [Privacy Policy](privacy-policy.md)
+* [The Terms of use](terms-of-use.md)
+* [The authors of the documentation](authors.md)
