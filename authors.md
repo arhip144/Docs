@@ -1,10 +1,10 @@
-# Authors of the documentation
+# Авторы документации
 
 <details>
 
 <summary>Braunder</summary>
 
-* Discord: braunder
+* Discord: Braunder#0600
 
 </details>
 
@@ -12,6 +12,6 @@
 
 <summary>AnthonyVault</summary>
 
-* Discord: anthonyvault
+* Discord: AnthonyVault#2077
 
 </details>

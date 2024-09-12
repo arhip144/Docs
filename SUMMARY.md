@@ -1,54 +1,61 @@
 # Table of contents
 
-* [📖 WETBOT - Introduction](README.md)
-* [⚜️ What is reputation and luck?](rp-luck.md)
-* [🔁 Wipe](wipe.md)
-* [⭐ Premium](premium.md)
+* [WETBOT - Введение](README.md)
+* [Что такое репутация и удача?](rp-luck.md)
+* [Вайп](wipe.md)
+* [Премиум](premium.md)
+* [Выдача валюты и предметов за донат](vydacha-valyuty-i-predmetov-za-donat.md)
 
-## 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Commands
+## Команды
 
-* [⭕ General commands](commands/general.md)
-* [🛒 Shop commands](commands/shop.md)
-* [🎒 Inventory commands](commands/inventory.md)
-* [👤 Profile commands](commands/profile.md)
-* [♾️ Context commands](commands/context.md)
-* [🔨 Admin commands](commands/admins.md)
+* [Общие команды](komandy/general.md)
+* [Команды магазина](komandy/shop.md)
+* [Команды инвентаря](komandy/inventory.md)
+* [Команды профиля](komandy/profile.md)
+* [Контекстные команды](komandy/context.md)
+* [Команды администраторов](komandy/admins.md)
 
-## 📚 Guide
+## Руководство
 
-* [⚙️ Setting the bot](guide/settings.md)
-* [🪙 Setting server currency](guide/currency.md)
-* [♦️ Receiving currency, experience, reputations](guide/receiving.md)
-* [📦 Create items](guide/items.md)
-* [💳 Adding items to shop](guide/shop.md)
-* [🏆 Create achievements](guide/achievements.md)
-* [🆙 Create bonuses channels](guide/bonuses.md)
-* [📑 Create quests](guide/quests.md)
-* [🌀 Wormholes](guide/wormholes.md)
-* [🎨 Create wormholes styles](guide/styles.md)
-* [🛍️ Create category for shop](guide/categories.md)
-* [🎭 Create income roles](guide/roles.md)
-* [🔊 Autovoice channels](guide/avc.md)
-* [📜 Select menu roles](guide/select-menu-roles.md)
-* [🎁 Create gifts (manager-gifts)](guide/gifts.md)
-* [🆒 Create custom buttons](guide/buttons.md)
-* [🏢 Create jobs](guide/jobs.md)
-* [📟 Cron patterns](guide/cron-patterns.md)
-* [🎭 Inventory roles](guide/inventory-roles.md)
-* [🎭 Create custom role](guide/create-custom-role.md)
+* [Настройка бота](rukovodstvo/settings.md)
+* [Настройка валюты сервера](rukovodstvo/currency.md)
+* [Получение валюты, опыта, репутации](rukovodstvo/receiving.md)
+* [Предметы](rukovodstvo/items/README.md)
+  * [Добавление предмета в магазин](rukovodstvo/items/shop.md)
+  * [Создание криптовалюты](rukovodstvo/items/cryptocurrency.md)
+  * [Авто-доставка предметов в магазин](rukovodstvo/items/auto-delivery.md)
+  * [Крафт предмета](rukovodstvo/items/craft.md)
+  * [Создание кейса](rukovodstvo/items/case.md)
+  * [Использование предмета](rukovodstvo/items/use.md)
+  * [Способы получения предмета](rukovodstvo/items/obtaining.md)
+* [Создание достижений](rukovodstvo/achievements.md)
+* [Создание бонусных каналов](rukovodstvo/bonuses.md)
+* [Создание квестов](rukovodstvo/quests.md)
+* [Червоточины](rukovodstvo/wormholes.md)
+* [Создание стилей червоточин](rukovodstvo/styles.md)
+* [Создание категории в магазине](rukovodstvo/categories.md)
+* [Создание доходных ролей](rukovodstvo/roles.md)
+* [Автоголосовые каналы](rukovodstvo/avc.md)
+* [Выпадающие роли (Select menu роли)](rukovodstvo/select-menu-roles.md)
+* [Создание подарков (manager-gifts)](rukovodstvo/gifts.md)
+* [Создание кастомных кнопок](rukovodstvo/buttons.md)
+* [Создание работы](rukovodstvo/jobs.md)
+* [Инвентарь ролей](rukovodstvo/inventory-roles.md)
+* [Создание кастомной роли](rukovodstvo/custom-role.md)
+* [Cron паттерны](rukovodstvo/cron-patterns.md)
 
-## 💾 Variables
+## Переменные
 
-* [Variables: wormholes styles](variables/styles.md)
-* [Variables: autovoice channels](variables/avc.md)
-* [Variables: jobs](variables/jobs.md)
+* [Переменные: стили червоточин](peremennye/styles.md)
+* [Переменные: автоголосовые каналы](peremennye/avc.md)
+* [Переменные: работа](peremennye/jobs.md)
 
-## 👨‍💻 API
+## API
 
-* [Docs for API](api/docs.md)
+* [Документация по API](api/docs.md)
 
 ***
 
-* [Privacy policy](privacy-policy.md)
-* [Terms of use](terms-of-use.md)
-* [Authors of the documentation](authors.md)
+* [Политика конфиденциальности](privacy-policy.md)
+* [Условия использования](terms-of-use.md)
+* [Авторы документации](authors.md)
