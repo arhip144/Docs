@@ -5,5 +5,5 @@ RP (Reputation) affects the discount amount in the store if a discount is enable
 
 ![:random:](https://cdn.discordapp.com/emojis/1005865190618828910.webp?size=44\&quality=lossless)Luck
 
-Luck affects finding items, fishing, and opening cases. The basic luck of the user without any boosts is 0%. The maximum luck of the user is 100%. With 100% luck, items with the smallest chance will be farmed. Chance generation formula: the smaller X, the rarer the item \[X = random(0, 100) - (random(0, 100) - %user luck)]
+Luck affects finding items, fishing, and opening cases. The basic luck of the user without any boosts is 0%. The maximum luck of the user is 100%. The higher the luck, the more the chance of finding an item with a small chance increases.
 
