@@ -1,8 +1,9 @@
 ---
 description: A guide to creating autovoice channels
+icon: microphone-lines
 ---
 
-# 🔊 Autovoice channels
+# Autovoice channels
 
 Select Auto-voice channels in the settings panel /manager-settings in the drop-down menu
 

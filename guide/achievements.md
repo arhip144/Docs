@@ -1,8 +1,9 @@
 ---
 description: Guide to creating achievements
+icon: trophy
 ---
 
-# 🏆 Create achievements
+# Create achievements
 
 To create an achievement, you need to execute the command /manager-achievements
 

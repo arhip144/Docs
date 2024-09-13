@@ -1,4 +1,8 @@
-# 🛒 Shop commands
+---
+icon: cart-shopping
+---
+
+# Shop commands
 
 {% hint style="success" %}
 The commands are available to all server users.

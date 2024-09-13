@@ -1,8 +1,9 @@
 ---
 description: Job Creation Guide
+icon: briefcase-blank
 ---
 
-# 🏢 Create jobs
+# Create jobs
 
 The main command for creating a job /manager-jobs
 

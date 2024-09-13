@@ -1,4 +1,8 @@
-# 👤 Profile commands
+---
+icon: square-user
+---
+
+# Profile commands
 
 {% hint style="warning" %}
 ⭐ - [Premium command](../premium.md) ([premium.md](../premium.md "mention"))

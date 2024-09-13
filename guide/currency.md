@@ -1,4 +1,8 @@
-# 🪙 Setting server currency
+---
+icon: circle-euro
+---
+
+# Setting server currency
 
 In order to set up the server currency, you need:
 

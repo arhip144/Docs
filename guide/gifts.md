@@ -1,8 +1,9 @@
 ---
 description: Guide to creating gifts on the server
+icon: gift
 ---
 
-# 🎁 Create gifts (manager-gifts)
+# Create gifts (manager-gifts)
 
 The main command for managing gifts - /manager-gifts
 

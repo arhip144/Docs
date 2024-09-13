@@ -1,4 +1,8 @@
-# 🎒 Inventory commands
+---
+icon: backpack
+---
+
+# Inventory commands
 
 {% hint style="success" %}
 The commands are available to all server users.

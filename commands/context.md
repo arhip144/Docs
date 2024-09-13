@@ -3,9 +3,10 @@ description: >-
   Contextual commands are executed by calling the context menu of the message or
   the user by pressing the RBM or pinching with a finger (for mobile devices),
   then selecting the "Applications" menu.
+icon: arrows-to-circle
 ---
 
-# ♾️ Context commands
+# Context commands
 
 {% hint style="info" %}
 RBM - right button mouse

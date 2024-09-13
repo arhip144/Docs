@@ -1,8 +1,9 @@
 ---
 description: A guide to creating buttons with the functionality of some commands
+icon: square-check
 ---
 
-# 🆒 Create custom buttons
+# Create custom buttons
 
 The main command for creating buttons /components
 

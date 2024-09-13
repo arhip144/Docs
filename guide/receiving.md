@@ -1,4 +1,8 @@
-# ♦️ Receiving currency, experience, reputations
+---
+icon: plus-large
+---
+
+# Receiving currency, experience, reputations
 
 To set up receiving currency/experience/reputation, you need to execute the /manager-settings command and select Receiving currency, experience, reputation in the drop-down menu
 

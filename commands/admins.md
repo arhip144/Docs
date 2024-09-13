@@ -1,4 +1,8 @@
-# 🔨 Admin commands
+---
+icon: lock
+---
+
+# Admin commands
 
 {% hint style="warning" %}
 The commands are available only to server administrators.

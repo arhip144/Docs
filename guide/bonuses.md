@@ -1,8 +1,9 @@
 ---
 description: Guide to creating bonus channels
+icon: hashtag
 ---
 
-# 🆙 Create bonuses channels
+# Create bonuses channels
 
 To add a bonus channel, we execute the command /manager-channels create \<channel>
 

@@ -1,8 +1,9 @@
 ---
 description: Bot Setup Guide
+icon: gear
 ---
 
-# ⚙️ Setting the bot
+# Setting the bot
 
 Execute the bot settings editing panel with the command [/manager-settings](../commands/admins.md)
 

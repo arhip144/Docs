@@ -1,8 +1,9 @@
 ---
 description: A guide to creating wormhole styles.
+icon: palette
 ---
 
-# 🎨 Create wormholes styles
+# Create wormholes styles
 
 {% content-ref url="wormholes.md" %}
 [wormholes.md](wormholes.md)

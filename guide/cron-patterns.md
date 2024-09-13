@@ -1,6 +1,10 @@
-# 📟 Cron patterns
+---
+icon: square-terminal
+---
 
-## Syntax of cron pattern&#x20;
+# Cron patterns
+
+## Syntax of cron pattern;
 
 ```
 // ┌──────────────── (optional) second (0 - 59)

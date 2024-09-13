@@ -1,8 +1,9 @@
 ---
 description: A Guide to creating income roles
+icon: coins
 ---
 
-# 🎭 Create income roles
+# Create income roles
 
 Execute the command to edit income roles with the command /manager-roles create \<role>
 

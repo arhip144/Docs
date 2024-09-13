@@ -1,8 +1,9 @@
 ---
 description: What's it? What are they for? How do I create it?
+icon: hurricane
 ---
 
-# 🌀 Wormholes
+# Wormholes
 
 ## What are wormholes?
 

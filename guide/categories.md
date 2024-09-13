@@ -1,8 +1,9 @@
 ---
 description: Guide to creating categories in the store
+icon: cart-plus
 ---
 
-# 🛍️ Create category for shop
+# Create category for shop
 
 {% content-ref url="items.md" %}
 [items.md](items.md)

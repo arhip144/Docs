@@ -1,4 +1,8 @@
-# ⭕ General commands
+---
+icon: circle
+---
+
+# General commands
 
 {% hint style="warning" %}
 ⭐ - Premium command ([premium.md](../premium.md "mention"))

@@ -1,8 +1,9 @@
 ---
 description: 'Command guide: /wipe'
+icon: arrows-retweet
 ---
 
-# 🔁 Wipe
+# Wipe
 
 You can clear everything related to WETBOT.
 

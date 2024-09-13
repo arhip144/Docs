@@ -1,4 +1,8 @@
-# 🎭 Inventory roles
+---
+icon: masks-theater
+---
+
+# Inventory roles
 
 To view the inventory of roles, enter the command [/inventory-roles](../commands/inventory.md)
 

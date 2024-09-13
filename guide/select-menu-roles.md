@@ -1,8 +1,9 @@
 ---
 description: Guide to creating drop-down roles
+icon: square-chevron-down
 ---
 
-# 📜 Select menu roles
+# Select menu roles
 
 Execute the /dropdown-roles command and select the roles (Up to 25 roles)
 

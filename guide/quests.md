@@ -1,8 +1,9 @@
 ---
 description: Guide to creating a quest
+icon: scroll
 ---
 
-# 📑 Create quests
+# Create quests
 
 Execute the quest control panel with the command /manager-quests create \<name>
 
