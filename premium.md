@@ -19,7 +19,7 @@ icon: star-shooting
 :warning:Покупая премиум, Вы соглашаетесь с [условиями использования](terms-of-use.md)
 
 {% hint style="info" %}
-Купить с помощью команды [/c](commands/profile.md)[ookies buy](commands/profile.md)\
+Купить с помощью команды [/cookies buy bank\_card](commands/profile.md)\
 Курс: :cookie:1 / 2₽
 {% endhint %}
 
@@ -27,16 +27,16 @@ icon: star-shooting
 
 ### Голосуй на <img src="https://images-ext-1.discordapp.net/external/w2UU3jC192hG5eqSQjuoX3lAU2dSfvXoHN7UOUoAQ7Y/https/psv4.vkuseraudio.net/s/v1/d/FYCkXQbC2ZSqz-MtQmuoRrN-Ba0xpPGqh9zUgK9EUv8JtDwAyDxPTfFA29hhoSIc4YHeBvqHVBPqF77gM4xw685l3DGiZ6Z95xTNw6ZClusydOtoVAwefQ/logo-full-v2.png?format=webp&#x26;quality=lossless" alt="" data-size="line">boticord.top и получай печеньки!
 
-Голосуя за WETBOT на [boticord.top](https://boticord.top/bot/801814636168740914) каждые 6 часов, ты поддерживаешь разваите бота и будешь получать бесплатные печеньки за каждый голос.\
+Голосуя за WETBOT на [boticord.top](https://boticord.top/bot/801814636168740914) каждые 6 часов, ты поддерживаешь развитие бота и будешь получать бесплатные печеньки за каждый голос.\
 1 голос = 1:cookie:
 
 ### Голосуй на <img src="https://images-ext-1.discordapp.net/external/MVP_RT0s6Mq0Ye8tA_DGY-GgBqPk09-d35q0-2T76A0/https/blog.top.gg/content/images/2021/12/Avatar---New-Logo-2.png?format=webp&#x26;quality=lossless" alt="" data-size="line">top.gg и получай печеньки!
 
-Голосуя за WETBOT на [top.gg](https://top.gg/bot/801814636168740914) каждые 12 часов, ты поддерживаешь разваите бота и будешь получать бесплатные печеньки за каждый голос.\
+Голосуя за WETBOT на [top.gg](https://top.gg/bot/801814636168740914) каждые 12 часов, ты поддерживаешь развитие бота и будешь получать бесплатные печеньки за каждый голос.\
 1 голос = 1:cookie:
 
 ### Внимание
 
 Количество :cookie:печенек можно посмотреть в профиле **/profile** \
 Для выдачи :cookie:печенек серверу используй команду /cookies give `<количество>`\
-:octagonal\_sign:При использовании нескольких акканутов для апвота бота - вы будете **ЗАБЛОКИРОВАНЫ**!
+:octagonal\_sign:При использовании нескольких аккаунтов для апвота бота - вы будете **ЗАБЛОКИРОВАНЫ**!
