@@ -6,15 +6,11 @@ icon: repeat-1
 
 In order for your items to be automatically added to the shop, you need to go to the "Shop" section, click on the "Select the necessary" button and select either the day, or the weekly or monthly auto-delivery.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Type of auto-delivery
 
 After which the bot will offer to choose the type of auto-delivery
-
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

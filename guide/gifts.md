@@ -1,6 +1,6 @@
 ---
-description: Guide to creating gifts on the server
 icon: gift
+description: Guide to creating gifts on the server
 ---
 
 # Create gifts (manager-gifts)
@@ -44,7 +44,7 @@ The item ID can include the following parameters
 ![](<../.gitbook/assets/Скриншот 07-02-2023 233506.png>)
 
 {% hint style="info" %}
-### ✔️How do I create a button with a generated ID?
+#### ✔️How do I create a button with a generated ID?
 
 1. You need to execute the command /components buttons add
 2. The message\_url argument (link\_to\_message): Insert a link to a BOT message (can be generated using the /embed-generator or /say command) for which you want to attach a button

@@ -1,15 +1,15 @@
 ---
-description: Guide to create, edit and delete items
 icon: box
+description: Guide to create, edit and delete items
 ---
 
 # Items
 
 ## Creating an item
 
-To create an item, execute the command[ /manager-items create <item name>](../../commands/admins.md)
+To create an item, execute the command[ /manager-items create](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The maximum length of the name of the item 30 characters
@@ -17,21 +17,21 @@ The maximum length of the name of the item 30 characters
 
 ## Editing the item
 
-To edit the item, execute the command [/manager-items edit <item name>](../../commands/admins.md)
+To edit the item, execute the command [/manager-items edit](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Removing the item
 
-To delete the item, execute the command [/manager-items delete <item name>](../../commands/admins.md)
+To delete the item, execute the command [/manager-items delete](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Copying the item
 
-To copy the item, execute the command [/manager-items copy <item name> <name of new item>](../../commands/admins.md)
+To copy the item, execute the command [/manager-items copy](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ## Item management guide
 
