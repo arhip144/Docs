@@ -18,4 +18,4 @@ Types of achievements with which questions arise:
 * Bump the server XX times - it all depends on the bot you use for monitoring (Standard commands /bump, /up, /like)
 * Find all items - Extraordinary rarity items are not counted
 
-In the "Edit Achievement" panel, you can change the name/ add items related to the goal/ change the achievement emoji and so on
+In the "Edit Achievement" panel, you can change the name / add items related to the goal / change the achievement emoji and so on

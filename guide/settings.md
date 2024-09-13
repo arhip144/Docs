@@ -24,3 +24,6 @@ Here you can configure:
 * Roles Counter-Strike 2
 * Logs
 * Starter Kit
+* API
+* Custom roles
+* Market settings

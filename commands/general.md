@@ -22,10 +22,9 @@ The commands are available to all server users.
 |    ⭐/market   |                                     User Item Market                                     |               No               |
 |  /monitorings |                           Vote for WETBOT and get free cookies                           |               No               |
 |     /ping     |                            Technical information about the bot                           |               No               |
-|  /top-upvotes |                          View user leaderboard by votes/cookies                          |               No               |
 |      /top     |                                View the server leaderboard                               |               No               |
 | /voice-active | List of users who are currently gaining experience, currency, items in the voice channel |               No               |
-|   /wormholes  |                                 View all server wormholes                                |               No               |
+|   /wormhole   |                              View information about wormhole                             |             \<name>            |
 |     /work     |                                        Go to work                                        |           \[job name]          |
 |  /custom-role |                                   Create a custom-role                                   |               No               |
 

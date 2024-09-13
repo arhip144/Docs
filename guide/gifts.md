@@ -6,7 +6,7 @@ description: Guide to creating gifts on the server
 
 The main command for managing gifts - /manager-gifts
 
-## ✔️Menu: Edit             <img src="../.gitbook/assets/Скриншот 07-02-2023 230810.png" alt="" data-size="original">
+## ✔️Menu: Edit <img src="../.gitbook/assets/Скриншот 07-02-2023 230810.png" alt="" data-size="original">
 
 * Comment - after receiving the gift, the user will see this comment.![](<../.gitbook/assets/Скриншот 07-02-2023 233016.png>)
 * Thumbnail - displayed in the upper right corner after receiving the gift\
@@ -20,19 +20,14 @@ The main command for managing gifts - /manager-gifts
 * Start and end dates - the dates during which it will be possible to receive a gift
 * Turn Off / On - allows you to turn on and off the gift, in the off state - it will not be able to receive
 
-
-
 ## ✔️Button: Permissions
 
-Allows you to select an existing preset of permissions\
-
+Allows you to select an existing preset of permissions\\
 
 ## ✔️Button: Members![](<../.gitbook/assets/Скриншот 07-02-2023 231156.png>)
 
 Allows you to edit members for this gift: set/delete the date of the last receipt, the number of receipts for any user\
 <img src="../.gitbook/assets/Скриншот 07-02-2023 233244.png" alt="" data-size="original">
-
-
 
 ## ✔️Button: Items ![](<../.gitbook/assets/Скриншот 07-02-2023 231307.png>)
 
@@ -47,10 +42,8 @@ The item ID can include the following parameters
 
 ![](<../.gitbook/assets/Скриншот 07-02-2023 233506.png>)
 
-
-
 {% hint style="info" %}
-## ✔️How do I create a button with a generated ID?
+### ✔️How do I create a button with a generated ID?
 
 1. You need to execute the command /components buttons add
 2. The message\_url argument (link\_to\_message): Insert a link to a BOT message (can be generated using the /embed-generator or /say command) for which you want to attach a button

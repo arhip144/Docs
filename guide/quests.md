@@ -4,7 +4,7 @@ description: Guide to creating a quest
 
 # 📑 Create quests
 
-Execute the quest control panel with the command /manager-quests
+Execute the quest control panel with the command /manager-quests create \<name>
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_111857094.png" alt=""><figcaption><p>Управление квестами</p></figcaption></figure>
 
@@ -53,12 +53,11 @@ After all the settings, the quest will look something like this:
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_114946238.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-You can add objects to goals: \
-Let's say there is a goal "To fish 10 times", but if you add an object to this goal as an object, for example, a perch, then the goal will already be "Catch a Perch 10 times" \
+You can add objects to goals:\
+Let's say there is a goal "To fish 10 times", but if you add an object to this goal as an object, for example, a perch, then the goal will already be "Catch a Perch 10 times"\
 For example, for the goal "To write 5 messages", you can add the channel ID as an object, then the goal will already be "Write 5 messages in a general chat" This gives a huge number of variations of goals.
 {% endhint %}
 
 {% hint style="info" %}
 — Daily/weekly quest with the "Repeated" type can be performed an unlimited number of times a day/ week — Daily/weekly inactive quests cannot be obtained randomly, but they can be obtained through the "Take a quest" button
 {% endhint %}
-

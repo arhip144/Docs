@@ -3,7 +3,7 @@
 * [📖 WETBOT - Introduction](README.md)
 * [⚜️ What is reputation and luck?](rp-luck.md)
 * [🔁 Wipe](wipe.md)
-* [⭐ Premium](premium.md)
+* [Premium](premium.md)
 
 ## 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Commands
 
@@ -19,7 +19,7 @@
 * [⚙️ Setting the bot](guide/settings.md)
 * [🪙 Setting server currency](guide/currency.md)
 * [♦️ Receiving currency, experience, reputations](guide/receiving.md)
-* [📦 Create items](guide/items.md)
+* [📦 Create items](guide/create-items.md)
 * [💳 Adding items to shop](guide/shop.md)
 * [🏆 Create achievements](guide/achievements.md)
 * [🆙 Create bonuses channels](guide/bonuses.md)
