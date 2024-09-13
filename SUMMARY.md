@@ -5,7 +5,7 @@
 * [Wipe](wipe.md)
 * [Premium](premium.md)
 
-## Commands <a href="#commands" id="commands"></a>
+## Commands
 
 * [General commands](commands/general.md)
 * [Shop commands](commands/shop.md)
@@ -14,7 +14,7 @@
 * [Context commands](commands/context.md)
 * [Admin commands](commands/admins.md)
 
-## Guide <a href="#guide" id="guide"></a>
+## Guide
 
 * [Setting the bot](guide/settings.md)
 * [Setting server currency](guide/currency.md)
@@ -43,7 +43,7 @@
 * [Inventory roles](guide/inventory-roles.md)
 * [Create custom role](guide/create-custom-role.md)
 
-## Variables <a href="#variables" id="variables"></a>
+## Variables
 
 * [Variables: wormholes styles](variables/styles.md)
 * [Variables: autovoice channels](variables/avc.md)

@@ -2,9 +2,10 @@
 description: >-
   An economic bot with the ability to create items, achievements, quests, income
   roles, select menu roles
+icon: book-open
 ---
 
-# 📖 WETBOT - Introduction
+# WETBOT - Introduction
 
 ### **Bot invitation link**
 
@@ -12,7 +13,11 @@ description: >-
 
 ### Support server
 
-[https://discord.gg/9ujyUb5vYy](https://discord.gg/9ujyUb5vYy)
+{% embed url="https://discord.gg/9ujyUb5vYy" %}
+
+### Website
+
+{% embed url="https://wetbot.space/" %}
 
 ### Recommended bot permissions
 
@@ -60,8 +65,8 @@ description: >-
 
 ## Managers
 
-{% content-ref url="guide/items.md" %}
-[items.md](guide/items.md)
+{% content-ref url="guide/items/" %}
+[items](guide/items/)
 {% endcontent-ref %}
 
 {% content-ref url="guide/achievements.md" %}
@@ -98,4 +103,8 @@ description: >-
 
 {% content-ref url="guide/select-menu-roles.md" %}
 [select-menu-roles.md](guide/select-menu-roles.md)
+{% endcontent-ref %}
+
+{% content-ref url="guide/jobs.md" %}
+[jobs.md](guide/jobs.md)
 {% endcontent-ref %}
