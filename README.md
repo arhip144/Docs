@@ -71,8 +71,8 @@ description: >-
 [items](guide/items/)
 {% endcontent-ref %}
 
-{% content-ref url="guide/dostizheniya/" %}
-[dostizheniya](guide/dostizheniya/)
+{% content-ref url="guide/achievements/" %}
+[achievements](guide/achievements/)
 {% endcontent-ref %}
 
 {% content-ref url="guide/bonuses.md" %}

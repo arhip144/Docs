@@ -1,6 +1,22 @@
 ---
-description: Руководство по созданию, редактированию и удалению достижения
 icon: trophy
+description: Руководство по созданию, редактированию и удалению достижения
+cover: ../../.gitbook/assets/achievements.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Достижения
@@ -33,18 +49,18 @@ icon: trophy
 
 ***
 
-{% content-ref url="tipy-zadach-dostizheniya.md" %}
-[tipy-zadach-dostizheniya.md](tipy-zadach-dostizheniya.md)
+{% content-ref url="types.md" %}
+[types.md](types.md)
 {% endcontent-ref %}
 
-{% content-ref url="nagrady-dostizheniya.md" %}
-[nagrady-dostizheniya.md](nagrady-dostizheniya.md)
+{% content-ref url="rewards.md" %}
+[rewards.md](rewards.md)
 {% endcontent-ref %}
 
-{% content-ref url="emodzi-dostizheniya.md" %}
-[emodzi-dostizheniya.md](emodzi-dostizheniya.md)
+{% content-ref url="emoji.md" %}
+[emoji.md](emoji.md)
 {% endcontent-ref %}
 
-{% content-ref url="deistviya-s-dostizheniem.md" %}
-[deistviya-s-dostizheniem.md](deistviya-s-dostizheniem.md)
+{% content-ref url="actions.md" %}
+[actions.md](actions.md)
 {% endcontent-ref %}
