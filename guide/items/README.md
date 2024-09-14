@@ -1,6 +1,6 @@
 ---
-description: Руководство по созданию, редактированию и удалению предметов
 icon: box
+description: Руководство по созданию, редактированию и удалению предметов
 ---
 
 # Предметы
@@ -9,7 +9,7 @@ icon: box
 
 Для создания предмета выполняем команду[ /manager-items create <название предмета>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Максимальная длина названия предмета 30 символов
@@ -19,19 +19,19 @@ icon: box
 
 Для редактирования предмета выполняем команду [/manager-items edit <название предмета>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Удаление предмета
 
 Для удаления предмета выполняем команду [/manager-items delete <название предмета>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Копирование предмета
 
 Для копирования предмета выполняем команду [/manager-items copy <название предмета> <название нового предмета>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Руководство по управлению предметом
 

@@ -1,8 +1,8 @@
 ---
+icon: book-open
 description: >-
   Экономический бот с возможностью создавать предметы, достижения, квесты,
   доходные роли, select menu роли
-icon: book-open
 ---
 
 # WETBOT - Введение
@@ -71,8 +71,8 @@ icon: book-open
 [items](guide/items/)
 {% endcontent-ref %}
 
-{% content-ref url="guide/achievements.md" %}
-[achievements.md](guide/achievements.md)
+{% content-ref url="guide/dostizheniya/" %}
+[dostizheniya](guide/dostizheniya/)
 {% endcontent-ref %}
 
 {% content-ref url="guide/bonuses.md" %}

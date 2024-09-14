@@ -4,19 +4,19 @@ icon: screwdriver-wrench
 
 # Крафт предмета
 
-Для создания рецепта крафта, необходимо перейти в раздел "Создание" и нажать ![](<../../.gitbook/assets/image (10).png>)
+Для создания рецепта крафта, необходимо перейти в раздел "Создание" и нажать ![](<../../.gitbook/assets/image (10) (1).png>)
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 Бот предложит добавить в рецепт валюту или предмет
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Добавляем необходимые предметы в рецепт и нажимаем кнопку "Далее"
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройки рецепта
 
@@ -26,7 +26,7 @@ icon: screwdriver-wrench
 
 Кулдаун - через сколько времени этот рецепт можно будет вновь использовать для крафта предмета
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

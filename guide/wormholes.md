@@ -1,6 +1,6 @@
 ---
-description: Что это? Для чего они? Как создать?
 icon: hurricane
+description: Что это? Для чего они? Как создать?
 ---
 
 # Червоточины
@@ -71,8 +71,8 @@ icon: hurricane
 1. Дотронуться до червоточины N раз
 2. Заспавнить червоточину N раз
 
-{% content-ref url="achievements.md" %}
-[achievements.md](achievements.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Тематические задачи для квестов
