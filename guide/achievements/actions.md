@@ -1,6 +1,6 @@
 ---
 icon: location-crosshairs
-cover: ../../.gitbook/assets/Действия с достижением.png
+cover: ../../.gitbook/assets/Действия с достижением (1).png
 coverY: 0
 layout:
   cover:

@@ -1,6 +1,6 @@
 ---
 icon: font-awesome
-cover: ../../.gitbook/assets/Типы достижений (1).png
+cover: ../../.gitbook/assets/Типы достижений (2).png
 coverY: 0
 layout:
   cover:

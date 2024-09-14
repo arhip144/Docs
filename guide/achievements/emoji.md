@@ -1,6 +1,6 @@
 ---
 icon: face-smile-relaxed
-cover: ../../.gitbook/assets/Эмодзи достижения.png
+cover: ../../.gitbook/assets/Эмодзи достижения (1).png
 coverY: 0
 layout:
   cover:

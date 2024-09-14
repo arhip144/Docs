@@ -1,6 +1,6 @@
 ---
 icon: gift
-cover: ../../.gitbook/assets/Награды достижений.png
+cover: ../../.gitbook/assets/Награды достижений (1).png
 coverY: 0
 layout:
   cover:
