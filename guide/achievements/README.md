@@ -25,25 +25,25 @@ layout:
 
 Для создания достижения выполняем команду[ /manager-achievements create <название достижения>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## Редактирование достижения
 
 Для редактирования достижения выполняем команду [/manager-achievements edit <название достижения>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Удаление достижения
 
 Для удаления достижения выполняем команду [/manager-items achievements <название достижения>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Копирование достижения
 
 Для копирования достижения  выполняем команду [/manager-achievements copy <название достижения> <название нового достижения>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Руководство по управлению достижением
 

@@ -6,7 +6,7 @@ icon: repeat-1
 
 Чтобы ваши предметы автоматически добавлялись в магазин, необходимо перейти в раздел "Магазин", нажать на кнопку "Выберите нужное" и выбрать либо дневную, либо недельную, либо месячную авто-доставку.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -14,7 +14,7 @@ icon: repeat-1
 
 После чего бот предложит выбрать тип авто-доставки
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -19,19 +19,19 @@ description: Руководство по созданию, редактиров�
 
 Для редактирования предмета выполняем команду [/manager-items edit <название предмета>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Удаление предмета
 
 Для удаления предмета выполняем команду [/manager-items delete <название предмета>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Копирование предмета
 
 Для копирования предмета выполняем команду [/manager-items copy <название предмета> <название нового предмета>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Руководство по управлению предметом
 

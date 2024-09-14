@@ -24,15 +24,15 @@ layout:
 
 Для добавления награды в достижение необходимо находится на странице редактирования нажать на "Редактировать достижение"
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 После этого нажать на "Добавить награду"
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Бот предложит выбрать тип награды
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Максимальное количество наград в достижении - 5
 
@@ -40,7 +40,7 @@ layout:
 
 Для удаления награды из достижение необходимо находится на странице редактирования нажать на "Редактировать достижение"
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 После этого нажать на "Удалить награду"
 

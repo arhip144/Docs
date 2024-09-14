@@ -24,7 +24,7 @@ layout:
 
 В свою задачу можно написать всё что угодно. Но автоматически достижение получить нельзя, только администраторской командой [/achievement-give-to-user <юзер> <название достижения>](../../commands/admins.md)
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Как и любое другое достижение, его можно выдать с помощью API
 
@@ -119,7 +119,7 @@ layout:
 
 Достижение выдаётся после того, как пользователь найдет все предметы по одному разу. Найденные предметы можно смотреть по команде [/items](../../commands/general.md), которые отмечены зелёной галкой.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Создать раздачу XX раз
 

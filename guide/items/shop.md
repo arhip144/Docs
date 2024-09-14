@@ -6,14 +6,14 @@ icon: cart-shopping
 
 Для добавления предмета в магазин, необходимо перейти в раздел "Магазин"
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Чтобы предмет появился в магазине, обязательно нужно настроить:
 
 1. Количество больше 0
 2. Цену предмета
-3. Нажать кнопку ![](<../../.gitbook/assets/image (6) (1).png>)
+3. Нажать кнопку ![](<../../.gitbook/assets/image (6) (1) (1).png>)
 4. Предмет должен быть создан, т.е. в разделе "Финиш" нажать кнопку "Создать", если до этого не нажимали
 5. У предмета должно быть свойство "Видимый"
 {% endhint %}

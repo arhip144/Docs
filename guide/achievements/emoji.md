@@ -22,7 +22,7 @@ layout:
 
 Для изменения эмодзи достижения, необходимо находится на странице редактирования нажать на "Редактировать достижение"
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 После этого нажать "Изменить эмодзи"
 
