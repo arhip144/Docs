@@ -28,6 +28,7 @@
   * [Создание кейса](guide/items/case.md)
   * [Использование предмета](guide/items/use.md)
   * [Способы получения предмета](guide/items/obtaining.md)
+  * [Сортировка](guide/items/sort.md)
 * [Достижения](guide/achievements/README.md)
   * [Типы задач достижения](guide/achievements/types.md)
   * [Награды достижения](guide/achievements/rewards.md)
