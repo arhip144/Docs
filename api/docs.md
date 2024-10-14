@@ -904,5 +904,127 @@
 }
 ```
 {% endtab %}
+
+{% tab title="Выдать достижение" %}
+Тип: POST\
+Путь: `/api/guilds/:guildId/users/:userId/achievements/:achievementId`\
+Параметры: \
+:guildId - ID сервера\
+:userId - ID пользователя\
+:achievementId - ID достижения
+
+Возвращаемое значение объект достижения:
+
+```javascript
+{
+    id: //String
+    guildID: //String
+    name: //String
+    emoji: //String
+    type: //Object || Number
+    amount: //Number
+    items: //Array
+    roles: //Array
+    rewards: [{
+        type: //Number
+        id: //String
+        amount: //Number
+    }],
+    enable: //Boolean
+    disabled_due_to_premium: //Boolean
+}
+```
+{% endtab %}
+
+{% tab title="Получить достижение" %}
+Тип: GET\
+Путь: `/api/guilds/:guildId/users/:userId/achievements/:achievementId`\
+Параметры: \
+:guildId - ID сервера\
+:userId - ID пользователя\
+:achievementId - ID достижения
+
+Возвращаемое значение объект достижения:
+
+```javascript
+{
+    id: //String
+    guildID: //String
+    name: //String
+    emoji: //String
+    type: //Object || Number
+    amount: //Number
+    items: //Array
+    roles: //Array
+    rewards: [{
+        type: //Number
+        id: //String
+        amount: //Number
+    }],
+    enable: //Boolean
+    disabled_due_to_premium: //Boolean
+}
+```
+{% endtab %}
+
+{% tab title="Забрать достижение у пользователя" %}
+Тип: DELETE\
+Путь: `/api/guilds/:guildId/achievements`\
+Параметры: \
+:guildId - ID сервера
+
+Возвращаемое значение массив объектов достижений:
+
+```javascript
+[{
+    id: //String
+    guildID: //String
+    name: //String
+    emoji: //String
+    type: //Object || Number
+    amount: //Number
+    items: //Array
+    roles: //Array
+    rewards: [{
+        type: //Number
+        id: //String
+        amount: //Number
+    }],
+    enable: //Boolean
+    disabled_due_to_premium: //Boolean
+}]
+```
+{% endtab %}
+
+{% tab title="Получить достижения сервера" %}
+Тип: GET\
+Путь: `/api/guilds/:guildId/users/:userId/achievements/:achievementId`\
+Параметры: \
+:guildId - ID сервера\
+:userId - ID пользователя\
+:achievementId - ID достижения
+
+Возвращаемое значение объект достижения:
+
+```javascript
+{
+    id: //String
+    guildID: //String
+    name: //String
+    emoji: //String
+    type: //Object || Number
+    amount: //Number
+    items: //Array
+    roles: //Array
+    rewards: [{
+        type: //Number
+        id: //String
+        amount: //Number
+    }],
+    enable: //Boolean
+    disabled_due_to_premium: //Boolean
+}
+```
+{% endtab %}
 {% endtabs %}
 
