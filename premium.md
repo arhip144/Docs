@@ -16,7 +16,7 @@ icon: star-shooting
 
 Премиум навсегда - :cookie:500 - 1000₽
 
-:warning:Покупая премиум, Вы соглашаетесь с [условиями использования](terms-of-use.md)
+:warning:Покупая премиум, Вы соглашаетесь с [условиями использования](legal/terms-of-use.md)
 
 {% hint style="info" %}
 Купить с помощью команды [/cookies buy bank\_card](commands/profile.md)\

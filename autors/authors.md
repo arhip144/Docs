@@ -4,7 +4,7 @@
 
 <summary>Braunder</summary>
 
-* Discord: Braunder#0600
+* Discord: braunder
 
 </details>
 
@@ -12,6 +12,6 @@
 
 <summary>AnthonyVault</summary>
 
-* Discord: AnthonyVault#2077
+* Discord: anthonyvault
 
 </details>

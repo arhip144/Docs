@@ -65,14 +65,14 @@ ID сервера\
 ### [.type](achievement.md#type)
 
 Тип достижения\
-Тип: AchievementDataType | [AchievementType](achievement-type.md)
+Тип: [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/String) | [AchievementType](achievement-type.md)
 
 ***
 
 ### [.amount](achievement.md#amount)
 
 Количество для выполнения\
-Тип: [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Number)
+Тип: ?[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Number)
 
 ***
 

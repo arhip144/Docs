@@ -91,8 +91,12 @@
   * [AchievementType](api/data-types/achievement-type.md)
   * [RewardData](api/data-types/reward-data.md)
 
-***
+## Юридическая информация <a href="#legal" id="legal"></a>
 
-* [Политика конфиденциальности](privacy-policy.md)
-* [Условия использования](terms-of-use.md)
-* [Авторы документации](authors.md)
+* [Политика конфиденциальности](legal/privacy-policy.md)
+* [Условия использования](legal/terms-of-use.md)
+
+## Авторы <a href="#autors" id="autors"></a>
+
+* [Разработчик бота](autors/razrabotchik-bota.md)
+* [Авторы документации](autors/authors.md)

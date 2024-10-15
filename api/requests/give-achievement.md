@@ -7,8 +7,4 @@
 :userId - ID пользователя\
 :achievementId - ID достижения
 
-Возвращаемое значение объект достижения:
-
-{% content-ref url="../data-types/wormhole.md" %}
-[wormhole.md](../data-types/wormhole.md)
-{% endcontent-ref %}
+Возвращаемое значение: [Achievement](../data-types/achievement.md)

@@ -1,14 +1,8 @@
 # Получить достижения сервера
 
 Тип: GET\
-Путь: `/api/guilds/:guildId/users/:userId/achievements/:achievementId`\
+Путь: `/api/guilds/:guildId/achievements`\
 Параметры: \
-:guildId - ID сервера\
-:userId - ID пользователя\
-:achievementId - ID достижения
+:guildId - ID сервера
 
-Возвращаемое значение объект достижения:
-
-{% content-ref url="../data-types/achievement.md" %}
-[achievement.md](../data-types/achievement.md)
-{% endcontent-ref %}
+Возвращаемое значение: [Array ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array)<[Achievement](../data-types/achievement.md)>

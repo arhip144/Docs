@@ -1,12 +1,10 @@
 # Забрать достижение у пользователя
 
 Тип: DELETE\
-Путь: `/api/guilds/:guildId/achievements`\
+Путь: `/api/guilds/:guildId/users/:userId/achievements/:achievementId`\
 Параметры: \
-:guildId - ID сервера
+:guildId - ID сервера\
+:userId - ID пользователя\
+:achievementId - ID достижения
 
-Возвращаемое значение массив объектов достижений:
-
-{% content-ref url="../data-types/achievement.md" %}
-[achievement.md](../data-types/achievement.md)
-{% endcontent-ref %}
+Возвращаемое значение: [Achievement](../data-types/achievement.md)

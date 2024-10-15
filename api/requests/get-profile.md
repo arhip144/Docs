@@ -6,8 +6,4 @@
 :guildId - ID сервера\
 :userId - ID пользователя
 
-Возвращаемое значение объект профиля пользователя:
-
-{% content-ref url="../data-types/profile.md" %}
-[profile.md](../data-types/profile.md)
-{% endcontent-ref %}
+Возвращаемое значение: [Profile](../data-types/profile.md)
