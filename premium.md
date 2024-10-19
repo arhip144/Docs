@@ -19,7 +19,7 @@ icon: star-shooting
 :warning:Покупая премиум, Вы соглашаетесь с [условиями использования](legal/terms-of-use.md)
 
 {% hint style="info" %}
-Купить с помощью команды [/cookies buy bank\_card](commands/profile.md) или [/cookies buy ](commands/profile.md)[boosty](commands/profile.md)\
+Купить с помощью команды [/cookies buy yookassa](commands/profile.md) или [/cookies buy ](commands/profile.md)[boosty](commands/profile.md)\
 Курс: :cookie:1 / 2₽
 {% endhint %}
 
