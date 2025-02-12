@@ -96,8 +96,8 @@
 * [Политика конфиденциальности](legal/privacy-policy.md)
 * [Условия использования](legal/terms-of-use.md)
 
-## Авторы <a href="#autors" id="autors"></a>
+## Авторы <a href="#authors" id="authors"></a>
 
-* [Разработчик бота](autors/razrabotchik-bota.md)
-* [Авторы документации](autors/authors.md)
-* [Отдельные благодарности](autors/special-thanks.md)
+* [Разработчик бота](authors/razrabotchik-bota.md)
+* [Авторы документации](authors/authors.md)
+* [Отдельные благодарности](authors/special-thanks.md)
