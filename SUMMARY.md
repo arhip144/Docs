@@ -100,4 +100,4 @@
 
 * [Разработчик бота](autors/razrabotchik-bota.md)
 * [Авторы документации](autors/authors.md)
-* [Отдельные благодарности](autors/otdelnye-blagodarnosti.md)
+* [Отдельные благодарности](autors/special-thanks.md)
