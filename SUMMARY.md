@@ -58,3 +58,4 @@
 * [Privacy policy](privacy-policy.md)
 * [Terms of use](terms-of-use.md)
 * [Authors of the documentation](authors.md)
+* [Special thanks](special-thanks.md)
