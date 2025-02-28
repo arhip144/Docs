@@ -12,15 +12,15 @@ To find out about the status of the premium or to buy a premium, use the command
 
 ***
 
-1 month of premium - :cookie:100 - 2$
+1 month of premium - :cookie:100 - 6$
 
-Premium forever - :cookie:500 - 10$
+Premium forever - :cookie:500 - 30$
 
 :warning:Buying premium, you agree with [use conditions](terms-of-use.md)
 
 {% hint style="info" %}
 Buy with the command [/cookies buy crypto](commands/profile.md)\
-Rate: :cookie:1 / 0.02$
+Rate: :cookie:1 / 0.06$
 {% endhint %}
 
 ## :cookie:Free cookies
