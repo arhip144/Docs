@@ -12,15 +12,15 @@ icon: star-shooting
 
 ***
 
-1 месяц премиума -  :cookie:100 - 200₽
+1 месяц премиума -  :cookie:100 - 600₽
 
-Премиум навсегда - :cookie:500 - 1000₽
+Премиум навсегда - :cookie:500 - 3000₽
 
 :warning:Покупая премиум, Вы соглашаетесь с [условиями использования](legal/terms-of-use.md)
 
 {% hint style="info" %}
 Купить с помощью команды [/cookies buy yookassa](commands/profile.md)\
-Курс: :cookie:1 / 2₽
+Курс: :cookie:1 / 6₽
 {% endhint %}
 
 ## :cookie:Бесплатные печеньки
