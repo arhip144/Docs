@@ -32,7 +32,7 @@ The arguments "label" or "emoji" are required
 |      row     |   The row of the component where the button will be removed  |    Yes   |
 |    column    | The column of the component where the button will be removed |    Yes   |
 
-## Доступные команды для кнопок:
+## Available commands for buttons:
 
 {% tabs %}
 {% tab title="Get gift" %}
@@ -120,7 +120,7 @@ Arguments:
 {% endtab %}
 
 {% tab title="Give item" %}
-ID: cmd{give-item}item{itemId}amount{10}usr{userId}
+ID: cmd{give-item}item{itemId}amount{10}
 
 Arguments:
 
@@ -134,7 +134,7 @@ Arguments:
 {% endtab %}
 
 {% tab title="Take item" %}
-ID: cmd{take-item}item{itemId}amount{10}usr{userId}
+ID: cmd{take-item}item{itemId}amount{10}
 
 Arguments:
 
@@ -156,7 +156,6 @@ Arguments:
 | :---: | :-------------------------------------------------------------------------------------: | :------: |
 |  eph  | If there is, then the message will be visible only to the person who pressed the button |    No    |
 | reply |                If there is, the message will be sent as a reply message.                |    No    |
-|       |                                                                                         |          |
 {% endtab %}
 {% endtabs %}
 
