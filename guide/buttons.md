@@ -120,7 +120,7 @@ ID: cmd{quest-take-from-user}quest{questId}
 {% endtab %}
 
 {% tab title="Выдать предмет" %}
-ID: cmd{give-item}item{itemId}amount{10}usr{userId}
+ID: cmd{give-item}item{itemId}amount{10}
 
 Аргументы:
 
@@ -134,7 +134,7 @@ ID: cmd{give-item}item{itemId}amount{10}usr{userId}
 {% endtab %}
 
 {% tab title="Забрать предмет" %}
-ID: cmd{take-item}item{itemId}amount{10}usr{userId}
+ID: cmd{take-item}item{itemId}amount{10}
 
 Аргументы:
 
@@ -156,7 +156,6 @@ ID: cmd{help}commands eph reply
 | :------: | :-----------------------------------------------------------: | :----------: |
 |    eph   |  Если есть, то сообщение будет видно только нажавшему кнопку  |      Нет     |
 |   reply  | Если есть, то сообщение  будет отправлено ответным сообщением |      Нет     |
-|          |                                                               |              |
 {% endtab %}
 {% endtabs %}
 
