@@ -7,15 +7,14 @@ icon: square-terminal
 ## Syntax of cron pattern;
 
 ```
-// ┌──────────────── (optional) second (0 - 59)
-// │ ┌────────────── minute (0 - 59)
-// │ │ ┌──────────── hour (0 - 23)
-// │ │ │ ┌────────── day of month (1 - 31)
-// │ │ │ │ ┌──────── month (1 - 12, JAN-DEC)
-// │ │ │ │ │ ┌────── day of week (0 - 6, SUN-Mon) 
-// │ │ │ │ │ │       (0 to 6 are Sunday to Saturday; 7 is Sunday, the same as 0)
-// │ │ │ │ │ │
-// * * * * * *
+// ┌────────────── minute (0 - 59)
+// │ ┌──────────── hour (0 - 23)
+// │ │ ┌────────── day of month (1 - 31)
+// │ │ │ ┌──────── month (1 - 12, JAN-DEC)
+// │ │ │ │ ┌────── day of week (0 - 6, SUN-Mon) 
+// │ │ │ │ │       (0 to 6 are Sunday to Saturday; 7 is Sunday, the same as 0)
+// │ │ │ │ │
+// * * * * *
 ```
 
 ## Quick examples
@@ -26,23 +25,23 @@ icon: square-terminal
 
 This will runs every Sunday
 
-0 0 0 \* \* 7
+0 0 \* \* 7
 
 #### Every 30 minutes from 9 a.m. to 5 p.m.
 
-0 \*/30 9-17 \* \* \*
+\*/30 9-17 \* \* \*
 
 #### From Monday to Friday at 11:30
 
-00 30 11 \* \* 1-5
+30 11 \* \* 1-5
 
 #### Every 10 minutes
 
-0 \*/10 \* \* \* \*
+\*/10 \* \* \* \*
 
 #### At midnight
 
-00 00 00 \* \* \*
+00 00 \* \* \*
 
 ## It is also possible to use the following "nicknames" as pattern.
 
