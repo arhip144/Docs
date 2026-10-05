@@ -17,3 +17,4 @@ site:
       draft: true
       content:
         directory: ./russkii
+        language: ru
