@@ -5,7 +5,7 @@ site:
     - type: space
       key: space-docs
       title: WETBOT
-      path: ru
+      path: eng
       default: true
       content:
         directory: ./
