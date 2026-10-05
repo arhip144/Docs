@@ -6,7 +6,6 @@ site:
       key: space-docs
       title: WETBOT
       path: eng
-      default: true
       content:
         directory: ./
         language: en
@@ -14,6 +13,7 @@ site:
       key: space-1
       title: Русский
       path: ru
+      default: true
       draft: true
       content:
         directory: ./russkii
