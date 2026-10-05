@@ -1,0 +1,238 @@
+RPL - Rocket Pool
+BTC - Bitcoin
+ETH - Ethereum
+LTC - Litecoin
+BCH - Bitcoin Cash
+ETC - Ethereum Classic
+ZRX - 0x Protocol
+USDC - USDC
+BAT - Basic Attention Token
+ZEC - Zcash
+XRP - XRP
+XLM - Stellar Lumens
+REP - Augur
+DAI - Dai
+EOS - EOS
+LINK - Chainlink
+XTZ - Tezos
+DASH - Dash
+OXT - Orchid
+ATOM - Cosmos
+KNC - Kyber Network
+MKR - Maker
+COMP - Compound
+ALGO - Algorand
+BAND - Band Protocol
+NMR - Numeraire
+CGLD - Celo
+UMA - UMA
+LRC - Loopring
+YFI - yearn.finance
+UNI - Uniswap
+BAL - Balancer
+WBTC - Wrapped Bitcoin
+CVC - Civic
+MANA - Decentraland
+DNT - district0x
+FIL - Filecoin
+AAVE - Aave
+BNT - Bancor Network Token
+SNX - Synthetix Network Token
+GRT - The Graph
+SUSHI - SushiSwap
+MATIC - Polygon
+SKL - SKALE
+ADA - Cardano
+STORJ - Storj
+CRV - Curve DAO Token
+ANKR - Ankr
+NKN - NKN
+OGN - Origin Token
+1INCH - 1inch
+ENJ - Enjin Coin
+FORTH - Ampleforth Governance Token
+USDT - Tether
+CTSI - Cartesi
+TRB - Tellor
+RLC - iExec RLC
+ICP - Internet Computer
+DOGE - Dogecoin
+MLN - Enzyme
+GTC - Gitcoin
+AMP - Amp
+DOT - Polkadot
+SOL - Solana
+CHZ - Chiliz
+LPT - Livepeer
+QNT - Quant
+MASK - Mask Network
+CLV - Clover Finance
+PAX - Paxos Standard
+FET - Fetch.ai
+FARM - Harvest Finance
+RAI - Rai Reflex Index
+ACH - Alchemy Pay
+PLA - PlayDapp
+IOTX - IoTeX
+ORN - Orion Protocol
+REQ - Request
+AXS - Axie Infinity
+TRU - TrueFi
+COTI - COTI
+RAD - Radworks
+XYO - XYO
+BTRST - Braintrust
+ZEN - Horizen
+SHIB - SHIBA INU
+AGLD - Adventure Gold
+AVAX - Avalanche
+FX - Function X
+WCFG - Wrapped Centrifuge
+RARI - Rarible
+BADGER - Badger DAO
+JASMY - Jasmy
+PERP - Perpetual Protocol
+ARPA - ARPA Chain
+AUCTION - Bounce Token
+ASM - Assemble Protocol
+KRL - Kryll
+LCX - LCX
+TRAC - OriginTrail
+CRO - Crypto.com Coin
+SUKU - SUKU
+ENS - Ethereum Name Service
+GYEN - GYEN
+ALCX - Alchemix
+POWR - Powerledger
+BICO - BICONOMY (BICO)
+IDEX - IDEX
+POLS - Polkastarter
+FOX - Shapeshift FOX Token
+SUPER - SuperVerse
+SPELL - Spell Token
+BLZ - Bluzelle
+MDT - Measurable Data Token
+COVAL - Circuits of Value
+API3 - API3
+RBN - Ribbon Finance
+GODS - Gods Unchained
+IMX - Immutable
+DESO - Decentralized Social
+GFI - Goldfinch Protocol
+LQTY - Liquity
+PRO - Propy
+INV - Inverse Finance
+NCT - PolySwarm
+STX - Stacks
+SHPING - SHPING
+CTX - Cryptex Finance
+PLU - Pluton
+MPL - Maple
+DIA - DIA
+UNFI - Unifi Protocol DAO
+ORCA - Orca
+FIDA - Bonfida
+RNDR - Render
+AVT - Aventus
+ALICE - MyNeighborAlice
+SNT - Status
+AERGO - Aergo
+ERN - Ethernity Chain
+AIOZ - AIOZ Network
+HIGH - Highstreet
+SYN - Synapse
+GLM - Golem
+APE - ApeCoin
+MINA - Mina
+ROSE - Oasis Network
+GMT - STEPN
+GST - Green Satoshi Token
+GAL - Galxe
+FLOW - Flow
+SAND - The Sandbox
+OP - Optimism
+KSM - Kusama
+BIT - BitDAO
+C98 - Coin98
+WAMPL - Wrapped Ampleforth
+INDEX - Index Cooperative
+FORT - Forta
+POND - Marlin
+FIS - StaFi
+DAR - Mines of Dalarnia
+DYP - Dypius
+ALEPH - Aleph.im
+PRQ - PARSIQ
+MATH - MATH
+HOPR - HOPR
+ELA - Elastos
+MUSE - Muse
+TIME - Chrono.tech
+DEXT - DEXTools
+MEDIA - Media Network
+METIS - Metis
+XCN - Onyxcoin
+BOBA - Boba Network
+AST - AirSwap
+SWFTC - SwftCoin
+GNO - Gnosis
+ABT - Arcblock
+MTL - Metal DAO
+RARE - SuperRare
+LOKA - League of Kingdoms Arena
+GUSD - Gemini Dollar
+CELR - Celer Network
+CBETH - Coinbase Wrapped Staked ETH
+NEAR - NEAR Protocol
+AURORA - Aurora
+CVX - Convex Finance
+OCEAN - Ocean Protocol
+PUNDIX - Pundi X (New)
+INJ - Injective
+PNG - Pangolin
+00 - 00 Token
+ILV - Illuvium
+HBAR - Hedera
+APT - Aptos
+WAXL - Wrapped Axelar
+MSOL - Marinade Staked SOL
+MNDE - Marinade
+HFT - Hashflow
+LDO - Lido DAO Token
+QI - BENQI
+PYR - Vulcan Forged PYR
+GHST - Aavegotchi
+LIT - Litentry
+EGLD - MultiversX
+MAGIC - MAGIC
+ANT - Aragon
+KAVA - Kava
+T - Threshold
+AUDIO - Audius
+AXL - Axelar
+VOXEL - Voxies
+BLUR - Blur
+ACS - Access
+EUROC - Euro Coin
+PRIME - Echelon Prime
+LSETH - Liquid Staked ETH
+ARB - Arbitrum
+FLR - Flare
+DIMO - DIMO
+TVK - Virtua
+SPA - Sperax
+SUI - SUI
+OSMO - Osmosis
+HNT - Helium
+SEI - Sei
+PYUSD - PayPal USD
+VET - vechain
+VTHO - VeThor Token
+VARA - Vara
+BIGTIME - Big Time
+TIA - Celestia
+JTO - Jito
+SEAM - Seamless
+BONK - Bonk
+HONEY - Hivemapper
+ONDO - Ondo Finance
