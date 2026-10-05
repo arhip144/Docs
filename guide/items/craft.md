@@ -1,10 +1,13 @@
 ---
 icon: screwdriver-wrench
+description: Рецепты крафта предметов
 ---
 
 # Крафт предмета
 
-Для создания рецепта крафта, необходимо перейти в раздел "Создание" и нажать ![](<../../.gitbook/assets/image (10).png>)
+До 10 рецептов на предмет, до 10 ингредиентов в рецепте. Игрок крафтит через `/craft`.
+
+Для создания рецепта в Discord перейдите в раздел "Создание" и нажмите ![](<../../.gitbook/assets/image (10).png>)
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -35,3 +38,11 @@ icon: screwdriver-wrench
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+Неизвестный рецепт изучается предметом с действием «Изучение рецепта» в [Использовании](use.md).
+
+## На сайте
+
+{% content-ref url="../../website/items.md" %}
+[items.md](../../website/items.md)
+{% endcontent-ref %}

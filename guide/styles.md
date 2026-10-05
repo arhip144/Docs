@@ -5,6 +5,12 @@ icon: palette
 
 # Создание стилей червоточин
 
+Стили задают вид эмбеда червоточины при появлении и при сборе.
+
+{% hint style="info" %}
+Лимит: **5** без премиума, **25** с премиумом.
+{% endhint %}
+
 {% content-ref url="wormholes.md" %}
 [wormholes.md](wormholes.md)
 {% endcontent-ref %}
@@ -64,3 +70,11 @@ icon: palette
 После всех настроек у меня получилось так:
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-06_123241580.png" alt=""><figcaption></figcaption></figure>
+
+Переменные: [Переменные: стили](../variables/styles.md).
+
+## На сайте
+
+{% content-ref url="../website/styles.md" %}
+[styles.md](../website/styles.md)
+{% endcontent-ref %}

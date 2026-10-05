@@ -5,6 +5,8 @@ icon: square-check
 
 # Создание кастомных кнопок
 
+Кнопки Discord с действиями бота (подарок, покупка, квест, профиль…). На сайте удобнее собирать сообщения в [конструкторе](../website/message-builder.md).
+
 Основная команда для создания кнопок [/components](../commands/admins.md)
 
 ## Аргументы команды [/components buttons add](../commands/admins.md):

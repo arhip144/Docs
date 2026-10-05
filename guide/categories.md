@@ -5,34 +5,45 @@ icon: cart-plus
 
 # Создание категории в магазине
 
+## Что это?
+
+Категории группируют товары в `/shop`. Предметы сначала настраиваются в магазине, затем добавляются в категорию.
+
+{% hint style="info" %}
+Лимит: **5** без премиума, **25** с премиумом.
+{% endhint %}
+
 {% content-ref url="items/" %}
 [items](items/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="items/shop.md" %}
+[shop.md](items/shop.md)
 {% endcontent-ref %}
 
-Вызываем панель для редактирования категорий командой [/manager-categories](../commands/admins.md)
+## Discord
+
+Команда [/manager-categories](../commands/admins.md)
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_214752302.png" alt=""><figcaption></figcaption></figure>
 
-После чего бот попросит назвать категорию и указать эмодзи категории
+Бот попросит название и эмодзи категории.
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_214914625.png" alt=""><figcaption></figcaption></figure>
 
-После этого категория готова, осталось добавить туда предметы для покупки. Нажимаем `Изменить...` и выбираем нашу категорию
+Далее **Изменить…** → выбрать категорию:
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_215033398.png" alt=""><figcaption></figcaption></figure>
 
-Здесь можно изменить:
+| Параметр | Описание |
+| --- | --- |
+| Название / эмодзи | Оформление |
+| Предметы | ID предметов категории |
+| Права на покупку | Кто может покупать из категории |
+| Стандартная категория | Категория по умолчанию |
 
-1. Название категории
-2. Эмодзи
-3. Добавить сам предмет (Он добавлении предмета далее)
-4. Указать права на покупку (Роль с которой участник сможет покупать от туда предметы)
-5. Стандартная категория
+## На сайте
 
-Чтобы добавить предмет в категорию, нужно указать его ID
-
-<figure><img src="../.gitbook/assets/pngwing.com (8).png" alt=""><figcaption><p>Можете употреблять переменные:<strong>Можете употреблять переменные:</strong></p></figcaption></figure>
+{% content-ref url="../website/categories.md" %}
+[categories.md](../website/categories.md)
+{% endcontent-ref %}

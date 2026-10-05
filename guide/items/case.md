@@ -1,10 +1,13 @@
 ---
 icon: briefcase
+description: Кейсы и открытие предметов
 ---
 
 # Создание кейса
 
-Для создания кейса необходимо перейти в раздел "Кейс"
+Кейс выдаёт случайную награду из пула (предмет, валюта, XP, RP, роль, Steam-игра). Режим: один предмет или несколько. Кулдаун `/open` снимается премиумом.
+
+Для создания кейса в Discord перейдите в раздел "Кейс"
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
@@ -47,3 +50,11 @@ icon: briefcase
 <figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+Открыть кейс можно также в инвентаре [профиля на сайте](../../website/profile.md).
+
+## На сайте
+
+{% content-ref url="../../website/items.md" %}
+[items.md](../../website/items.md)
+{% endcontent-ref %}

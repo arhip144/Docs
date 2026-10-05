@@ -21,6 +21,12 @@ icon: book-open
 
 {% embed url="https://wetbot.space/" %}
 
+{% content-ref url="website/" %}
+[website](website/)
+{% endcontent-ref %}
+
+На сайте: панель управления сервером, профиль, маркет, топ, краш, конструктор сообщений. Подробно — в разделе [Сайт](website/).
+
 ### Рекомендуемые права бота
 
 1. Управление сервером (Для отслеживания приглашений)
@@ -67,6 +73,10 @@ icon: book-open
 
 ## Менеджеры
 
+{% content-ref url="guide/settings.md" %}
+[settings.md](guide/settings.md)
+{% endcontent-ref %}
+
 {% content-ref url="guide/items/" %}
 [items](guide/items/)
 {% endcontent-ref %}
@@ -99,6 +109,18 @@ icon: book-open
 [roles.md](guide/roles.md)
 {% endcontent-ref %}
 
+{% content-ref url="guide/promocodes.md" %}
+[promocodes.md](guide/promocodes.md)
+{% endcontent-ref %}
+
+{% content-ref url="guide/permissions.md" %}
+[permissions.md](guide/permissions.md)
+{% endcontent-ref %}
+
+{% content-ref url="guide/autogenerators.md" %}
+[autogenerators.md](guide/autogenerators.md)
+{% endcontent-ref %}
+
 {% content-ref url="guide/gifts.md" %}
 [gifts.md](guide/gifts.md)
 {% endcontent-ref %}
@@ -109,4 +131,24 @@ icon: book-open
 
 {% content-ref url="guide/jobs.md" %}
 [jobs.md](guide/jobs.md)
+{% endcontent-ref %}
+
+{% content-ref url="guide/buttons.md" %}
+[buttons.md](guide/buttons.md)
+{% endcontent-ref %}
+
+{% content-ref url="guide/inventory-roles.md" %}
+[inventory-roles.md](guide/inventory-roles.md)
+{% endcontent-ref %}
+
+{% content-ref url="guide/custom-role.md" %}
+[custom-role.md](guide/custom-role.md)
+{% endcontent-ref %}
+
+{% content-ref url="guide/market.md" %}
+[market.md](guide/market.md)
+{% endcontent-ref %}
+
+{% content-ref url="guide/cron-patterns.md" %}
+[cron-patterns.md](guide/cron-patterns.md)
 {% endcontent-ref %}

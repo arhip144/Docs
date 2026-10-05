@@ -5,7 +5,13 @@ icon: gift
 
 # Создание подарков (manager-gifts)
 
+{% hint style="warning" %}
+Подарки требуют [премиум](../premium.md).
+{% endhint %}
+
 Основная команда для управления подарками  - [/manager-gifts](../commands/admins.md)
+
+CRUD: `create` / `edit` / `copy` / `delete` / `view` (см. [команды админов](../commands/admins.md)).
 
 ## ✔️Меню: Изменить <img src="../.gitbook/assets/Скриншот 07-02-2023 230810.png" alt="" data-size="original">
 
@@ -68,3 +74,11 @@ ID предмета может принимать в себя следующие
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/fsdfs (2).png" alt=""><figcaption></figcaption></figure>
+
+## На сайте
+
+{% content-ref url="../website/gifts.md" %}
+[gifts.md](../website/gifts.md)
+{% endcontent-ref %}
+
+Кнопки подарков также собираются в [конструкторе сообщений](../website/message-builder.md).

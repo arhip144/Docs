@@ -5,6 +5,14 @@ icon: box
 
 # Предметы
 
+Предметы — основа экономики: магазин, крафт, кейсы, дропы и `/use`.
+
+{% hint style="info" %}
+Лимит слотов: **25** без премиума, **1000** с премиумом. См. [Премиум](../../premium.md).
+{% endhint %}
+
+В редакторе также настраиваются свойства (известный, видимый, передаваемый…), права и кулдауны. Полный каталог полей — на [сайте](../../website/items.md).
+
 ## Создание предмета
 
 Для создания предмета выполняем команду[ /manager-items create <название предмета>](../../commands/admins.md)
@@ -89,4 +97,10 @@ icon: box
 
 {% content-ref url="obtaining.md" %}
 [obtaining.md](obtaining.md)
+{% endcontent-ref %}
+
+## На сайте
+
+{% content-ref url="../../website/items.md" %}
+[items.md](../../website/items.md)
 {% endcontent-ref %}
