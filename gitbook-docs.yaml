@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: WETBOT
+  structure:
+    - type: space
+      key: space-docs
+      title: WETBOT
+      path: docs
+      default: true
+      content:
+        directory: .
+        language: en
