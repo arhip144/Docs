@@ -1,46 +1,46 @@
 ---
-description: Руководство по команде /wipe
+description: Guide to the /wipe command
+icon: arrows-retweet
 ---
 
-# Вайп
+# Wipe
 
-С помощью вайпа можно очистить всё, что связано с WETBOT.
+Wipe lets you clear everything related to WETBOT.
 
 <figure><img src=".gitbook/assets/изображение_2022-10-20_160900968.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Если хотите очистить только некоторых участников, укажите их в фильтре пользователей
+If you only want to clear specific members, specify them in the user filter
 {% endhint %}
 
-Очистка:
+What can be cleared:
 
-* Статистика (Очищает показатель активности за всё время/год/месяц/день)
-* Опыт и уровни (Очищает всех/пользователя к первоначальному значению 0 опыта)
-* Валюта (Очищает показатель "Валюта" )
-* Репутация (Очищает показатель "Репутация")
-* Приглашения (Очищает показатель "Приглашения")
-* Квесты пользователь (Сбрасывает пройденные квесты пользователей)
-* Бонусы (Очищает все бонусы к опыту/валюте/репутации)
-* Роли (Очищает все полученные роли с помощью предметов)
-* Достижения пользователей (Очищает все достижения пользователей)
-* Инвентарь (Очищает инвентарь)
-* Магазин (Очищает магазин)
-* Трофеи (Очищает все трофеи у пользователей)
-* Кулдауны работы (Очищает все кулдауны работы)
-* Стили (Удаляет все стили)
-* Червоточины (Удаляет все червоточины)
-* Достижения (Удаляет все достижения)
-* Квесты (Удаляет все квесты)
-* Категории (Удаляет все категории)
-* Бонусные каналы (Удаляет у каналов возможность увеличенного получения опыта/валюты/репутации)
-* Раздачи (Удаляет все раздачи)
-* Лоты на маркете (Удаляет все лоты)
-* Предметы (Удаляет все предметы)
-* Подарки (Удаляет все подарки)
-* Доходные роли (Удаляет все доходные роли)
-* Права (Удаляет все права)
-* Работа (Удаляют всю работу)
-* Промокоды (Удаляет все промокоды)
-* Автогенераторы промокодов (Удаляет все автогенераторы промокодов)
-* Использование подарков (Удаляет все использования подарков)
-
+* Statistics (Clears the activity stats for all time/year/month/day)
+* Experience and levels (Resets everyone/the user to the initial value of 0 experience)
+* Currency (Clears the "Currency" value)
+* Reputation (Clears the "Reputation" value)
+* Invites (Clears the "Invites" value)
+* User quests (Resets users' completed quests)
+* Bonuses (Clears all bonuses to experience/currency/reputation)
+* Roles (Clears all roles received through items)
+* User achievements (Clears all users' achievements)
+* Inventory (Clears the inventory)
+* Shop (Clears the shop)
+* Trophies (Clears all users' trophies)
+* Job cooldowns (Clears all job cooldowns)
+* Styles (Deletes all styles)
+* Wormholes (Deletes all wormholes)
+* Achievements (Deletes all achievements)
+* Quests (Deletes all quests)
+* Categories (Deletes all categories)
+* Bonus channels (Removes the increased experience/currency/reputation gain from channels)
+* Giveaways (Deletes all giveaways)
+* Market listings (Deletes all listings)
+* Items (Deletes all items)
+* Gifts (Deletes all gifts)
+* Income roles (Deletes all income roles)
+* Permissions (Deletes all permissions)
+* Jobs (Deletes all jobs)
+* Promocodes (Deletes all promocodes)
+* Promocode autogenerators (Deletes all promocode autogenerators)
+* Gift uses (Deletes all gift uses)

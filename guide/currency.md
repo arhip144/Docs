@@ -1,14 +1,38 @@
-# 🪙 Setting server currency
+---
+icon: circle-euro
+description: Setting up the server currency
+---
 
-In order to set up the server currency, you need:
+# Setting up the server currency
 
-* Execute command [/manager-settings](../commands/admins.md)
-* Select **Server currency** from the drop-down menu
+## What is this?
 
-Here you can use the buttons to customize the currency emoji, currency name and currency description
+The server currency is the main unit of the economy (purchases, transfers, crash, rewards).
 
-<figure><img src="../.gitbook/assets/изображение_2022-09-15_120907408.png" alt=""><figcaption><p>Предварительный просмотр и кнопки настроек</p></figcaption></figure>
+## Discord
+
+1. Run the [/manager-settings](../commands/admins.md) command
+2. Choose **Server currency**
+
+<figure><img src="../.gitbook/assets/изображение_2022-09-15_120907408.png" alt=""><figcaption><p>Preview and settings buttons</p></figcaption></figure>
+
+Available options:
+
+| Setting | Description |
+| --- | --- |
+| Name / description | How it is shown in commands |
+| Emoji | Standard or server emoji |
+| Ban on transfer / drop / crash | Restrictions |
+| Transfer / drop permissions | Via permission presets |
 
 {% hint style="info" %}
-Setting a server emoji for currency is available in [premium](../premium.md)
+A custom server emoji for the currency is available with [premium](../premium.md).
 {% endhint %}
+
+Don't confuse it with :cookie: cookies (the premium currency) — see [Premium](../premium.md).
+
+## On the website
+
+{% content-ref url="../website/settings/general-currency.md" %}
+[general-currency.md](../website/settings/general-currency.md)
+{% endcontent-ref %}

@@ -1,83 +1,92 @@
 ---
-description: What's it? What are they for? How do I create it?
+description: What are they? What are they for? How do you create them?
+icon: hurricane
 ---
 
-# 🌀 Wormholes
+# Wormholes
+
+{% hint style="info" %}
+Limit: **5** without premium, **100** with premium. Full UI fields: [Wormholes on the website](../website/wormholes.md).
+{% endhint %}
 
 ## What are wormholes?
 
-These are events that appear in a certain channel at a certain moment
+They are events that appear at a certain moment in a certain channel
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>An example of a wormhole with <a href="styles.md">style</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Example of a wormhole with a <a href="styles.md">style</a></p></figcaption></figure>
 
 ## What are wormholes for?
 
-This is one of the many ways to get items, currency, experience, reputation
+They are one of many ways to obtain items, currency, experience, and reputation
 
-## How wormholes are works?
+## How do wormholes work?
 
-As soon as the wormhole appears, you have a chance to take all the items from it. By chance, it means that after a while it may disappear or another user may take it.
+As soon as a wormhole appears, you have a chance to grab all the items from it. By "chance" we mean that after some time it may disappear, or another user may take it.
 
-## Creating a Wormhole
+## Creating a wormhole
 
-To create a wormhole, run the command [/manager-wormholes create \<name>](../commands/admins.md)
+To create a wormhole, run the command [/manager-wormholes create <wormhole name>](../commands/admins.md)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-In this panel, we configure:
+In this manager you configure:
 
-* Style (not required) - a [guide to creating a style](styles.md)
-* Item - the item that will drop out (Item/currency/experience/Reputation)
-* Chance - chance of spawn from 1% to 100%
-* Webhook - a webhook that will send a message
-* Amount - the minimum and maximum amount of dropped item/currency/experience/reputation
-* Lifetime - the lifetime of the wormhole in the channel
-* Cron-pattern - [examples of patterns and an explanation of what they are](cron-patterns.md)
-* The number of spawns - after the expiration, the wormhole will turn off
+| Field | Description |
+| --- | --- |
+| Style | Optional; [creating a style](styles.md) |
+| Item | Reward: item / currency / experience / reputation |
+| Chance | Spawn chance up to 100% |
+| Webhook / channel | Where the message is sent |
+| Amount | Min. and max. reward |
+| Lifetime | Seconds until it disappears |
+| Cron pattern | [Cron reference](cron-patterns.md) |
+| Number of spawns | After they run out, the wormhole is disabled |
+| Permission | Who can take it |
+| Delete after collection / show date | Message behavior |
 
-After all the settings, you need to turn on the wormhole
+After all the settings, enable the wormhole
 
 {% hint style="info" %}
-To see what a wormhole will look like, you can execute the command [/wormhole-spawn \<name>](../commands/admins.md)
+To see what a wormhole will look like, use the command [/wormhole-spawn <wormhole name>](../commands/admins.md)
 {% endhint %}
 
 {% content-ref url="styles.md" %}
 [styles.md](styles.md)
 {% endcontent-ref %}
 
-## Editing the wormhole
+## Editing a wormhole
 
-To edit the wormhole, run the command [/manager-wormholes edit \<name>](../commands/admins.md)
+To edit a wormhole, run the command [/manager-wormholes edit <wormhole name>](../commands/admins.md)
 
-## Copying a Wormhole
+## Copying a wormhole
 
-To copy a wormhole, run the command [/manager-wormholes copy \<wormhole> \<name for new wormhole>](../commands/admins.md)
+To copy a wormhole, run the command [/manager-wormholes copy <wormhole> <new wormhole name>](../commands/admins.md)
 
-## Deleting the wormhole
+## Deleting a wormhole
 
-To delete a wormhole, run the command [/manager-wormholes delete](../commands/admins.md)
+To delete a wormhole, run the command [/manager-wormholes delete <wormhole name>](../commands/admins.md)
 
-## View all wormholes
+## Viewing all wormholes
 
 To view all wormholes, run the command [/manager-wormholes view](../commands/admins.md)
 
 ## Viewing wormhole information (public command)
 
-To view information about a specific wormhole, run the command [/wormhole \<name>](../commands/general.md)
+To view information about a specific wormhole, run the command[ /wormhole <wormhole name>](../commands/general.md)
 
-## Thematic achievements
+## Related achievements
 
-1. Touch the wormhole N times
-2. Spawn the wormhole N times
+1. Touch a wormhole N times
+2. Spawn a wormhole N times
 
 {% content-ref url="achievements.md" %}
 [achievements.md](achievements.md)
 {% endcontent-ref %}
 
-## Thematic tasks for quests
+## Related quest tasks
 
-1. Touch the wormhole N times
-2. Spawn the wormhole N times
+1. Use a wormhole N times
+2. Spawn a wormhole N times
 
 {% content-ref url="quests.md" %}
 [quests.md](quests.md)

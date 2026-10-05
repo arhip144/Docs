@@ -1,36 +1,49 @@
 ---
-description: Guide to creating categories in the store
+description: Guide to creating shop categories
+icon: cart-plus
 ---
 
-# 🛍️ Create category for shop
+# Creating a shop category
 
-{% content-ref url="items.md" %}
-[items.md](items.md)
+## What is this?
+
+Categories group products in `/shop`. Items are first set up for the shop and then added to a category.
+
+{% hint style="info" %}
+Limit: **5** without premium, **25** with premium.
+{% endhint %}
+
+{% content-ref url="items/" %}
+[items](items/)
 {% endcontent-ref %}
 
-{% content-ref url="shop.md" %}
-[shop.md](shop.md)
+{% content-ref url="items/shop.md" %}
+[shop.md](items/shop.md)
 {% endcontent-ref %}
 
-Execute the panel for editing categories with the command /manager-categories
+## Discord
+
+Command [/manager-categories](../commands/admins.md)
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_214752302.png" alt=""><figcaption></figcaption></figure>
 
-After that, the bot will ask you to name the category and specify the category emoji
+The bot will ask for the category name and emoji.
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_214914625.png" alt=""><figcaption></figcaption></figure>
 
-After that, the category is created, it remains to add items for purchase there. Click Edit... and choose our category
+Next, **Edit…** → select a category:
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-19_215033398.png" alt=""><figcaption></figcaption></figure>
 
-Here you can change:
+| Parameter | Description |
+| --- | --- |
+| Name / emoji | Appearance |
+| Items | IDs of the category's items |
+| Purchase permissions | Who can buy from the category |
+| Default category | The default category |
 
-1. Category name
-2. Emoji
-3. Add an item
-4. Setting category as Standard category
+## On the website
 
-To add an item to a category, you need to specify its ID
-
-<figure><img src="../.gitbook/assets/pngwing.com (8).png" alt=""><figcaption></figcaption></figure>
+{% content-ref url="../website/categories.md" %}
+[categories.md](../website/categories.md)
+{% endcontent-ref %}

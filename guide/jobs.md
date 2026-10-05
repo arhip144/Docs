@@ -1,17 +1,44 @@
 ---
-description: Job Creation Guide
+description: Guide to creating a job
+icon: briefcase-blank
 ---
 
-# 🏢 Create jobs
+# Creating a job
 
-The main command for creating a job /manager-jobs
+## What is this?
 
-### Arguments of the /manager-jobs command:
+Jobs are actions for the `/work` command: the player picks a job and an action, and gets a success or a failure with rewards and cooldowns.
 
-| Argument |           Description           |
-| :------: | :-----------------------------: |
-|  create  |         Create a new job        |
-|   edit   | <p>Edit an existing job<br></p> |
-|   copy   |       Copy an existing job      |
-|  delete  |      Delete an existing job     |
-|   view   |     View all work in a list     |
+{% hint style="warning" %}
+The `/work` command is available with [premium](../premium.md).
+{% endhint %}
+
+## Discord
+
+Command [/manager-jobs](../commands/admins.md):
+
+| Argument | Description |
+| --- | --- |
+| create | Create a new job |
+| edit | Edit an existing one |
+| copy | Copy |
+| delete | Delete |
+| view | List of all jobs |
+
+### What can be configured
+
+- Name, emoji, description, enabled/hidden
+- Two actions (name + permission)
+- For success and failure: chance, messages, images, cooldowns, rewards (currency/XP/RP/item)
+
+Variables in messages: [Variables: jobs](../variables/jobs.md).
+
+Players use [/work](../commands/general.md).
+
+## On the website
+
+Full list of fields:
+
+{% content-ref url="../website/jobs.md" %}
+[jobs.md](../website/jobs.md)
+{% endcontent-ref %}

@@ -1,4 +1,4 @@
-# Variables: wormholes styles
+# Variables: wormhole styles
 
 <details>
 
@@ -6,8 +6,8 @@
 
 * `{item_emoji}` - item emoji
 * `{item_name}` - item name
-* `{member_name}` - member name (only during the collection)
-* `{amount}` - amount of items (only during the collection)
+* `{member_name}` - member name (only during collection)
+* `{amount}` - item amount (only during collection)
 
 </details>
 
@@ -16,7 +16,7 @@
 <summary>Thumbnail</summary>
 
 * `{item_image}` - item image
-* `{member_avatar}` - member avatar (only during the collection)
+* `{member_avatar}` - member avatar (only during collection)
 
 </details>
 
@@ -25,16 +25,16 @@
 <summary>Image</summary>
 
 * `{item_image}` - item image
-* `{member_avatar}` - member avatar (only during the collection)
+* `{member_avatar}` - member avatar (only during collection)
 
 </details>
 
 <details>
 
-<summary>Embed color</summary>
+<summary>Border color</summary>
 
 * `{item_color}` - item color
-* `{member_color}` - member color (only during the collection)
+* `{member_color}` - member color (only during collection)
 
 </details>
 
@@ -44,28 +44,28 @@
 
 * `{item_emoji}` - item emoji
 * `{item_name}` - item name
-* `{member_name}` - member name (only during the collection)
-* `{amount}` - amount of items (only during the collection)
+* `{member_name}` - member name (only during collection)
+* `{amount}` - item amount (only during collection)
 
 </details>
 
 <details>
 
-<summary>Author - Name</summary>
+<summary>Header - Name</summary>
 
 * `{item_emoji}` - item emoji
 * `{item_name}` - item name
-* `{member_name}` - member name (only during the collection)
-* `{amount}` - amount of items (only during the collection)
+* `{member_name}` - member name (only during collection)
+* `{amount}` - item amount (only during collection)
 
 </details>
 
 <details>
 
-<summary>Author - Icon</summary>
+<summary>Header - Icon</summary>
 
 * `{item_image}` - item image
-* `{member_avatar}` - member avatar (only during the collection)
+* `{member_avatar}` - member avatar (only during collection)
 
 </details>
 
@@ -75,8 +75,8 @@
 
 * `{item_emoji}` - item emoji
 * `{item_name}` - item name
-* `{member_name}` - member name (only during the collection)
-* `{amount}` - amount of items (only during the collection)
+* `{member_name}` - member name (only during collection)
+* `{amount}` - item amount (only during collection)
 
 </details>
 
@@ -85,7 +85,7 @@
 <summary>Footer - Icon</summary>
 
 * `{item_image}` - item image
-* `{member_avatar}` - member avatar (only during the collection)
+* `{member_avatar}` - member avatar (only during collection)
 
 </details>
 
@@ -93,9 +93,9 @@
 
 <summary>Button</summary>
 
-* Эмодзи:\
+* Emoji:\
   `{item_emoji}` - item emoji
-* Текст:\
+* Text:\
   `{item_name}` - item name
 
 </details>

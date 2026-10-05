@@ -1,9 +1,12 @@
-# Что такое репутация и удача?
+---
+icon: clover
+---
 
-![:RP:](https://cdn.discordapp.com/emojis/1006200288933335081.webp?size=44\&quality=lossless)RP (Репутация)\
-RP (Репутация) влияет на размер скидки в магазине, если для предмета в магазине включена скидка. 10 RP эквивалентно 1% скидки. Максимальная репутация у пользователя может быть 1000, что эквивалентно 50% скидке. RP можно точно также получать как и валюту, опыт, предметы.
+# What is reputation and luck?
 
-![:random:](https://cdn.discordapp.com/emojis/1005865190618828910.webp?size=44\&quality=lossless)Удача
+![:RP:](https://cdn.discordapp.com/emojis/1006200288933335081.webp?size=44\&quality=lossless)RP (Reputation)\
+RP (Reputation) affects the size of the shop discount if a discount is enabled for an item in the shop. 10 RP is equivalent to a 1% discount. A user's maximum reputation is 1000, which is equivalent to a 50% discount. RP can be earned just like currency, experience, and items.
 
-Удача влияет на нахождение предметов, рыбалку, открытие кейсов. Базовая удача пользователя без всяких бустов - 0%. Максимальная удача пользователя - 100%. Чем выше удача, тем больше увеличивается шанс найти предмет с маленьким шансом.
+![:random:](https://cdn.discordapp.com/emojis/1005865190618828910.webp?size=44\&quality=lossless)Luck
 
+Luck affects finding items, fishing, and opening cases. A user's base luck without any boosts is 0%. The maximum luck is 100%. The higher the luck, the greater the chance of finding an item with a low drop chance.

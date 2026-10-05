@@ -1,25 +1,42 @@
 ---
-description: A guide to creating autovoice channels
+description: Guide to creating autovoice channels
+icon: microphone-lines
 ---
 
-# 🔊 Autovoice channels
+# Autovoice channels
 
-Select Auto-voice channels in the settings panel /manager-settings in the drop-down menu
+## What is this?
+
+Join-to-create: a member joins a trigger channel, the bot creates a temporary voice channel and deletes it when everyone has left.
+
+## Discord
+
+In [/manager-settings](../commands/admins.md), choose **Autovoice channels**.
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-20_004728806.png" alt=""><figcaption></figcaption></figure>
 
-In the menu, select the desired one, select the category in which our voice channels will be, select the channel that you will need to go to to create an author's channel and the name of the channel.
+| Parameter | Description |
+| --- | --- |
+| Creation channel | The trigger voice channel |
+| Category | Where to create the temporary channels |
+| Name | The channel name template |
 
 {% hint style="warning" %}
-Create a separate category for your auto-voice channels, because the bot deletes channels if there are no members in them except for the channel-creator.
+Create a separate category for autovoice channels: the bot deletes empty channels (except the trigger channel).
 {% endhint %}
 
 {% hint style="success" %}
-You can use [variables ](../variables/avc.md)for the channel name:
+Name variables: [AVC variables](../variables/avc.md)
 
-> **{creator}** - channel user name
->
-> **#** - channel number in the format 1 2
->
-> **{emoji}** - random emoji
+> **{creator}** — creator's name  
+> **#** — channel number  
+> **{emoji}** — random emoji
 {% endhint %}
+
+The bot must have the permissions to manage channels and move members (see the [introduction](../README.md)).
+
+## On the website
+
+{% content-ref url="../website/settings/roles-avc.md" %}
+[roles-avc.md](../website/settings/roles-avc.md)
+{% endcontent-ref %}

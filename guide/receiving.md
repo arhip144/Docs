@@ -1,27 +1,39 @@
-# ♦️ Receiving currency, experience, reputations
+---
+icon: plus-large
+description: Setting up rewards for activity
+---
 
-To set up receiving currency/experience/reputation, you need to execute the /manager-settings command and select Receiving currency, experience, reputation in the drop-down menu
+# Earning currency, experience, reputation
+
+## What is this?
+
+Base rewards for messages, voice, invites, bumps, likes, and the first discovery of an item. [Bonus channels](bonuses.md) and [luck](../rp-luck.md) also have an effect.
+
+## Discord
+
+Run [/manager-settings](../commands/admins.md) → **Earning currency, experience, reputation**.
 
 <figure><img src="../.gitbook/assets/изображение_2022-10-20_182438085.png" alt=""><figcaption></figcaption></figure>
 
-Level factor: 10 (Each new level, the amount of experience to the next level increases by 10)
+**Level factor** (for example 10): each new level requires N more experience than the previous one to reach the next.
 
-* ️For the message: \
-  Awarded for a message in non-excluded text channels. Excluded channels can be configured in "Channels".
-* For activity in voice channels: \
-  Awarded for one minute of communication in non-excluded voice channels, with the microphone turned on and with at least one person.\
-  :warning:Activity in voice channels is considered if there is more than one PERSON in the channel with the microphone turned on.\
-  :warning:Activity with the microphone turned off does not count
-* &#x20;For the invitation: \
-  Awarded with one invitation to the server.\
-  :warning:To correctly track the invitation, the bot must have the permission to "Manage the server". This permission is required to view the invitations and their changes.
-* For bump: \
-  Awarded for one server bump with the help of commands from other bots. For example: /bump, /up, /like
-* For like: \
-  Awarded for another user's like (/like). Awarded to both users (the one who sent the like, the one who received the like)
-* For an item found for the first time: \
-  Awarded for the item that the user found for the first time.
+| Source | Rules |
+| --- | --- |
+| Per message | In text channels that are not excluded (muted ones are set in the channel settings) |
+| Per voice activity | Per minute; more than 1 person with a microphone; bots don't count; muted users don't count |
+| Per invite | Requires the bot's "Manage Server" permission |
+| Per bump | `/bump`, `/up`, `/like` of other bots (rewards are premium) |
+| Per like | `/like`; both sides receive the reward |
+| Per item found for the first time | The first discovery of an item |
 
 {% hint style="success" %}
-When you change the "level factor" parameter, the bot will automatically change the user levels in accordance with the new level factor.
+When the level factor changes, the bot recalculates users' levels.
 {% endhint %}
+
+Level roles and daily rewards are also in the settings; see [Setting up the bot](settings.md).
+
+## On the website
+
+{% content-ref url="../website/settings/activities-channels.md" %}
+[activities-channels.md](../website/settings/activities-channels.md)
+{% endcontent-ref %}

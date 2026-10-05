@@ -1,49 +1,52 @@
 ---
-description: A guide to creating buttons with the functionality of some commands
+description: Guide to creating buttons that run the functionality of certain commands
+icon: square-check
 ---
 
-# 🆒 Create custom buttons
+# Creating custom buttons
 
-The main command for creating buttons /components
+Discord buttons with bot actions (gift, purchase, quest, profile…). On the website it is easier to build messages in the [builder](../website/message-builder.md).
 
-### Arguments of the /components buttons add command:
+The main command for creating buttons is [/components](../commands/admins.md)
 
-|   Argument   |                               Description                              | Required |
-| :----------: | :--------------------------------------------------------------------: | :------: |
-| message\_url |         Link to the message for which the button will be added         |    Yes   |
-|     style    |                              Button style                              |    Yes   |
-|   id-or-url  | The ID of the button or a link to the resource (If the style is a Link |    Yes   |
-|      row     |         The row of the component where the button will be added        |    Yes   |
-|    column    |         Column of the component where the button will be added         |    Yes   |
-|     label    |                              Button label                              |    No    |
-|     emoji    |                              Button emoji                              |    No    |
-|   disabled   |                      Will the button be turned off                     |    No    |
+## Arguments of the [/components buttons add](../commands/admins.md) command:
+
+|              Argument              |                          Description                          | Required |
+| :--------------------------------: | :--------------------------------------------------------: | :----------: |
+| message\_url |  Link to the message the button will be added to  |      Yes      |
+|            style           |  <p>Button style:<br>Link - a link button<br></p>  |      Yes      |
+|      id-or-url     | Button ID or a link to a resource (if the style is Link) |      Yes      |
+|            row            |       The component row the button will be added to       |      Yes      |
+|          column          |       The component column the button will be added to      |      Yes      |
+|          label          |                       Button label                      |      No     |
+|           emoji           |                        Button emoji                       |      No     |
+|        disabled        |                  Whether the button will be disabled                 |      No     |
 
 {% hint style="danger" %}
-The arguments "label" or "emoji" are required
+The "label" or "emoji" argument must be filled in
 {% endhint %}
 
-### Arguments of the /components buttons remove command:
+## Arguments of the [/components buttons remove](../commands/admins.md) command:
 
-|   Argument   |                          Description                         | Required |
-| :----------: | :----------------------------------------------------------: | :------: |
-| message\_url |    Link to the message in which the button will be removed   |    Yes   |
-|      row     |   The row of the component where the button will be removed  |    Yes   |
-|    column    | The column of the component where the button will be removed |    Yes   |
+|              Argument              |                       Description                      | Required |
+| :--------------------------------: | :-------------------------------------------------: | :----------: |
+| message\_url | Link to the message the button will be removed from |      Yes      |
+|            row            |     The component row the button will be removed from     |      Yes      |
+|          column          |     The component column the button will be removed from    |      Yes      |
 
-## Доступные команды для кнопок:
+## Available button commands: <a href="#available-buttons" id="available-buttons"></a>
 
 {% tabs %}
-{% tab title="Get gift" %}
+{% tab title="Get a gift" %}
 ID: cmd{get-gift}gift{giftId}
 
 Arguments:
 
-| Name | Description | Required |
-| :--: | :---------: | :------: |
-| gift |   Gift ID   |    Yes   |
+| Name |  Description  | Required |
+| :------: | :--------: | :----------: |
+|   gift   | Gift ID |      Yes      |
 
-[A guide to creating gifts](gifts.md)
+[Guide to creating gifts](gifts.md)
 {% endtab %}
 
 {% tab title="Buy" %}
@@ -51,18 +54,18 @@ ID: cmd{buy}item{itemId}amount{10}price\_type{currency}price{10} prms-off dscnt-
 
 Arguments:
 
-|     Name    |                        Description                        | Required |
-| :---------: | :-------------------------------------------------------: | :------: |
-|     item    |                          Item ID                          |    Yes   |
-|    amount   |                    Amount for purchase                    |    No    |
-| price\_type |   Price: Item ID; currency - the currency of the server   |    No    |
-|    price    |                       Price: Amount                       |    No    |
-|   prms-off  |           Disables purchase permissions, if any           |    No    |
-|  dscnt-off  |         Disables discount depending on reputation         |    No    |
-|  limits-off |                  Disables purchase limits                 |    No    |
-|  ignr-shop  | Ignores the presence and quantity of the item in the shop |    No    |
+|   Name  |                        Description                        | Required |
+| :---------: | :----------------------------------------------------: | :----------: |
+|     item    |                       Item ID                      |      Yes      |
+|    amount   |                 Amount to buy                 |      No     |
+| price\_type | <p>Price: item ID;<br>currency - server currency</p> |      No     |
+|    price    |                    Price: amount                    |      No     |
+|   prms-off  |    Disables purchase permissions, if any    |      No     |
+|  dscnt-off  |       Disables the reputation-based discount      |      No     |
+|  limits-off |               Disables purchase limits              |      No     |
+|  ignr-shop  |   Ignores the item's availability and amount in the shop  |      No     |
 
-[A guide to creating items](items.md)
+[Guide to creating items](items/)
 {% endtab %}
 
 {% tab title="Sell" %}
@@ -70,80 +73,80 @@ ID: cmd{sell}item{itemId}amount{10}
 
 Arguments:
 
-|  Name  |    Description    | Required |
-| :----: | :---------------: | :------: |
-|  item  |      Item ID      |    Yes   |
-| amount | Quantity for sale |    No    |
+| Name |        Description        | Required |
+| :------: | :--------------------: | :----------: |
+|   item   |       Item ID      |      Yes      |
+|  amount  | Amount to sell |      No     |
 
-[A guide to creating items](items.md)
+[Guide to creating items](items/)
 {% endtab %}
 
-{% tab title="Take quest" %}
+{% tab title="Take a quest" %}
 ID: cmd{quest-give-to-user}quest{questId}
 
 Arguments:
 
-|  Name |                                                                                      Description                                                                                      | Required |
-| :---: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: |
-| quest | <p>Possible values:</p><ol><li>Quest ID</li></ol><ol><li>active - get all active quests</li><li>daily - get a random daily quest</li><li>weekly - get a random weekly quest</li></ol> |    Yes   |
+| Name |                                                                                            Description                                                                                           | Required |
+| :------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: |
+|   quest  | <p>Possible values:<br>1. Quest ID<br>2. active - get all active quests<br>3. daily - get a random daily quest<br>4. weekly - get a random weekly quest</p> |      Yes      |
 
-[A guide to creating quests](quests.md)
+[Guide to creating quests](quests.md)
 {% endtab %}
 
-{% tab title="Quest: get reward" %}
+{% tab title="Quest: claim reward" %}
 ID: cmd{getQuestReward}quest{questId}
 
 Arguments:
 
-|  Name | Description | Required |
-| :---: | :---------: | :------: |
-| quest |   Quest ID  |    No    |
+| Name |  Description | Required |
+| :------: | :-------: | :----------: |
+|   quest  | Quest ID |      No     |
 
-In the absence of the quest argument, the user will receive rewards from all quests.
+If the **quest** argument is omitted, the user will receive the rewards from all quests.
 
-[A guide to creating quests](quests.md)
+[Guide to creating quests](quests.md)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Cancel quest" %}
+{% tab title="Cancel a quest" %}
 ID: cmd{quest-take-from-user}quest{questId}
 
 Arguments:
 
-|  Name | Description | Required |
-| :---: | :---------: | :------: |
-| quest |   Quest ID  |    Yes   |
+| Name |  Description | Required |
+| :------: | :-------: | :----------: |
+|   quest  | Quest ID |      Yes      |
 
-[A guide to creating quests](quests.md)
+[Guide to creating quests](quests.md)
 {% endtab %}
 
-{% tab title="Give item" %}
+{% tab title="Give an item" %}
 ID: cmd{give-item}item{itemId}amount{10}usr{userId}
 
 Arguments:
 
-|  Name  |                                                   Description                                                  | Required |
-| :----: | :------------------------------------------------------------------------------------------------------------: | :------: |
-|  item  |                                                     Item ID                                                    |    Yes   |
-| amount |                                                 Amount for sale                                                |    No    |
-|   usr  | The user for whom the item will be issued, if it is missing, it will be issued to the user who used the button |    No    |
+| Name |                                                      Description                                                      | Required |
+| :------: | :----------------------------------------------------------------------------------------------------------------: | :----------: |
+|   item   |                                                     Item ID                                                    |      Yes      |
+|  amount  |                                               Amount to give                                               |      No     |
+|    usr   | The user the item will be given to; if omitted, it is given to the user who pressed the button |      No     |
 
-[A guide to creating items](items.md)
+[Guide to creating items](items/)
 {% endtab %}
 
-{% tab title="Take item" %}
+{% tab title="Take an item" %}
 ID: cmd{take-item}item{itemId}amount{10}usr{userId}
 
 Arguments:
 
-|  Name  |                                                Description                                                | Required |
-| :----: | :-------------------------------------------------------------------------------------------------------: | :------: |
-|  item  |                                                ID предмета                                                |    Yes   |
-| amount |                                              Amount for sale                                              |    No    |
-|   usr  | The user from whom the item will be removed, if absent, will be removed from the user who used the button |    No    |
+| Name |                                                      Description                                                     | Required |
+| :------: | :---------------------------------------------------------------------------------------------------------------: | :----------: |
+|   item   |                                                    Item ID                                                    |      Yes      |
+|  amount  |                                               Amount to take                                              |      No     |
+|    usr   | The user the item will be taken from; if omitted, it is taken from the user who pressed the button |      No     |
 
-[A guide to creating items](items.md)
+[Guide to creating items](items/)
 {% endtab %}
 
 {% tab title="Bot commands" %}
@@ -151,136 +154,130 @@ ID: cmd{help}commands eph reply
 
 Arguments:
 
-|  Name |                                       Description                                       | Required |
-| :---: | :-------------------------------------------------------------------------------------: | :------: |
-|  eph  | If there is, then the message will be visible only to the person who pressed the button |    No    |
-| reply |                If there is, the message will be sent as a reply message.                |    No    |
-|       |                                                                                         |          |
+| Name |                            Description                           | Required |
+| :------: | :-----------------------------------------------------------: | :----------: |
+|    eph   |  If present, the message is visible only to the user who pressed the button  |      No     |
+|   reply  | If present, the message is sent as a reply |      No     |
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Profile" %}
-ID: cmd{profile}eph reply
+ID: cmd{profile} eph reply
 
 Arguments:
 
-|  Name |                                                        Description                                                       | Required |
-| :---: | :----------------------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |                  If there is, then the message will be visible only to the person who pressed the button                 |    No    |
-| reply |                                 If there is, the message will be sent as a reply message.                                |    No    |
-|  usr  |                          The ID of the user who can use the button, if not, everyone can use it                          |    No    |
-|  mbr  | The ID of the user whose profile will be displayed, if absent, the profile of the user who used the button is displayed. |    No    |
+| Name |                                                  Description                                                 | Required |
+| :------: | :-------------------------------------------------------------------------------------------------------: | :----------: |
+|    eph   |                        If present, the message is visible only to the user who pressed the button                        |      No     |
+|   reply  |                       If present, the message is sent as a reply                       |      No     |
+|    usr   |       ID of the user who can use the button; if omitted, anyone can use it      |      No     |
+|    mbr   | ID of the user whose profile will be shown; if omitted, the profile of the user who pressed the button is shown |      No     |
 {% endtab %}
 
 {% tab title="Inventory" %}
-ID: cmd{inventory}eph reply
+ID: cmd{inventory} eph reply
 
 Arguments:
 
-|  Name |                                                          Description                                                          | Required |
-| :---: | :---------------------------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |                    If there is, then the message will be visible only to the person who pressed the button                    |    No    |
-| reply |                                   If there is, the message will be sent as a reply message.                                   |    No    |
-|  usr  |                             The ID of the user who can use the button, if not, everyone can use it                            |    No    |
-|  mbr  | The ID of the user whose inventory will be displayed, if missing, the inventory of the user who used the button is displayed. |    No    |
+<table><thead><tr><th width="216" align="center">Name</th><th width="299.66666666666663" align="center">Description</th><th align="center">Required</th></tr></thead><tbody><tr><td align="center">eph</td><td align="center">If present, the message is visible only to the user who pressed the button</td><td align="center">No</td></tr><tr><td align="center">reply</td><td align="center">If present, the message is sent as a reply</td><td align="center">No</td></tr><tr><td align="center">usr</td><td align="center">ID of the user who can use the button; if omitted, anyone can use it</td><td align="center">No</td></tr><tr><td align="center">mbr</td><td align="center">ID of the user whose inventory will be shown; if omitted, the inventory of the user who pressed the button is shown</td><td align="center">No</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Achievements" %}
-ID: cmd{achievements}eph reply
+ID: cmd{achievements} eph reply
 
 Arguments:
 
-|  Name |                                                         Description                                                         | Required |
-| :---: | :-------------------------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |                   If there is, then the message will be visible only to the person who pressed the button                   |    No    |
-| reply |                                  If there is, the message will be sent as a reply message.                                  |    No    |
-|  usr  |                            The ID of the user who can use the button, if not, everyone can use it                           |    No    |
-|  mbr  | The ID of the user whose achievements will be shown, if absent, the achievements of the user who used the button are shown. |    No    |
+| Name |                                                        Description                                                       | Required |
+| :------: | :-------------------------------------------------------------------------------------------------------------------: | :----------: |
+|    eph   |                              If present, the message is visible only to the user who pressed the button                              |      No     |
+|   reply  |                             If present, the message is sent as a reply                             |      No     |
+|    usr   |             ID of the user who can use the button; if omitted, anyone can use it            |      No     |
+|    mbr   | ID of the user whose achievements will be shown; if omitted, the achievements of the user who pressed the button are shown |      No     |
 {% endtab %}
 
 {% tab title="Rank" %}
-ID: cmd{rank}eph reply
+ID: cmd{rank} eph reply
 
 Arguments:
 
-|  Name |                                                  Description                                                 | Required |
-| :---: | :----------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |            If there is, then the message will be visible only to the person who pressed the button           |    No    |
-| reply |                           If there is, the message will be sent as a reply message.                          |    No    |
-|  mbr  | ID of the user whose card will be shown, if it is missing, the card of the user who used the button is shown |    No    |
+| Name |                                                      Description                                                     | Required |
+| :------: | :---------------------------------------------------------------------------------------------------------------: | :----------: |
+|    eph   |                            If present, the message is visible only to the user who pressed the button                            |      No     |
+|   reply  |                           If present, the message is sent as a reply                           |      No     |
+|    mbr   | ID of the user whose card will be shown; if omitted, the card of the user who pressed the button is shown |      No     |
 {% endtab %}
 
-{% tab title="Rank-set" %}
-ID: cmd{rank-set}eph reply
+{% tab title="Rank set" %}
+ID: cmd{rank-set} eph reply
 
 Arguments:
 
-|  Name |                                       Description                                       | Required |
-| :---: | :-------------------------------------------------------------------------------------: | :------: |
-|  eph  | If there is, then the message will be visible only to the person who pressed the button |    No    |
-| reply |                If there is, the message will be sent as a reply message.                |    No    |
+| Name |                            Description                           | Required |
+| :------: | :-----------------------------------------------------------: | :----------: |
+|    eph   |  If present, the message is visible only to the user who pressed the button  |      No     |
+|   reply  | If present, the message is sent as a reply |      No     |
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Say" %}
-ID: cmd{say}channelId{ID}messageId{ID}permission{ID}eph reply
+ID: cmd{say}channelId{ID}messageId{ID}permission{ID} eph reply
 
 Arguments:
 
-|    Name    |                                       Description                                       | Requried |
-| :--------: | :-------------------------------------------------------------------------------------: | :------: |
-|     eph    | If there is, then the message will be visible only to the person who pressed the button |    No    |
-|    reply   |                If there is, the message will be sent as a reply message.                |    No    |
-|   update   |                         If there is, the message will be edited                         |    No    |
-|  channelId |                       ID of the channel to search for the message                       |    No    |
-|  messageId |                                        Message ID                                       |    No    |
-| permission |                                      Permission ID                                      |    No    |
+|    Name    |                            Description                           | Required |
+| :--------: | :-----------------------------------------------------------: | :----------: |
+|     eph    |  If present, the message is visible only to the user who pressed the button  |      No     |
+|    reply   | If present, the message is sent as a reply |      No     |
+|   update   |         If present, the message will be edited         |      No     |
+|  channelId |                 ID of the channel to look up the message in                |      No     |
+|  messageId |                          Message ID                         |      No     |
+| permission |                            Permission ID                           |      No     |
 
 {% hint style="info" %}
-The channelId and messageId arguments are used together, you can't use one
+The channelId and messageId arguments are used together; you cannot use only one of them
 {% endhint %}
 
 {% hint style="info" %}
-The channelId and messageId arguments are used to output a message from a specific channel. In this way, you can create a button that will output any message from any channel.
+The channelId and messageId arguments are used to output a message from a specific channel. This way you can create a button that outputs any message from any channel.
 {% endhint %}
 
 {% file src="../.gitbook/assets/Видео 17-06-2023 11_26_02.mp4" %}
 
 {% hint style="info" %}
-The message is output via the channelId and messageId arguments together with the buttons and files attached to this message.
+A message output through the channelId and messageId arguments includes the buttons and files attached to that message.
 {% endhint %}
 
 {% hint style="info" %}
-If you insert a link to a message into the say command form, the bot will output a completely copied message.
+If you paste a message link into the say command form, the bot will output a full copy of the message.
 {% endhint %}
 
 {% file src="../.gitbook/assets/Видео 17-06-2023 11_36_45.mp4" %}
 {% endtab %}
 
-{% tab title="Statistics" %}
-ID: cmd{stats}eph reply
+{% tab title="Stats" %}
+ID: cmd{stats} eph reply
 
 Arguments:
 
-|  Name |                                                           Description                                                          | Required |
-| :---: | :----------------------------------------------------------------------------------------------------------------------------: | :------: |
-|  eph  |                     If there is, then the message will be visible only to the person who pressed the button                    |    No    |
-| reply |                                    If there is, the message will be sent as a reply message.                                   |    No    |
-|  usr  |                             The ID of the user who can use the button, if not, everyone can use it                             |    No    |
-|  mbr  | The ID of the user whose statistics will be displayed, if absent, the statistics of the user who used the button are displayed |    No    |
+| Name |                                                     Description                                                    | Required |
+| :------: | :-------------------------------------------------------------------------------------------------------------: | :----------: |
+|    eph   |                           If present, the message is visible only to the user who pressed the button                           |      No     |
+|   reply  |                          If present, the message is sent as a reply                          |      No     |
+|    usr   |          ID of the user who can use the button; if omitted, anyone can use it         |      No     |
+|    mbr   | ID of the user whose stats will be shown; if omitted, the stats of the user who pressed the button are shown |      No     |
 {% endtab %}
 
-{% tab title="Inventory roles" %}
+{% tab title="Role inventory" %}
 ID: cmd{inventory-roles} eph reply
 
 Arguments:
 
-<table><thead><tr><th width="216" align="center">Name</th><th width="299.66666666666663" align="center">Description</th><th align="center">Required</th></tr></thead><tbody><tr><td align="center">eph</td><td align="center">If there is, then the message will be visible only to the person who pressed the button</td><td align="center">No</td></tr><tr><td align="center">reply</td><td align="center">If there is, the message will be sent as a reply message.</td><td align="center">No</td></tr><tr><td align="center">usr</td><td align="center">The ID of the user who can use the button, if not, everyone can use it</td><td align="center">No</td></tr><tr><td align="center">mbr</td><td align="center">The ID of the user whose inventory roles will be displayed, if missing, the inventory roles of the user who used the button is displayed.</td><td align="center">No</td></tr></tbody></table>
+<table><thead><tr><th width="216" align="center">Name</th><th width="299.66666666666663" align="center">Description</th><th align="center">Required</th></tr></thead><tbody><tr><td align="center">eph</td><td align="center">If present, the message is visible only to the user who pressed the button</td><td align="center">No</td></tr><tr><td align="center">reply</td><td align="center">If present, the message is sent as a reply</td><td align="center">No</td></tr><tr><td align="center">usr</td><td align="center">ID of the user who can use the button; if omitted, anyone can use it</td><td align="center">No</td></tr><tr><td align="center">mbr</td><td align="center">ID of the user whose role inventory will be shown; if omitted, the role inventory of the user who pressed the button is shown</td><td align="center">No</td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Create custom role" %}
+{% tab title="Create a custom role" %}
 ID: cmd{custom-role}
 {% endtab %}
 {% endtabs %}

@@ -1,27 +1,31 @@
-# Выдача валюты и предметов за донат
+---
+icon: sack-dollar
+---
 
-## Что такое WetbotKassa?
+# Issuing currency and items for donations
 
-Это исходный открытый код, который вы можете использовать для запуска бота и сервера на своём компьютере.
+## What is WetbotKassa?
 
-## Зачем нужен этот сервер и бот?
+It is open-source code that you can use to run the bot and server on your own computer.
 
-Данный бот позволяет реализовать автоматическую выдачу валюты и предметов в боте WETBOT на **ВАШЕМ** сервере за оплату доната **ВАМ** Используя команду /donate созданного бота вы создаете платеж для дальнейшей его оплаты.
+## Why do you need this server and bot?
 
-Сервер в свою очередь необходим для принятия уведомлений об успешной оплате доната.
+This bot lets you automatically give out currency and items in WETBOT on **YOUR** server in exchange for a donation paid to **YOU**. By using the /donate command of the bot you create, you create a payment for the donor to pay.
 
-## Исходный код и инструкция по развертыванию бота
+The server, in turn, is needed to receive notifications about successful donation payments.
+
+## Source code and deployment instructions
 
 [https://github.com/arhip144/WetbotKassa](https://github.com/arhip144/WetbotKassa)
 
-## Предложения
+## Suggestions
 
-Предложения по дополнению модуля WetbotKassa можете оставлять на [сервере поддержки](https://discord.gg/9ujyUb5vYy) в канале "форум" с тегом **WetbotKassa**
+You can leave suggestions for improving the WetbotKassa module on the [support server](https://discord.gg/9ujyUb5vYy) in the "forum" channel with the **WetbotKassa** tag.
 
-## Важно
+## Important
 
-Для возможности получать деньги на карту вы должны зарегистрироваться в ЮKassa.
+To receive money to a card, you must register with YooKassa.
 
-> ЮKassa (ранее — Яндекс.Касса) — сервис онлайн-платежей для ИП, юридических лиц и самозанятых. Он позволяет упростить взаимодействие с покупателями. Для регистрации в ЮKassa вам должно быть не менее 14 лет, иметь гражданство РФ и статус **самозанятого**. Если у вас нет этого статуса, то его можно сделать в пару кликов на госуслугах или в приложении вашего банка.
+> YooKassa (formerly Yandex.Kassa) is an online payment service for sole proprietors, legal entities, and self-employed individuals. It simplifies interaction with customers. To register with YooKassa you must be at least 14 years old, hold Russian citizenship, and have **self-employed** status. If you don't have this status, you can get it in a couple of clicks through Gosuslugi or in your bank's app.
 
-Для регистрации в ЮKassa вам должно быть не менее 14 лет, иметь гражданство РФ и статус **самозанятого**. Если у вас нет этого статуса, то его можно сделать в пару кликов на госуслугах или в приложении вашего банка.
+To register with YooKassa you must be at least 14 years old, hold Russian citizenship, and have **self-employed** status. If you don't have this status, you can get it in a couple of clicks through Gosuslugi or in your bank's app.

@@ -1,18 +1,35 @@
 ---
-description: A Guide to creating income roles
+description: Guide to creating income roles
+icon: coins
 ---
 
-# 🎭 Create income roles
+# Creating income roles
 
-Execute the command to edit income roles with the command /manager-roles
+## What is this?
 
-<figure><img src="../.gitbook/assets/изображение_2022-10-19_215727643 (1).png" alt=""><figcaption></figcaption></figure>
+An income role periodically gives its owner experience, currency, reputation, and/or items. The player claims the income with the `/role-income` command.
 
-After that we specify:
+{% hint style="info" %}
+Slot limit: **5** without premium, **100** with premium. See [Premium](../premium.md).
+{% endhint %}
 
-1. Role ID
-2. Experience amount
-3. Currency amount
-4. Reputation amount
+## Discord
 
-The command for getting income from a role: [/role-income](../commands/inventory.md)
+Create one with: [/manager-roles](../commands/admins.md) `create` \<role\>
+
+Settings:
+
+1. Type: fixed amount or percentage
+2. Experience / currency / reputation
+3. Items (up to 10)
+4. Cooldown in hours
+5. Ready notification
+6. Permission to receive the income
+
+Player command: [/role-income](../commands/inventory.md)
+
+## On the website
+
+{% content-ref url="../website/income-roles.md" %}
+[income-roles.md](../website/income-roles.md)
+{% endcontent-ref %}

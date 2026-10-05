@@ -1,25 +1,29 @@
-# 🛒 Shop commands
+---
+icon: cart-shopping
+---
+
+# Shop commands
 
 {% hint style="success" %}
-The commands are available to all server users.
+These commands are available to all server members.
 {% endhint %}
 
-| Command name |    Command description    |     Arguments     |
-| :----------: | :-----------------------: | :---------------: |
-|     /buy     | Buy an item from the shop | \<item> \[amount] |
-|     /shop    |       View the shop       |         No        |
+| Command name |        Description        |        Arguments        |
+| :--------------: | :----------------------------: | :---------------------: |
+|       /buy       | **Buy an item from the shop** | <item> \[amount] |
+|       /shop      |     **View the shop**     |           None           |
 
 {% hint style="warning" %}
-The following commands are only available to server administrators.
+The following commands are available to server administrators only.
 {% endhint %}
 
-|      Command name     |            Command description           |                       Arguments                       |
-| :-------------------: | :--------------------------------------: | :---------------------------------------------------: |
-|     /shop-add-edit    |     Add or change an item in the shop    | \<item> \<price> \[price\_type] \[amount] \[discount] |
-| /shop-decrease-amount |  Reduce the number of items in the shop  |                   \<item> \<amount>                   |
-|       /shop-del       |       Remove an item from the shop       |                        \<item>                        |
-| /shop-increase-amount | Increase the number of items in the shop |                   \<item> \<amount>                   |
+|    Command name   |                Description               |                       Arguments                       |
+| :-------------------: | :-------------------------------------------: | :---------------------------------------------------: |
+|     /shop-add-edit    |  **Add or edit an item in the shop** | <item> <price> \[price\_type] \[amount] \[discount] |
+| /shop-decrease-amount | **Decrease the amount of an item in the shop** |                 <item> <amount>                |
+|       /shop-del       |        **Remove an item from the shop**        |                       <item>                       |
+| /shop-increase-amount | **Increase the amount of an item in the shop** |                 <item> <amount>                |
 
 {% hint style="info" %}
-< > - required argument \[ ] - optional argument | - OR
+< > - required argument \[ ] - optional argument | - OR If you can't see the commands, update your Discord client to the latest version.
 {% endhint %}

@@ -1,21 +1,35 @@
 ---
 description: Guide to creating bonus channels
+icon: hashtag
 ---
 
-# 🆙 Create bonuses channels
+# Creating bonus channels
 
-To add a bonus channel, we execute the command /manager-channels \[channel]
+## What is this?
 
-<figure><img src="../.gitbook/assets/изображение_2022-10-20_162523064.png" alt=""><figcaption></figcaption></figure>
+Multipliers for experience, currency, reputation, and luck in a selected channel.
 
-Next, in the "Edit Channel", you can specify bonuses to experience / currency / reputation and luck as a percentage, as well as delete the bonus channel.
+{% hint style="info" %}
+Limit: **5** without premium, **100** with premium.
+{% endhint %}
 
-### What types of activities are bonuses given for:
+## Discord
 
-1. Sending messages in the channel (Currency, experience, reputation, luck)
-2. Voice channel communication (Currency, Experience, Reputation, Luck)
-3. Using the command /fishing in the channel, fishing (only experience and luck)
-4. Using the /mining command in the channel, mining (only experience and luck)
-5. Reward for server bump (Currency, Experience, Reputation, luck)
-6. Using the /open command in the channel, opening cases (only luck)
+Command: [/manager-channels](../commands/admins.md) `create` \<channel\>
 
+In "Edit channel" you set the percentage multipliers and can delete the entry.
+
+### Which activities the bonuses affect
+
+1. Messages in the channel (currency, experience, reputation, luck)
+2. Voice channel (currency, experience, reputation, luck)
+3. `/fishing` in the channel (experience and luck)
+4. `/mining` in the channel (experience and luck)
+5. Bump reward (currency, experience, reputation, luck)
+6. `/open` in the channel (luck)
+
+## On the website
+
+{% content-ref url="../website/bonus-channels.md" %}
+[bonus-channels.md](../website/bonus-channels.md)
+{% endcontent-ref %}

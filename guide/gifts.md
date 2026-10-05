@@ -1,66 +1,75 @@
 ---
 description: Guide to creating gifts on the server
+icon: gift
 ---
 
-# 🎁 Create gifts (manager-gifts)
+# Creating gifts (manager-gifts)
 
-The main command for managing gifts - /manager-gifts
+{% hint style="warning" %}
+Gifts require [premium](../premium.md).
+{% endhint %}
 
-## ✔️Menu: Edit             <img src="../.gitbook/assets/Скриншот 07-02-2023 230810.png" alt="" data-size="original">
+The main command for managing gifts is [/manager-gifts](../commands/admins.md)
 
-* Comment - after receiving the gift, the user will see this comment.![](<../.gitbook/assets/Скриншот 07-02-2023 233016.png>)
-* Thumbnail - displayed in the upper right corner after receiving the gift\
+CRUD: `create` / `edit` / `copy` / `delete` / `view` (see [admin commands](../commands/admins.md)).
+
+## ✔️Menu: Edit <img src="../.gitbook/assets/Скриншот 07-02-2023 230810.png" alt="" data-size="original">
+
+* Comment - after receiving the gift, the user will see this comment. ![](<../.gitbook/assets/Скриншот 07-02-2023 233016.png>)
+* Thumbnail - displayed in the top right corner after receiving the gift\
   ![](<../.gitbook/assets/fsdfs (3).png>)
 * Image - displayed at the bottom after receiving the gift\
   ![](<../.gitbook/assets/159Z\_2107.w026.n002.628B.p1.628 \[преобразованныfsdй]-01.png>)
-* Frame color - the color is displayed from the left edge of the embed after receiving the gift
-* The maximum number of unique users is the number of people who will be able to receive a gift
-* Number of gift receipts - how many times one person will be able to receive a gift
-* Cooldown - the time in seconds after which it will be possible to receive a gift again
-* Start and end dates - the dates during which it will be possible to receive a gift
-* Turn Off / On - allows you to turn on and off the gift, in the off state - it will not be able to receive
+* Border color - the color shown on the left edge of the embed after receiving the gift
+* Maximum unique users - the number of people who will be able to receive the gift
+* Number of gift claims - how many times one person can receive the gift
+* Cooldown - time in seconds after which the gift can be received again
+* Start and end dates - the dates during which the gift can be received
+* Level - the range of levels that can receive the gift
+* Disable/Enable - lets you turn the gift on and off; while it is disabled, it cannot be received
 
+## ✔️Button: Permissions&#x20;
 
+Lets you select an existing permission preset
 
-## ✔️Button: Permissions
+## ✔️Button:  Users ![](<../.gitbook/assets/Скриншот 07-02-2023 231156.png>)
 
-Allows you to select an existing preset of permissions\
-
-
-## ✔️Button: Members![](<../.gitbook/assets/Скриншот 07-02-2023 231156.png>)
-
-Allows you to edit members for this gift: set/delete the date of the last receipt, the number of receipts for any user\
+Lets you edit users for this gift: set/remove the date of the last claim and the number of claims for any user\
 <img src="../.gitbook/assets/Скриншот 07-02-2023 233244.png" alt="" data-size="original">
-
-
 
 ## ✔️Button: Items ![](<../.gitbook/assets/Скриншот 07-02-2023 231307.png>)
 
-Allows you to delete/edit/add items as a gift
+Lets you remove/edit/add items in the gift
 
-The item ID can include the following parameters
+The item ID can take the following values
 
 * xp - experience
 * currency - server currency
 * rp - reputation
-* ID of any item
+* the ID of any item
 
 ![](<../.gitbook/assets/Скриншот 07-02-2023 233506.png>)
 
-
-
 {% hint style="info" %}
-## ✔️How do I create a button with a generated ID?
+## ✔️How do you create a button with a generated ID?
 
-1. You need to execute the command /components buttons add
-2. The message\_url argument (link\_to\_message): Insert a link to a BOT message (can be generated using the /embed-generator or /say command) for which you want to attach a button
-3. The "style" argument: Choose any style except Link
-4. id\_or\_url argument (id\_or\_link): Insert previously generated ID
-5. Arguments row, column (row, column): Select the location of the button
-6. Label, emoji arguments (name, emoji): Choose emoji and text for the button
-7. Execute the command<img src="../.gitbook/assets/Скриншот 07-02-2023 231601.png" alt="" data-size="line">
+1. Run the command [/components buttons add](../commands/admins.md)
+2. Argument `message_url`: Paste the link to the BOT's message (you can generate one with the [`/embed-generator`](../commands/admins.md) or [`/say`](../commands/admins.md) command) that you want to attach the button to
+3. Argument `style`: Choose any style except Link
+4. Argument `id_or_url`: Paste the previously generated ID
+5. Arguments `row`, `column`: Choose the button's position
+6. Arguments `label`, `emoji`: Choose an emoji and text for the button
+7. Run the command <img src="../.gitbook/assets/Скриншот 07-02-2023 231601.png" alt="" data-size="line">
 
-After the listed items, the bot will attach the button to the message. <img src="../.gitbook/assets/Скриншот 07-02-2023 232118.png" alt="" data-size="original">
+After these steps, the bot will attach the button to the message. <img src="../.gitbook/assets/Скриншот 07-02-2023 232118.png" alt="" data-size="original">
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/fsdfs (2).png" alt=""><figcaption></figcaption></figure>
+
+## On the website
+
+{% content-ref url="../website/gifts.md" %}
+[gifts.md](../website/gifts.md)
+{% endcontent-ref %}
+
+Gift buttons can also be built in the [message builder](../website/message-builder.md).
