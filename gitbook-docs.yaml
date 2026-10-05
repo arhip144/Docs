@@ -13,7 +13,7 @@ site:
     - type: space
       key: space-1
       title: Русский
-      path: russkii
+      path: ru
       draft: true
       content:
         directory: ./russkii
