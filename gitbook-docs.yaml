@@ -1,0 +1,17 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: WETBOT
+  structure:
+    - type: space
+      key: space-1
+      title: Русский
+      path: ru
+      default: true
+      content:
+        directory: ./ru
+    - type: space
+      key: space-2
+      title: English
+      path: eng
+      content:
+        directory: ./eng
